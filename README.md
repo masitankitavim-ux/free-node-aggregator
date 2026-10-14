@@ -93,13 +93,18 @@ Workflow 会自动下载 mihomo（`MIHOMO_VERSION` 可改）用于真实测试�
 | Clash / Mihomo / Stash | `https://raw.githubusercontent.com/<用户名>/<仓库名>/main/output/clash.yaml` |
 | v2rayN / v2rayNG / Shadowrocket / 通用 | `https://raw.githubusercontent.com/<用户名>/<仓库名>/main/output/v2ray.txt` |
 
-> **国内直连 raw 大概率失败**，换下面任一镜像即可（把路径拼在后面）：
+> **国内直连 raw 大概率失败**，换下面任一镜像即可（把路径拼在后面）。
+> 以下为 2026-10-15 国内家宽实测（同一文件）：
 >
-> - jsDelivr：`https://cdn.jsdelivr.net/gh/<用户名>/<仓库名>@main/output/clash.yaml`
-> - ghfast：`https://ghfast.top/https://raw.githubusercontent.com/<用户名>/<仓库名>/main/output/clash.yaml`
-> - ghproxy：`https://ghproxy.net/https://raw.githubusercontent.com/<用户名>/<仓库名>/main/output/clash.yaml`
+> | 镜像 | 结果 | 耗时 |
+> | --- | --- | --- |
+> | `https://ghfast.top/https://raw.githubusercontent.com/<用户名>/<仓库名>/main/output/clash.yaml` | ✅ 可用 | 4.1s |
+> | `https://ghproxy.net/https://raw.githubusercontent.com/<用户名>/<仓库名>/main/output/clash.yaml` | ✅ 可用 | 4.8s |
+> | `https://raw.githubusercontent.com/<用户名>/<仓库名>/main/output/clash.yaml` | 时通时不通 | — |
+> | `https://cdn.jsdelivr.net/gh/<用户名>/<仓库名>@main/output/clash.yaml` | 不稳定（实测当时不可达） | — |
+> | `https://gh-proxy.com/...` | 403 | 0.6s |
 >
-> raw 链接有 CDN 缓存，刚更新完可能几分钟才生效。
+> **推荐直接用 ghfast.top**；raw 链接有 CDN 缓存，刚更新完可能几分钟才生效。
 
 ## 本地运行（推荐，国内视角）
 
