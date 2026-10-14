@@ -2,3 +2,7 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+mihomo
+mihomo.exe
+mihomo.zip
+_mihomo_tmp/

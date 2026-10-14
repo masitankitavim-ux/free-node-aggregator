@@ -502,16 +502,43 @@ def is_valid_server(server) -> bool:
                 or ip.is_link_local or ip.is_multicast or ip.is_unspecified)
 
 
-def fetch(url: str, retries: int = 3, timeout: int = 25) -> str:
+GH_MIRRORS = [
+    "https://cdn.jsdelivr.net/gh/{owner}/{repo}@{ref}/{path}",
+    "https://ghfast.top/https://raw.githubusercontent.com/{owner}/{repo}/{ref}/{path}",
+    "https://ghproxy.net/https://raw.githubusercontent.com/{owner}/{repo}/{ref}/{path}",
+]
+
+
+def _candidates(url: str):
+    """原地址 + 镜像候选（raw.githubusercontent 不通时自动换）。"""
+    out = [url]
+    m = re.match(r"https://raw\.githubusercontent\.com/([^/]+)/([^/]+)/([^/]+)/(.+)", url)
+    if m:
+        owner, repo, ref, path = m.groups()
+        for tpl in GH_MIRRORS:
+            out.append(tpl.format(owner=owner, repo=repo, ref=ref, path=path))
+    return out
+
+
+def fetch(url: str, retries: int = 1, timeout: int = 25) -> str:
+    """抓取订阅内容。
+
+    raw.githubusercontent 在国内时通时不通，
+    因此给原地址更短的超时，尽快回退到镜像（jsDelivr / ghfast / ghproxy）。"""
     last = None
-    for i in range(retries):
-        try:
-            req = ur.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
-            with ur.urlopen(req, timeout=timeout) as r:
-                return r.read().decode("utf-8", "ignore")
-        except Exception as e:  # noqa: BLE001
-            last = e
-            time.sleep(1.5 * (i + 1))
+    for cand in _candidates(url):
+        to = 10 if cand == url else timeout
+        for _ in range(retries):
+            try:
+                req = ur.Request(cand, headers={"User-Agent": UA, "Accept": "*/*"})
+                with ur.urlopen(req, timeout=to) as r:
+                    data = r.read().decode("utf-8", "ignore")
+                if data.strip():
+                    return data
+                last = ValueError("empty response")
+            except Exception as e:  # noqa: BLE001
+                last = e
+                time.sleep(0.5)
     raise last
 
 
@@ -671,20 +698,14 @@ def _dump_mihomo_config(path, proxies, groups, controller, mixed_port, test_url)
         yaml.safe_dump(cfg, f, allow_unicode=True, sort_keys=False, width=4096)
 
 
-def mihomo_test(nodes, cfg, bin_path):
-    """真实连通性测试:用 mihomo 实际发 HTTP 请求穿过每个节点。
-    返回 {nodes 下标: 延迟 ms},只有真正可用的节点才会出现。
+def _mihomo_batch(nodes, idxs, cfg, bin_path, controller, mixed_port, workers,
+                  timeout_ms, test_url):
+    """对 nodes 里 idxs 指定的这一小批节点做真实连通性测试。
+    返回 {nodes 全局下标: 延迟 ms},只有真正可用的节点才会出现。
 
-    先全局自愈(mihomo 遇到一个非法节点会拒绝整份配置,逐个剔除),
+    先批内自愈(mihomo 遇到一个非法节点会拒绝整份配置,逐个剔除),
     再启动一次 mihomo,然后并发对每个节点调 delay 接口。"""
-    tcfg = cfg.get("test", {})
-    timeout_ms = int(tcfg.get("mihomo_timeout_ms", 3000))
-    test_url = tcfg.get("mihomo_url", "http://www.gstatic.com/generate_204")
-    controller = "127.0.0.1:%d" % int(tcfg.get("controller_port", 9099))
-    mixed_port = int(tcfg.get("mixed_port", 7899))
-    workers = max(1, int(tcfg.get("single_concurrency", 64)))
-
-    if not nodes:
+    if not idxs:
         return {}
 
     workdir = tempfile.mkdtemp(prefix="fna-mihomo-")
@@ -693,19 +714,19 @@ def mihomo_test(nodes, cfg, bin_path):
     lock = threading.Lock()
     try:
         proxies, idx_of = [], {}
-        for i, n in enumerate(nodes):
-            pr = dict(n["proxy"])
+        for i in idxs:
+            pr = dict(nodes[i]["proxy"])
             pr["name"] = "n%05d" % i
             idx_of[pr["name"]] = i
             proxies.append(pr)
 
         keep, ok, dropped = list(range(len(proxies))), False, 0
-        for _ in range(3000):
+        for _ in range(min(len(proxies), 25) + 1):
             cur = [proxies[i] for i in keep]
             _dump_mihomo_config(cfg_path, cur, [], controller, mixed_port, test_url)
             try:
                 rc = subprocess.run([bin_path, "-t", "-d", workdir, "-f", cfg_path],
-                                    capture_output=True, timeout=180)
+                                    capture_output=True, timeout=60)
             except Exception:
                 break
             if rc.returncode == 0:
@@ -776,6 +797,36 @@ def mihomo_test(nodes, cfg, bin_path):
             log.close()
         shutil.rmtree(workdir, ignore_errors=True)
     return results
+
+
+def mihomo_test(nodes, cfg, bin_path):
+    """真实连通性测试:分批把节点交给 mihomo,实际发 HTTP 请求穿过每个节点。
+    返回 {nodes 下标: 延迟 ms},只有真正可用的节点才会出现。"""
+    tcfg = cfg.get("test", {})
+    timeout_ms = int(tcfg.get("mihomo_timeout_ms", 3000))
+    test_url = tcfg.get("mihomo_url", "http://www.gstatic.com/generate_204")
+    controller = "127.0.0.1:%d" % int(tcfg.get("controller_port", 9099))
+    mixed_port = int(tcfg.get("mixed_port", 7899))
+    workers = max(1, int(tcfg.get("single_concurrency", 64)))
+    batch = max(1, int(tcfg.get("batch", 100)))
+
+    if not nodes:
+        return {}
+
+    budget = float(tcfg.get("mihomo_budget_sec", 1800))
+    t_start = time.time()
+    total, results = len(nodes), {}
+    for start in range(0, total, batch):
+        if time.time() - t_start > budget:
+            print("[!] 测试超过 %ds 预算，提前结束(已测 %d/%d)"
+                  % (int(budget), len(results), total))
+            break
+        idxs = list(range(start, min(start + batch, total)))
+        print("[~] mihomo 批次 %d-%d / %d" % (idxs[0] + 1, idxs[-1] + 1, total))
+        results.update(_mihomo_batch(nodes, idxs, cfg, bin_path, controller,
+                                     mixed_port, workers, timeout_ms, test_url))
+    return results
+
 
 def run_test(nodes, cfg):
     tcfg = cfg.get("test", {})
