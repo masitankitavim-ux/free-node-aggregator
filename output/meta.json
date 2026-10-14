@@ -1,37 +1,51 @@
 {
-  "updated_at": "2026-10-14 12:52:20 UTC",
+  "updated_at": "2026-10-14 15:29:41 UTC",
   "sources": {
-    "v2rayfree": 631,
-    "ermaozi": 65,
+    "v2rayfree": 0,
+    "ermaozi": 0,
     "ermaozi-yaml": 363,
     "mahdibland": 4026,
     "mahdibland-yaml": 4034,
-    "nomorewalls": 434,
-    "nomorewalls-yaml": 151,
+    "nomorewalls": 420,
+    "nomorewalls-yaml": 146,
     "epodonios": 7547,
     "mfuu": 487,
     "mfuu-yaml": 492,
     "zhuhaiuk": 7,
     "zhuhaiuk-yaml": 10,
-    "sunmiao-yaml": 35
+    "sunmiao-yaml": 43
   },
-  "raw_total": 18282,
-  "unique": 8158,
-  "tested_ok": 3823,
-  "kept": 200,
+  "raw_total": 17575,
+  "unique": 8075,
+  "tested_ok": 43,
+  "kept": 43,
   "by_region": {
-    "XX": 189,
-    "FR": 5,
-    "DE": 2,
-    "US": 3,
-    "CA": 1
+    "PL": 2,
+    "RU": 3,
+    "US": 10,
+    "JP": 3,
+    "NL": 3,
+    "DE": 4,
+    "KR": 4,
+    "SE": 1,
+    "AE": 2,
+    "SG": 1,
+    "IR": 1,
+    "XX": 3,
+    "TW": 1,
+    "CN": 1,
+    "ES": 1,
+    "AT": 1,
+    "TR": 1,
+    "AU": 1
   },
   "by_type": {
-    "trojan": 30,
-    "vless": 144,
-    "vmess": 26
+    "vless": 23,
+    "ss": 2,
+    "trojan": 11,
+    "vmess": 7
   },
-  "min_latency_ms": 1.3,
-  "avg_latency_ms": 64.7,
-  "elapsed_sec": 70.0
+  "min_latency_ms": 481,
+  "avg_latency_ms": 1400.9,
+  "elapsed_sec": 567.3
 }

@@ -8,11 +8,21 @@ output:
   min_nodes: 20           # 少于该数量视为异常(CI 里会以退出码 1 报警)
 
 test:
-  enabled: true           # false = 跳过测速(快速调试)
-  timeout: 2.0            # 单次 TCP 连接超时(秒)
-  attempts: 1             # 每个节点测几次,取最小值
-  concurrency: 128         # 并发线程数
-  keep_udp: true          # hysteria2/tuic 是 UDP,无法 TCP 测速,保留但标记 ⚪??ms
+  enabled: true
+  mode: mihomo            # mihomo = 真发请求穿过节点(推荐) | tcp = 只测 TCP 连接(不可靠)
+  mihomo_bin: mihomo      # PATH 里的名字或绝对路径
+  mihomo_url: http://www.gstatic.com/generate_204   # 穿透测试目标
+  mihomo_timeout_ms: 3000 # 单节点穿透超时
+  tcp_prefilter: true    # 先用 TCP 快速预筛,再对存活的做真穿透
+  single_concurrency: 64  # 逐节点测速并发数
+  batch: 100              # 每批多少个节点交给一个 mihomo 实例
+  controller_port: 9099
+  mixed_port: 7899
+  # --- 下面是 tcp 模式参数 ---
+  timeout: 2.0
+  attempts: 1
+  concurrency: 128
+  keep_udp: true
 
 mark:
   prefix: true            # 节点名加 "[国旗 地区 | 延迟 | 来源-序号]" 前缀

@@ -23,8 +23,11 @@ import ipaddress
 import json
 import os
 import re
+import shutil
 import socket
+import subprocess
 import sys
+import tempfile
 import threading
 import time
 import urllib.parse as up
@@ -625,6 +628,155 @@ def tcp_ping(target: str, port: int, timeout: float, attempts: int):
     return best
 
 
+SS_CIPHER_FIX = {
+    "chacha20-poly1305": "chacha20-ietf-poly1305",
+    "xchacha20-poly1305": "xchacha20-ietf-poly1305",
+    "chacha20": "chacha20-ietf",
+}
+
+
+def normalize_proxy(p: dict):
+    """把 mihomo 不认的写法改成它认的。"""
+    if p.get("type") == "ss":
+        c = str(p.get("cipher", "")).lower()
+        if c in SS_CIPHER_FIX:
+            p["cipher"] = SS_CIPHER_FIX[c]
+    return p
+
+
+def _no_proxy_opener():
+    return ur.build_opener(ur.ProxyHandler({}))
+
+
+def _http_json(url, timeout):
+    with _no_proxy_opener().open(url, timeout=timeout) as r:
+        return json.load(r)
+
+
+def _dump_mihomo_config(path, proxies, groups, controller, mixed_port, test_url):
+    cfg = {
+        "mixed-port": mixed_port,
+        "allow-lan": False,
+        "mode": "rule",
+        "log-level": "silent",
+        "ipv6": False,
+        "external-controller": controller,
+        "geodata-mode": False,
+        "geo-auto-update": False,
+        "proxies": proxies,
+        "proxy-groups": groups,
+        "rules": ["MATCH,DIRECT"],
+    }
+    with open(path, "w", encoding="utf-8") as f:
+        yaml.safe_dump(cfg, f, allow_unicode=True, sort_keys=False, width=4096)
+
+
+def mihomo_test(nodes, cfg, bin_path):
+    """真实连通性测试:用 mihomo 实际发 HTTP 请求穿过每个节点。
+    返回 {nodes 下标: 延迟 ms},只有真正可用的节点才会出现。
+
+    先全局自愈(mihomo 遇到一个非法节点会拒绝整份配置,逐个剔除),
+    再启动一次 mihomo,然后并发对每个节点调 delay 接口。"""
+    tcfg = cfg.get("test", {})
+    timeout_ms = int(tcfg.get("mihomo_timeout_ms", 3000))
+    test_url = tcfg.get("mihomo_url", "http://www.gstatic.com/generate_204")
+    controller = "127.0.0.1:%d" % int(tcfg.get("controller_port", 9099))
+    mixed_port = int(tcfg.get("mixed_port", 7899))
+    workers = max(1, int(tcfg.get("single_concurrency", 64)))
+
+    if not nodes:
+        return {}
+
+    workdir = tempfile.mkdtemp(prefix="fna-mihomo-")
+    cfg_path = os.path.join(workdir, "config.yaml")
+    results, proc, log = {}, None, None
+    lock = threading.Lock()
+    try:
+        proxies, idx_of = [], {}
+        for i, n in enumerate(nodes):
+            pr = dict(n["proxy"])
+            pr["name"] = "n%05d" % i
+            idx_of[pr["name"]] = i
+            proxies.append(pr)
+
+        keep, ok, dropped = list(range(len(proxies))), False, 0
+        for _ in range(3000):
+            cur = [proxies[i] for i in keep]
+            _dump_mihomo_config(cfg_path, cur, [], controller, mixed_port, test_url)
+            try:
+                rc = subprocess.run([bin_path, "-t", "-d", workdir, "-f", cfg_path],
+                                    capture_output=True, timeout=180)
+            except Exception:
+                break
+            if rc.returncode == 0:
+                ok = True
+                break
+            out = (rc.stdout + rc.stderr).decode("utf-8", "replace")
+            m = re.search(r"proxy (\d+):", out)
+            if not m or int(m.group(1)) >= len(keep):
+                print("[!] mihomo 校验失败: " + out.strip()[-180:])
+                break
+            keep.pop(int(m.group(1)))
+            dropped += 1
+            if not keep:
+                break
+        if not ok or not keep:
+            print("[!] 配置无法通过校验,跳过真实测试")
+            return {}
+        if dropped:
+            print("[~] 剔除 %d 个 mihomo 不认的节点" % dropped)
+
+        valid = [proxies[i] for i in keep]
+        names = [pr["name"] for pr in valid]
+        _dump_mihomo_config(cfg_path, valid, [], controller, mixed_port, test_url)
+
+        log = open(os.path.join(workdir, "run.log"), "wb")
+        proc = subprocess.Popen([bin_path, "-d", workdir, "-f", cfg_path],
+                                stdout=log, stderr=log)
+        started = False
+        for _ in range(240):
+            try:
+                _http_json("http://%s/version" % controller, 3)
+                started = True
+                break
+            except Exception:
+                if proc.poll() is not None:
+                    break
+                time.sleep(0.25)
+        if not started:
+            print("[!] mihomo 启动失败")
+            return {}
+
+        def one(nm):
+            try:
+                q = "http://%s/proxies/%s/delay?timeout=%d&url=%s" % (
+                    controller, ur.quote(nm, safe=""), timeout_ms,
+                    ur.quote(test_url, safe=""))
+                d = _http_json(q, 30).get("delay")
+            except Exception:
+                return
+            if isinstance(d, (int, float)) and d:
+                with lock:
+                    results[idx_of[nm]] = int(round(d))
+
+        total = len(names)
+        with cf.ThreadPoolExecutor(max_workers=workers) as ex:
+            futs = [ex.submit(one, nm) for nm in names]
+            for k, _ in enumerate(cf.as_completed(futs), 1):
+                if k % 200 == 0 or k == total:
+                    print("[~] 已测 %d/%d,当前存活 %d" % (k, total, len(results)))
+    finally:
+        if proc:
+            proc.kill()
+            try:
+                proc.wait(timeout=15)
+            except Exception:
+                pass
+        if log:
+            log.close()
+        shutil.rmtree(workdir, ignore_errors=True)
+    return results
+
 def run_test(nodes, cfg):
     tcfg = cfg.get("test", {})
     timeout = float(tcfg.get("timeout", 2.0))
@@ -777,6 +929,7 @@ def parse_args():
     ap.add_argument("-o", "--out", default="output")
     ap.add_argument("--no-test", action="store_true", help="跳过测速(调试用)")
     ap.add_argument("--only-sources", default="", help="只跑指定源(逗号分隔,调试用)")
+    ap.add_argument("--mihomo", default="", help="mihomo 可执行文件路径(真实连通性测试)")
     return ap.parse_args()
 
 
@@ -822,9 +975,34 @@ def main():
     print(f"[=] 原始 {len(all_nodes)} -> 去重后 {len(uniq)}")
 
     # 测速
-    if not args.no_test and cfg.get("test", {}).get("enabled", True):
-        print(f"[~] TCP 测速中(并发 {cfg.get('test',{}).get('concurrency',64)}) ...")
-        run_test(uniq, cfg)
+    tcfg = cfg.get("test", {})
+    if not args.no_test and tcfg.get("enabled", True):
+        for n in uniq:
+            normalize_proxy(n["proxy"])
+        mode = tcfg.get("mode", "mihomo")
+        bin_path = args.mihomo or tcfg.get("mihomo_bin", "mihomo")
+        resolved = bin_path if os.path.exists(bin_path) else shutil.which(bin_path)
+        if mode == "mihomo" and resolved:
+            pool = uniq
+            if tcfg.get("tcp_prefilter", True):
+                print("[~] TCP 预筛(先砍掉 TCP 都不通的节点) ...")
+                run_test(uniq, cfg)
+                alive_tcp = [n for n in uniq if n.get("tested") and n["latency"] is not None]
+                udp = [n for n in uniq if not n.get("tested")]
+                pool = alive_tcp + udp
+                print("[=] 预筛 %d -> %d" % (len(uniq), len(pool)))
+            print(f"[~] mihomo 真实连通性测试(batch {tcfg.get('batch', 100)}) ...")
+            delays = mihomo_test(pool, cfg, resolved)
+            for n in uniq:
+                n["tested"] = True
+                n["latency"] = None
+            for i, n in enumerate(pool):
+                if i in delays:
+                    n["latency"] = delays[i]
+        else:
+            if mode == "mihomo":
+                print("[!] 未找到 mihomo,退回 TCP 测速(不可靠)")
+            run_test(uniq, cfg)
     else:
         for n in uniq:
             n["latency"], n["tested"] = None, False
