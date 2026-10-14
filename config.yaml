@@ -1,0 +1,80 @@
+# ============================================================
+# Free Node Aggregator 配置
+# ============================================================
+
+output:
+  max_nodes: 200          # 最终保留节点数上限(按延迟从快到慢截断)
+  max_latency_ms: 3000    # 延迟超过该值的节点直接丢弃
+  min_nodes: 20           # 少于该数量视为异常(CI 里会以退出码 1 报警)
+
+test:
+  enabled: true           # false = 跳过测速(快速调试)
+  timeout: 2.0            # 单次 TCP 连接超时(秒)
+  attempts: 1             # 每个节点测几次,取最小值
+  concurrency: 128         # 并发线程数
+  keep_udp: true          # hysteria2/tuic 是 UDP,无法 TCP 测速,保留但标记 ⚪??ms
+
+mark:
+  prefix: true            # 节点名加 "[国旗 地区 | 延迟 | 来源-序号]" 前缀
+  latency_tiers:          # 延迟分级(ms),决定 🟢🟡🟠🔴
+    fast: 300
+    good: 800
+    ok: 1500
+
+# ------------------------------------------------------------
+# 节点源(2026-10-14 实测可用)
+#   type: base64 = base64/明文 的节点链接订阅
+#         clash  = Clash / Mihomo YAML 配置
+# ------------------------------------------------------------
+sources:
+  - name: v2rayfree
+    type: base64
+    url: https://raw.githubusercontent.com/free-nodes/v2rayfree/main/sub
+
+  - name: ermaozi
+    type: base64
+    url: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt
+
+  - name: ermaozi-yaml
+    type: clash
+    url: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
+
+  - name: mahdibland
+    type: base64
+    url: https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_base64.txt
+
+  - name: mahdibland-yaml
+    type: clash
+    url: https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml
+
+  - name: nomorewalls
+    type: base64
+    url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt
+
+  - name: nomorewalls-yaml
+    type: clash
+    url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml
+
+  - name: epodonios
+    type: base64
+    url: https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt
+
+  - name: mfuu
+    type: base64
+    url: https://raw.githubusercontent.com/mfuu/FreeProxies/master/sub
+
+  - name: mfuu-yaml
+    type: clash
+    url: https://raw.githubusercontent.com/mfuu/FreeProxies/master/sub.yaml
+
+  - name: zhuhaiuk
+    type: base64
+    url: https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/nodes.txt
+
+  - name: zhuhaiuk-yaml
+    type: clash
+    url: https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml
+
+  - name: sunmiao-yaml
+    type: clash
+    url: https://sunmiao4458.github.io/free-proxy-airport/clash.yaml
