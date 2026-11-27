@@ -18,1073 +18,99 @@ dns:
   - https://1.1.1.1/dns-query
   - https://8.8.8.8/dns-query
 proxies:
-- name: 🇺🇸 US | 🟢16ms | mahdibland-001
-  type: ss
-  server: 15.204.247.206
-  port: 4444
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  udp: true
-- name: 🏳 XX | 🟢18ms | ermaozi-002
-  type: ss
-  server: 15.204.246.132
-  port: 7307
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-  udp: true
-- name: 🏳 XX | 🟢19ms | ermaozi-003
-  type: ss
-  server: 15.204.247.244
-  port: 443
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  udp: true
-- name: 🏳 XX | 🟢20ms | ermaozi-004
-  type: ss
-  server: 15.204.233.41
-  port: 8882
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: 🇺🇸 US | 🟢25ms | mahdibland-005
-  type: ss
-  server: 37.19.198.236
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 US | 🟢26ms | mahdibland-006
-  type: ss
-  server: 37.19.198.243
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 US | 🟢26ms | mahdibland-007
-  type: ss
-  server: 193.151.163.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 US | 🟢27ms | mahdibland-008
-  type: ss
-  server: 37.19.198.244
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 US | 🟢27ms | mahdibland-009
-  type: ss
-  server: 38.91.100.39
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 US | 🟢31ms | mahdibland-010
-  type: ss
-  server: 149.40.57.138
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 US | 🟢32ms | mahdibland-011
-  type: ss
-  server: 37.19.198.160
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 US | 🟢32ms | mahdibland-012
-  type: ss
-  server: 198.98.53.130
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: eDfN7SODQceIOmIAbtJJtK
-  udp: true
-- name: 🇺🇸 US | 🟢37ms | mahdibland-013
-  type: ss
-  server: 149.40.57.134
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 US | 🟢37ms | mahdibland-014
-  type: ss
-  server: 149.40.57.133
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 US | 🟢38ms | mahdibland-015
-  type: ss
-  server: 185.230.230.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 US | 🟢38ms | mahdibland-016
-  type: ss
-  server: 45.86.51.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇨🇦 CA | 🟢40ms | ermaozi-017
-  type: ss
-  server: 51.79.49.116
-  port: 8882
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: 🇺🇸 US | 🟢42ms | mahdibland-018
-  type: ss
-  server: 172.111.38.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇨🇦 CA | 🟢43ms | ermaozi-019
-  type: ss
-  server: 51.222.12.127
-  port: 445
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-  udp: true
-- name: 🇺🇸 US | 🟢59ms | mahdibland-020
-  type: ss
-  server: 38.128.66.32
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🏳 XX | 🟢62ms | nomorewalls-021
-  type: trojan
-  server: 66.163.122.25
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: cdn.searchnationwidecareerchangehelperandguidancetoday.com
-- name: 🇸🇬 SG | 🟢63ms | ermaozi-022
-  type: vless
-  server: 104.18.109.147
-  port: 2052
-  uuid: c29d39bd-92a4-45db-bb61-56013998617c
-  udp: true
-  network: ws
-  ws-opts:
-    path: /Telegram-XV2ry2?ed=2048
-    headers:
-      Host: www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com
-- name: 🇨🇦 CA | 🟢63ms | mahdibland-023
-  type: ss
-  server: 137.184.174.93
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  udp: true
-- name: 🇺🇸 US | 🟢65ms | mahdibland-024
-  type: ss
-  server: 216.106.178.169
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 US | 🟢70ms | ermaozi-025
-  type: ss
-  server: 15.204.246.108
-  port: 8881
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: 🇺🇸 US | 🟢76ms | mahdibland-026
-  type: ss
-  server: 156.146.38.170
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 US | 🟢79ms | mahdibland-027
-  type: ss
-  server: 156.146.38.169
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 US | 🟢80ms | mahdibland-028
-  type: ss
-  server: 156.146.38.168
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇨🇦 CA | 🟢85ms | ermaozi-029
-  type: trojan
-  server: 216.152.147.79
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: blog.connectingpeoplewithgreatjobs.com
-- name: 🇨🇦 CA | 🟢87ms | ermaozi-030
-  type: trojan
-  server: 216.152.147.93
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: connectingpeoplewithgreatjobs.com
-- name: 🇺🇸 US | 🟢107ms | mahdibland-031
-  type: ss
-  server: 95.215.201.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 US | 🟢123ms | mahdibland-032
-  type: ss
-  server: 173.244.56.6
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 US | 🟢124ms | mahdibland-033
-  type: ss
-  server: 173.244.56.9
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 US | 🟢125ms | mahdibland-034
+- name: 🇺🇸 US | 🟢5ms | mahdibland-001
   type: ss
   server: 137.184.89.151
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸 US | 🟢130ms | mahdibland-035
+- name: 🇺🇸 US | 🟢7ms | mahdibland-002
   type: ss
   server: 169.197.142.68
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸 US | 🟢131ms | mahdibland-036
+- name: 🇺🇸 US | 🟢13ms | ermaozi-003
+  type: trojan
+  server: 167.88.61.52
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: courses.browseseniorrolesandenhanceyourcareertoday.com
+- name: 🇺🇸 US | 🟢23ms | mahdibland-004
   type: ss
   server: 23.150.152.38
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸 US | 🟢133ms | mahdibland-037
+- name: 🇸🇬 SG | 🟢34ms | ermaozi-005
+  type: vless
+  server: 172.64.154.113
+  port: 8443
+  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+  udp: true
+  tls: true
+  servername: freeceshi6.frii.site
+  network: ws
+  ws-opts:
+    path: /proxyip=ProxyIP.JP.CMLiussss.netfp=chrome
+    headers:
+      Host: freeceshi6.frii.site
+- name: 🇨🇦 CA | 🟢34ms | ermaozi-006
+  type: vless
+  server: www.gov.se
+  port: 8080
+  uuid: 989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sdf23g-billowing-moon-348e.mzm468gc.workers.dev
+- name: 🇦🇺 AU | 🟢40ms | mahdibland-007
+  type: trojan
+  server: 60.72img.xyz
+  port: 443
+  password: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  udp: true
+- name: 🇦🇺 AU | 🟢47ms | mahdibland-008
+  type: trojan
+  server: 31.72img.xyz
+  port: 443
+  password: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  udp: true
+- name: 🇺🇸 US | 🟢50ms | mahdibland-009
   type: ss
-  server: 193.151.160.18
+  server: 173.244.56.9
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 US | 🟢51ms | mahdibland-010
+  type: ss
+  server: 173.244.56.6
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 US | 🟢58ms | mahdibland-011
+  type: ss
+  server: 95.215.201.18
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸 US | 🟢135ms | mahdibland-038
-  type: ss
-  server: 193.151.160.9
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 US | 🟢153ms | mahdibland-039
-  type: ss
-  server: 38.22.17.129
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇨🇦 CA | 🟢154ms | mahdibland-040
+- name: 🇨🇦 CA | 🟢61ms | mahdibland-012
   type: ss
   server: 149.22.95.183
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇺🇸 US | 🟢156ms | mahdibland-041
-  type: ss
-  server: 167.88.63.99
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 US | 🟢161ms | mahdibland-042
-  type: ss
-  server: 38.121.43.231
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 GB | 🟢164ms | ermaozi-043
-  type: ss
-  server: 198.244.201.129
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 GB | 🟢164ms | ermaozi-044
-  type: ss
-  server: 198.244.202.215
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇪🇸 ES | 🟢164ms | mahdibland-045
-  type: ss
-  server: 5.188.181.201
-  port: 9041
-  cipher: aes-256-cfb
-  password: U6qnYRhfyDmn8sgn
-  udp: true
-- name: 🇪🇸 ES | 🟢164ms | mahdibland-046
-  type: ss
-  server: 5.188.181.201
-  port: 9025
-  cipher: aes-256-cfb
-  password: XPtzA9sCug3SPR4c
-  udp: true
-- name: 🇪🇸 ES | 🟢165ms | mahdibland-047
-  type: ss
-  server: 5.188.181.201
-  port: 9054
-  cipher: aes-256-cfb
-  password: VcFuyXvND2yQWSFY
-  udp: true
-- name: 🇪🇸 ES | 🟢166ms | mahdibland-048
-  type: ss
-  server: 5.188.181.201
-  port: 9027
-  cipher: aes-256-cfb
-  password: EXN3S3eQpjE7EJu8
-  udp: true
-- name: 🇪🇸 ES | 🟢167ms | mahdibland-049
-  type: ss
-  server: 5.188.181.201
-  port: 9031
-  cipher: aes-256-cfb
-  password: BwcAUZk8hUFAkDGN
-  udp: true
-- name: 🇺🇸 US | 🟢168ms | mahdibland-050
-  type: ss
-  server: 38.121.43.225
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 US | 🟢168ms | mahdibland-051
-  type: ss
-  server: 172.111.36.123
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇪🇸 ES | 🟢168ms | mahdibland-052
-  type: ss
-  server: 5.188.181.201
-  port: 9030
-  cipher: aes-256-cfb
-  password: GeregetR8cvQHzYr
-  udp: true
-- name: 🇳🇱 NL | 🟢171ms | ermaozi-053
-  type: ss
-  server: 151.241.19.29
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 US | 🟢171ms | mahdibland-054
-  type: ss
-  server: 38.91.107.188
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 US | 🟢173ms | mahdibland-055
-  type: ss
-  server: 38.121.43.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇳🇱 NL | 🟢176ms | ermaozi-056
-  type: ss
-  server: 151.241.19.36
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇨🇦 CA | 🟢177ms | ermaozi-057
-  type: ss
-  server: 51.222.141.125
-  port: 445
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-  udp: true
-- name: 🇺🇸 US | 🟢177ms | mahdibland-058
-  type: ss
-  server: 38.22.17.219
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 GB | 🟢181ms | ermaozi-059
-  type: ss
-  server: 38.114.120.221
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇳🇱 NL | 🟢181ms | mahdibland-060
-  type: ss
-  server: 109.201.152.181
-  port: 443
-  cipher: aes-128-cfb
-  password: shadowsocks
-  udp: true
-- name: 🇬🇧 GB | 🟢182ms | ermaozi-061
-  type: ss
-  server: 185.176.206.9
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇪🇸 ES | 🟢184ms | mahdibland-062
-  type: ss
-  server: 5.188.181.201
-  port: 9003
-  cipher: aes-256-cfb
-  password: JdmRK9gMEqFgs8nP
-  udp: true
-- name: 🇬🇧 GB | 🟢185ms | ermaozi-063
-  type: ss
-  server: 158.173.24.73
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 US | 🟢185ms | mahdibland-064
-  type: ss
-  server: 162.251.62.31
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 GB | 🟢187ms | ermaozi-065
-  type: ss
-  server: 142.202.51.22
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇳🇱 NL | 🟢187ms | mahdibland-066
-  type: ss
-  server: 158.173.20.171
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇬🇧 GB | 🟢187ms | mahdibland-067
-  type: ss
-  server: 146.70.61.37
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  udp: true
-- name: 🇺🇸 US | 🟢188ms | ermaozi-068
-  type: ss
-  server: 23.230.52.119
-  port: 42878
-  cipher: chacha20-ietf-poly1305
-  password: ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu
-  udp: true
-- name: 🇳🇱 NL | 🟢191ms | ermaozi-069
-  type: ss
-  server: 156.67.120.205
-  port: 51628
-  cipher: chacha20-ietf-poly1305
-  password: 29ZZXVa34x7sC48w9FKQ54UKHiJJGTVgKFppBRgviLrVCAYVVyKZdD3obbpjCyk31V5b2G2d7xzqmaPBFdcheCVB9UQ4ZghF
-  udp: true
-- name: 🇬🇧 GB | 🟢192ms | ermaozi-070
-  type: ss
-  server: 141.98.101.178
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇬🇧 GB | 🟢193ms | ermaozi-071
-  type: ss
-  server: 141.98.101.181
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇬🇧 GB | 🟢193ms | mahdibland-072
-  type: ss
-  server: 141.98.101.182
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇬🇧 GB | 🟢193ms | mahdibland-073
-  type: ss
-  server: 141.98.101.179
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇪🇸 ES | 🟢193ms | mahdibland-074
-  type: ss
-  server: 5.188.181.201
-  port: 9042
-  cipher: aes-256-cfb
-  password: S7KwUu7yBy58S3Ga
-  udp: true
-- name: 🇦🇺 AU | 🟢193ms | mahdibland-075
-  type: trojan
-  server: 31.72img.xyz
-  port: 443
-  password: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  udp: true
-- name: 🇩🇪 DE | 🟢195ms | ermaozi-076
-  type: ss
-  server: 57.129.83.85
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇫🇷 FR | 🟢196ms | ermaozi-077
-  type: ss
-  server: 167.17.64.22
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇦🇺 AU | 🟢196ms | mahdibland-078
-  type: trojan
-  server: 60.72img.xyz
-  port: 443
-  password: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  udp: true
-- name: 🇺🇸 US | 🟢200ms | ermaozi-079
-  type: hysteria2
-  server: 38.76.150.108
-  port: 36712
-  password: AIcYjw5Oc9Rrrr9SGDUBbBIC
-  sni: 'off'
-  skip-cert-verify: true
-- name: 🇫🇷 FR | 🟢201ms | ermaozi-080
-  type: ss
-  server: 167.17.64.175
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇫🇷 FR | 🟢202ms | ermaozi-081
-  type: ss
-  server: 172.99.189.142
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 GB | 🟢202ms | mahdibland-082
-  type: ss
-  server: 82.38.31.35
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 NL | 🟢203ms | mahdibland-083
-  type: ss
-  server: 193.29.139.168
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  udp: true
-- name: 🇳🇱 NL | 🟢203ms | mahdibland-084
-  type: ss
-  server: 193.29.139.223
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇬🇧 GB | 🟢203ms | mahdibland-085
-  type: ss
-  server: 82.38.31.49
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇬🇧 GB | 🟢204ms | mahdibland-086
-  type: ss
-  server: 82.38.31.212
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇬🇧 GB | 🟢204ms | mahdibland-087
-  type: ss
-  server: 82.38.31.214
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇬🇧 GB | 🟢204ms | mahdibland-088
-  type: ss
-  server: 82.38.31.61
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇬🇧 GB | 🟢204ms | mahdibland-089
-  type: ss
-  server: 82.38.31.206
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇬🇧 GB | 🟢204ms | mahdibland-090
-  type: ss
-  server: 82.38.31.207
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇫🇷 FR | 🟢205ms | ermaozi-091
-  type: ss
-  server: 38.109.228.110
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 GB | 🟢205ms | mahdibland-092
-  type: ss
-  server: 82.38.31.190
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇬🇧 GB | 🟢205ms | mahdibland-093
-  type: ss
-  server: 82.38.31.202
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇬🇧 GB | 🟢205ms | mahdibland-094
-  type: ss
-  server: 82.38.31.217
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇬🇧 GB | 🟢205ms | mahdibland-095
-  type: ss
-  server: 82.38.31.194
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇬🇧 GB | 🟢206ms | mahdibland-096
-  type: ss
-  server: 82.38.31.216
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇬🇧 GB | 🟢206ms | mahdibland-097
-  type: ss
-  server: 82.38.31.205
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇬🇧 GB | 🟢207ms | mahdibland-098
-  type: ss
-  server: 82.38.31.62
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇫🇷 FR | 🟢208ms | ermaozi-099
-  type: ss
-  server: 167.17.64.27
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇮🇹 IT | 🟢208ms | ermaozi-100
-  type: ss
-  server: 57.131.27.21
-  port: 8388
-  cipher: aes-256-gcm
-  password: itzvpn@321
-  udp: true
-- name: 🇬🇧 GB | 🟢208ms | mahdibland-101
-  type: ss
-  server: 82.38.31.162
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🏳 XX | 🟢209ms | v2rayfree-102
-  type: ss
-  server: 202.50.253.54
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇩🇪 DE | 🟢209ms | v2rayfree-103
-  type: ss
-  server: 202.50.253.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 US | 🟢209ms | ermaozi-104
-  type: hysteria2
-  server: 179.254.94.184
-  port: 8443
-  password: 0b396097d052915ef304b40d2bda6a2d
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: 🇬🇧 GB | 🟢209ms | mahdibland-105
-  type: ss
-  server: 82.38.31.191
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 NL | 🟢209ms | mahdibland-106
-  type: ss
-  server: 193.29.139.147
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇬🇧 GB | 🟢209ms | mahdibland-107
-  type: ss
-  server: 82.38.31.199
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇪🇸 ES | 🟢209ms | mahdibland-108
-  type: ss
-  server: 5.188.181.201
-  port: 9019
-  cipher: aes-256-cfb
-  password: GA9KzeEgvfxNrgmM
-  udp: true
-- name: 🇬🇧 GB | 🟢209ms | mahdibland-109
-  type: ss
-  server: 82.38.31.219
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🏳 XX | 🟢210ms | v2rayfree-110
-  type: ss
-  server: 202.50.253.45
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🏳 XX | 🟢210ms | v2rayfree-111
-  type: ss
-  server: 202.50.253.63
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇩🇪 DE | 🟢210ms | v2rayfree-112
-  type: ss
-  server: 202.50.253.90
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇨🇭 CH | 🟢210ms | ermaozi-113
-  type: ss
-  server: 79.127.184.104
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇩🇪 DE | 🟢210ms | ermaozi-114
-  type: ss
-  server: 47.254.167.157
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  udp: true
-- name: 🇬🇧 GB | 🟢210ms | mahdibland-115
-  type: ss
-  server: 82.38.31.181
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇬🇧 GB | 🟢210ms | mahdibland-116
-  type: ss
-  server: 82.38.31.192
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇬🇧 GB | 🟢210ms | mahdibland-117
-  type: ss
-  server: 82.38.31.66
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇬🇧 GB | 🟢210ms | mahdibland-118
-  type: ss
-  server: 82.38.31.218
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇬🇧 GB | 🟢211ms | mahdibland-119
-  type: ss
-  server: 82.38.31.203
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇬🇧 GB | 🟢211ms | mahdibland-120
-  type: ss
-  server: 82.38.31.179
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇬🇧 GB | 🟢211ms | mahdibland-121
-  type: ss
-  server: 82.38.31.184
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇬🇧 GB | 🟢211ms | mahdibland-122
-  type: ss
-  server: 82.38.31.189
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇬🇧 GB | 🟢211ms | mahdibland-123
-  type: ss
-  server: 82.38.31.48
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇬🇧 GB | 🟢211ms | mahdibland-124
-  type: ss
-  server: 178.83.185.156
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇬🇧 GB | 🟢211ms | mahdibland-125
-  type: ss
-  server: 82.38.31.47
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇪🇸 ES | 🟢211ms | mahdibland-126
-  type: ss
-  server: 5.188.181.201
-  port: 9014
-  cipher: aes-256-cfb
-  password: KnJGad3FqTvjqbaX
-  udp: true
-- name: 🇬🇧 GB | 🟢212ms | mahdibland-127
-  type: ss
-  server: 82.38.31.193
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇬🇧 GB | 🟢212ms | mahdibland-128
-  type: ss
-  server: 82.38.31.180
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇬🇧 GB | 🟢212ms | mahdibland-129
-  type: ss
-  server: 82.38.31.176
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇬🇧 GB | 🟢213ms | mahdibland-130
-  type: ss
-  server: 82.38.31.208
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇩🇪 DE | 🟢214ms | ermaozi-131
-  type: ss
-  server: 57.129.113.16
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: NcAXc0UZI6yQJE1p8QmOv8
-  udp: true
-- name: 🇫🇷 FR | 🟢214ms | ermaozi-132
-  type: ss
-  server: 23.162.152.22
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🏳 XX | 🟢215ms | ermaozi-133
-  type: ss
-  server: 23.166.88.127
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇮🇹 IT | 🟢216ms | ermaozi-134
-  type: ss
-  server: 185.164.175.81
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🏳 XX | 🟢217ms | v2rayfree-135
-  type: ss
-  server: 202.50.253.36
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🏳 XX | 🟢217ms | v2rayfree-136
-  type: ss
-  server: 202.50.253.99
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇩🇪 DE | 🟢218ms | v2rayfree-137
-  type: ss
-  server: 202.50.253.27
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇩🇪 DE | 🟢218ms | v2rayfree-138
-  type: ss
-  server: 202.50.253.81
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 GB | 🟢218ms | mahdibland-139
-  type: ss
-  server: 82.38.31.210
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🏳 XX | 🟢219ms | ermaozi-140
-  type: ss
-  server: 186.190.215.251
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇪🇸 ES | 🟢220ms | mahdibland-141
-  type: ss
-  server: 5.188.181.201
-  port: 9040
-  cipher: aes-256-cfb
-  password: p9z5BVADH2YFs3MN
-  udp: true
-- name: 🇪🇸 ES | 🟢221ms | mahdibland-142
-  type: ss
-  server: 5.188.181.201
-  port: 9029
-  cipher: aes-256-cfb
-  password: dU3DSNS8wYPXzEKw
-  udp: true
-- name: 🇵🇱 PL | 🟢223ms | mahdibland-143
-  type: ss
-  server: 217.30.10.70
-  port: 9098
-  cipher: aes-256-cfb
-  password: aLpQtfEZe445QyHk
-  udp: true
-- name: 🇵🇱 PL | 🟢224ms | mahdibland-144
-  type: ss
-  server: 217.30.10.70
-  port: 9045
-  cipher: aes-256-cfb
-  password: Lp27rqyJq72bZsqX
-  udp: true
-- name: 🏳 XX | 🟢229ms | v2rayfree-145
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇪🇸 ES | 🟢229ms | ermaozi-146
-  type: ss
-  server: 79.127.139.242
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇵🇱 PL | 🟢229ms | mahdibland-147
-  type: ss
-  server: 217.30.10.70
-  port: 9040
-  cipher: aes-256-cfb
-  password: p9z5BVADH2YFs3MN
-  udp: true
-- name: 🇦🇹 AT | 🟢230ms | ermaozi-148
-  type: ss
-  server: 152.53.1.57
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: AdawffFMHymlasRb0VOP3HFf7sTG5sJx
-  udp: true
-- name: 🇩🇪 DE | 🟢231ms | ermaozi-149
-  type: vless
-  server: 195.110.15.216
-  port: 31652
-  uuid: 2da03bdf-8af3-4207-96c7-d70e0dd22c36
-  udp: true
-  network: tcp
-- name: 🇸🇪 SE | 🟢233ms | ermaozi-150
-  type: ss
-  server: 138.199.55.243
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 US | 🟢236ms | mahdibland-151
-  type: ss
-  server: 84.20.27.183
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇦🇹 AT | 🟢237ms | ermaozi-152
-  type: ss
-  server: 82.110.60.9
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 US | 🟢241ms | v2rayfree-153
+- name: 🇺🇸 US | 🟢64ms | v2rayfree-013
   type: vless
   server: 156.229.167.109
   port: 8443
@@ -1097,171 +123,1791 @@ proxies:
     public-key: 4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA
     short-id: 4ad2e4e660550e43
   network: tcp
-- name: 🇵🇱 PL | 🟢241ms | mahdibland-154
-  type: ss
-  server: 217.30.10.70
-  port: 9059
-  cipher: aes-256-cfb
-  password: 9XwYyZsK8SNzQDtY
-  udp: true
-- name: 🏳 XX | 🟢244ms | v2rayfree-155
-  type: ss
-  server: 108.181.121.170
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: qItG8SueYQcP
-  udp: true
-- name: 🇺🇸 US | 🟢245ms | mahdibland-156
-  type: trojan
-  server: 167.88.61.52
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: courses.browseseniorrolesandenhanceyourcareertoday.com
-- name: 🇩🇪 DE | 🟢248ms | ermaozi-157
+- name: 🇸🇬 SG | 🟢78ms | ermaozi-014
   type: vless
-  server: 152.53.120.90
-  port: 50955
-  uuid: 5ab065b0-2c7a-45a0-829d-9af9af7d8e05
+  server: 104.18.109.147
+  port: 2052
+  uuid: c29d39bd-92a4-45db-bb61-56013998617c
   udp: true
-  network: tcp
-- name: 🇳🇱 NL | 🟢259ms | ermaozi-158
+  network: ws
+  ws-opts:
+    path: /Telegram-XV2ry2?ed=2048
+    headers:
+      Host: www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com
+- name: 🇺🇸 US | 🟢81ms | ermaozi-015
   type: trojan
-  server: 66.163.127.225
+  server: 66.163.112.13
   port: 443
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   udp: true
-  sni: cdn.indyourperfectremotetechjobfromthecomfortofhome.com
-- name: 🇳🇱 NL | 🟢261ms | ermaozi-159
-  type: hysteria2
-  server: 50.7.38.243
-  port: 443
-  password: d4ca9415f0eac7897472e1e5b86d2e96
-  sni: promo.betust.net
-  skip-cert-verify: true
-- name: 🇵🇱 PL | 🟢261ms | mahdibland-160
+  sni: blog.unlockyourfuturefindyourperfectcareer.com
+- name: 🇺🇸 US | 🟢82ms | mahdibland-016
   type: ss
-  server: 217.30.10.70
-  port: 9044
-  cipher: aes-256-cfb
-  password: KBGjZYcy4SyRShmA
-  udp: true
-- name: 🇫🇷 FR | 🟢276ms | ermaozi-161
-  type: hysteria2
-  server: 13.36.234.11
-  port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-fr-001.fastervpn.world
-  skip-cert-verify: true
-- name: 🏳 XX | 🟢279ms | ermaozi-162
-  type: hysteria2
-  server: 171.22.183.158
-  port: 42848
-  password: 04920673-035c-410d-94e4-5b1469d3fb6f
-  sni: 171.22.183.158
-- name: 🏳 XX | 🟢280ms | ermaozi-163
-  type: hysteria2
-  server: 212.34.137.105
-  port: 443
-  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
-  sni: shorts.blog-forme.ru
-- name: 🇩🇪 DE | 🟢283ms | v2rayfree-164
-  type: hysteria2
-  server: 128.254.186.57
-  port: 13337
-  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  sni: mother-earth.fyi
-  skip-cert-verify: true
-- name: 🇷🇺 RU | 🟢283ms | ermaozi-165
-  type: ss
-  server: 194.87.69.12
-  port: 18443
-  cipher: aes-256-gcm
-  password: 5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe
-  udp: true
-- name: 🏳 XX | 🟢285ms | ermaozi-166
-  type: hysteria2
-  server: 94.183.164.119
-  port: 24403
-  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
-  sni: docs.blog-forme.ru
-- name: 🇬🇧 GB | 🟢285ms | ermaozi-167
-  type: hysteria2
-  server: 128.254.186.190
-  port: 13337
-  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  sni: mother-earth.fyi
-  skip-cert-verify: true
-- name: 🇩🇪 DE | 🟢294ms | ermaozi-168
-  type: hysteria2
-  server: 179.61.138.145
-  port: 36264
-  password: VpNJEy
-  sni: de2.jey.cc.cd
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: Telegram@vpnjey
-- name: 🇫🇮 FI | 🟢299ms | ermaozi-169
-  type: ss
-  server: 213.176.92.148
-  port: 40647
-  cipher: aes-256-gcm
-  password: DgMywXKqojHXeuXY8hOJaYGPFcjweCIJeD5cdg/cUUY=
-  udp: true
-- name: 🇯🇵 JP | 🟡309ms | ermaozi-170
-  type: ss
-  server: 149.22.87.204
+  server: 156.146.38.169
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇯🇵 JP | 🟡309ms | mahdibland-171
+- name: 🇺🇸 US | 🟢83ms | mahdibland-017
   type: ss
-  server: jpa.123069.xyz
-  port: 53758
+  server: 156.146.38.168
+  port: 443
   cipher: aes-128-gcm
-  password: Bwlqh7GcFB
+  password: shadowsocks
   udp: true
-- name: 🇯🇵 JP | 🟡310ms | ermaozi-172
+- name: 🏳 XX | 🟢86ms | v2rayfree-018
+  type: trojan
+  server: 188.114.96.3
+  port: 2096
+  password: vP!XvZBNdw.e*ddSgmH!
+  udp: true
+  sni: n0q4XPrJ2D4X4PRCQ29L8JKCZd0.pAGES.dev
+  network: ws
+  ws-opts:
+    path: /tr/ZFttmjSqvda5ohOQ?ed=2560
+- name: 🇺🇸 US | 🟢86ms | mahdibland-019
+  type: ss
+  server: 156.146.38.170
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 US | 🟢99ms | ermaozi-020
+  type: trojan
+  server: 66.163.114.106
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
+  skip-cert-verify: true
+- name: 🇺🇸 US | 🟢104ms | mahdibland-021
+  type: ss
+  server: 216.106.178.169
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US | 🟢105ms | v2rayfree-022
+  type: trojan
+  server: 66.163.114.166
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
+- name: 🇺🇸 US | 🟢107ms | v2rayfree-023
+  type: trojan
+  server: 66.163.114.114
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: learn.findconnectwithemployersandbuildprofessionalnetwork.com
+- name: 🇺🇸 US | 🟢107ms | mahdibland-024
+  type: ss
+  server: 38.128.66.32
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US | 🟢113ms | mahdibland-025
+  type: ss
+  server: 149.40.57.138
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US | 🟢114ms | mahdibland-026
+  type: ss
+  server: 149.40.57.134
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US | 🟢114ms | mahdibland-027
+  type: ss
+  server: 149.40.57.133
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US | 🟢131ms | mahdibland-028
+  type: ss
+  server: 193.151.163.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US | 🟢131ms | mahdibland-029
+  type: ss
+  server: 198.98.53.130
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: eDfN7SODQceIOmIAbtJJtK
+  udp: true
+- name: 🇺🇸 US | 🟢132ms | mahdibland-030
+  type: ss
+  server: 37.19.198.244
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 US | 🟢133ms | mahdibland-031
+  type: ss
+  server: 37.19.198.236
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 US | 🟢133ms | mahdibland-032
+  type: ss
+  server: 38.91.100.39
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US | 🟢134ms | mahdibland-033
+  type: ss
+  server: 37.19.198.243
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇨🇦 CA | 🟢136ms | ermaozi-034
+  type: ss
+  server: 51.222.12.127
+  port: 445
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+  udp: true
+- name: 🇺🇸 US | 🟢137ms | mahdibland-035
+  type: ss
+  server: 37.19.198.160
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 US | 🟢138ms | mahdibland-036
+  type: ss
+  server: 15.204.246.132
+  port: 7307
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+  udp: true
+- name: 🇨🇦 CA | 🟢139ms | ermaozi-037
+  type: ss
+  server: 51.222.136.236
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
+- name: 🇺🇸 US | 🟢139ms | mahdibland-038
+  type: ss
+  server: 15.204.246.108
+  port: 8881
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
+- name: 🇺🇸 US | 🟢141ms | ermaozi-039
+  type: ss
+  server: 15.204.233.41
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
+- name: 🇺🇸 US | 🟢150ms | mahdibland-040
+  type: ss
+  server: 185.230.230.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US | 🟢152ms | mahdibland-041
+  type: ss
+  server: 45.86.51.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US | 🟢152ms | mahdibland-042
+  type: ss
+  server: 172.111.38.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇨🇦 CA | 🟢160ms | mahdibland-043
+  type: ss
+  server: 137.184.174.93
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🏳 XX | 🟢179ms | ermaozi-044
+  type: trojan
+  server: 216.152.147.79
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: blog.connectingpeoplewithgreatjobs.com
+- name: 🇨🇦 CA | 🟢184ms | mahdibland-045
+  type: trojan
+  server: 216.152.147.93
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: connectingpeoplewithgreatjobs.com
+- name: 🇺🇸 US | 🟢188ms | mahdibland-046
+  type: ss
+  server: 15.204.247.206
+  port: 4444
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  udp: true
+- name: 🇺🇸 US | 🟢201ms | mahdibland-047
+  type: ss
+  server: 38.22.17.129
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US | 🟢201ms | mahdibland-048
+  type: ss
+  server: 38.121.43.225
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US | 🟢201ms | mahdibland-049
+  type: ss
+  server: 38.22.17.219
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US | 🟢203ms | mahdibland-050
+  type: ss
+  server: 167.88.63.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US | 🟢209ms | mahdibland-051
+  type: ss
+  server: 193.151.160.9
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US | 🟢209ms | mahdibland-052
+  type: ss
+  server: 193.151.160.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US | 🟢210ms | mahdibland-053
+  type: ss
+  server: 38.121.43.231
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇯🇵 JP | 🟢212ms | ermaozi-054
   type: ss
   server: 149.22.87.240
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇯🇵 JP | 🟡310ms | ermaozi-173
+- name: 🇯🇵 JP | 🟢213ms | ermaozi-055
+  type: ss
+  server: 149.22.87.204
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 JP | 🟢213ms | ermaozi-056
   type: ss
   server: 149.22.87.241
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇩🇪 DE | 🟡313ms | v2rayfree-174
-  type: hysteria2
-  server: uk-tube-01.stre4m.net
-  port: 13337
-  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  sni: mother-earth.fyi
-  skip-cert-verify: true
-- name: 🇯🇵 JP | 🟡314ms | mahdibland-175
+- name: 🇺🇸 US | 🟢214ms | mahdibland-057
+  type: ss
+  server: 38.121.43.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US | 🟢215ms | mahdibland-058
+  type: ss
+  server: 172.111.36.123
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇯🇵 JP | 🟢215ms | mahdibland-059
   type: ss
   server: 168.138.205.100
   port: 53758
   cipher: aes-128-gcm
   password: Bwlqh7GcFB
   udp: true
-- name: 🇬🇧 GB | 🟡315ms | zhuhaiuk-yaml-176
-  type: vless
-  server: 189.24.106.163
+- name: 🇯🇵 JP | 🟢216ms | mahdibland-060
+  type: ss
+  server: jpa.123069.xyz
+  port: 53758
+  cipher: aes-128-gcm
+  password: Bwlqh7GcFB
+  udp: true
+- name: 🇺🇸 US | 🟢217ms | ermaozi-061
+  type: trojan
+  server: 66.163.122.25
   port: 443
-  uuid: ed94398f-893f-40c6-b14c-bf02b5f6be16
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: cdn.searchnationwidecareerchangehelperandguidancetoday.com
+- name: 🇯🇵 JP | 🟢217ms | mfuu-062
+  type: ss
+  server: 8.216.14.14
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢217ms | mfuu-063
+  type: ss
+  server: 8.216.8.0
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢217ms | mfuu-064
+  type: ss
+  server: 8.209.197.190
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢217ms | mfuu-065
+  type: ss
+  server: 8.209.253.213
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢217ms | mfuu-066
+  type: ss
+  server: 47.74.0.207
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢217ms | mfuu-067
+  type: ss
+  server: 8.216.9.42
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢217ms | mfuu-068
+  type: ss
+  server: 8.216.14.94
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢218ms | mfuu-069
+  type: ss
+  server: 47.245.32.129
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢218ms | mfuu-070
+  type: ss
+  server: 8.211.154.126
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢218ms | mfuu-071
+  type: ss
+  server: 8.216.3.83
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢218ms | mfuu-072
+  type: ss
+  server: 8.216.1.127
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢218ms | mfuu-073
+  type: ss
+  server: 8.209.249.190
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢218ms | mfuu-074
+  type: ss
+  server: 8.216.15.46
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢218ms | mfuu-075
+  type: ss
+  server: 8.211.131.30
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢218ms | mfuu-076
+  type: ss
+  server: 8.216.9.15
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢218ms | mfuu-077
+  type: ss
+  server: 8.209.196.11
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢218ms | mfuu-078
+  type: ss
+  server: 8.216.5.89
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢218ms | mfuu-079
+  type: ss
+  server: 47.74.24.29
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢218ms | mfuu-080
+  type: ss
+  server: 47.74.18.249
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢218ms | mfuu-081
+  type: ss
+  server: 8.209.196.228
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢218ms | mfuu-082
+  type: ss
+  server: 8.216.16.102
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢218ms | mfuu-083
+  type: ss
+  server: 8.216.18.173
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢218ms | mfuu-084
+  type: ss
+  server: 8.216.3.160
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢218ms | mfuu-085
+  type: ss
+  server: 47.245.42.226
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢218ms | mfuu-086
+  type: ss
+  server: 8.216.18.167
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢218ms | mfuu-087
+  type: ss
+  server: 8.209.236.164
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢218ms | mfuu-088
+  type: ss
+  server: 8.209.249.205
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢218ms | mfuu-089
+  type: ss
+  server: 8.209.198.176
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢218ms | mfuu-090
+  type: ss
+  server: 47.91.16.50
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢218ms | mfuu-091
+  type: ss
+  server: 47.91.15.175
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢218ms | mfuu-092
+  type: ss
+  server: 8.211.132.94
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢218ms | mfuu-093
+  type: ss
+  server: 8.216.18.189
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢218ms | mfuu-094
+  type: ss
+  server: 8.211.174.60
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢218ms | mfuu-095
+  type: ss
+  server: 8.216.19.169
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢219ms | mfuu-096
+  type: ss
+  server: 8.216.10.204
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢219ms | mfuu-097
+  type: ss
+  server: 8.216.8.135
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢219ms | mfuu-098
+  type: ss
+  server: 8.216.8.176
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢219ms | mfuu-099
+  type: ss
+  server: 8.216.16.98
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢219ms | mfuu-100
+  type: ss
+  server: 8.216.17.19
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢219ms | mfuu-101
+  type: ss
+  server: 8.216.9.142
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢219ms | mfuu-102
+  type: ss
+  server: 8.211.128.146
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢219ms | mfuu-103
+  type: ss
+  server: 8.209.245.25
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢219ms | mfuu-104
+  type: ss
+  server: 8.216.17.189
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢219ms | mfuu-105
+  type: ss
+  server: 47.91.15.111
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢219ms | mfuu-106
+  type: ss
+  server: 47.74.27.11
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢219ms | mfuu-107
+  type: ss
+  server: 8.216.17.86
+  port: 6666
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢219ms | mfuu-108
+  type: ss
+  server: 47.74.9.21
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢219ms | mfuu-109
+  type: ss
+  server: 8.211.130.59
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢219ms | mfuu-110
+  type: ss
+  server: 47.91.18.202
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢219ms | mfuu-111
+  type: ss
+  server: 8.216.11.25
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢219ms | mfuu-112
+  type: ss
+  server: 8.211.174.191
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢219ms | mfuu-113
+  type: ss
+  server: 47.74.17.125
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢219ms | mfuu-114
+  type: ss
+  server: 8.216.15.30
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇺🇸 US | 🟢220ms | mahdibland-115
+  type: ss
+  server: 15.204.247.244
+  port: 443
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  udp: true
+- name: 🇯🇵 JP | 🟢220ms | mfuu-116
+  type: ss
+  server: 8.216.0.168
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢220ms | mfuu-117
+  type: ss
+  server: 8.216.15.55
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢220ms | mfuu-118
+  type: ss
+  server: 8.216.9.217
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢220ms | mfuu-119
+  type: ss
+  server: 47.245.54.15
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢220ms | mfuu-120
+  type: ss
+  server: 8.216.9.154
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢220ms | mfuu-121
+  type: ss
+  server: 8.216.8.84
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢220ms | mfuu-122
+  type: ss
+  server: 8.209.221.183
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢220ms | mfuu-123
+  type: ss
+  server: 8.209.199.75
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢220ms | mfuu-124
+  type: ss
+  server: 8.216.9.190
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢220ms | mfuu-125
+  type: ss
+  server: 47.91.2.13
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢220ms | mfuu-126
+  type: ss
+  server: 8.216.4.158
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢221ms | mfuu-127
+  type: ss
+  server: 47.245.40.193
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢221ms | mfuu-128
+  type: ss
+  server: 8.216.9.41
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢221ms | mfuu-129
+  type: ss
+  server: 8.216.4.146
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢221ms | mfuu-130
+  type: ss
+  server: 8.209.236.2
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢221ms | mfuu-131
+  type: ss
+  server: 8.216.5.230
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢222ms | mfuu-132
+  type: ss
+  server: 8.216.9.151
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢222ms | mfuu-133
+  type: ss
+  server: 8.216.18.139
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢223ms | mfuu-134
+  type: ss
+  server: 8.216.17.52
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢226ms | mfuu-135
+  type: ss
+  server: 8.209.221.90
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢226ms | mfuu-136
+  type: ss
+  server: 8.209.222.150
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢226ms | mfuu-137
+  type: ss
+  server: 47.74.49.154
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢227ms | mfuu-138
+  type: ss
+  server: 47.74.40.243
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢228ms | mfuu-139
+  type: ss
+  server: 47.91.29.60
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢229ms | mfuu-140
+  type: ss
+  server: 47.91.31.150
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢230ms | mfuu-141
+  type: ss
+  server: 47.74.41.139
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢231ms | mfuu-142
+  type: ss
+  server: 47.74.40.77
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇯🇵 JP | 🟢235ms | mfuu-143
+  type: ss
+  server: 8.216.18.170
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🇺🇸 US | 🟢250ms | mahdibland-144
+  type: ss
+  server: 38.91.107.188
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US | 🟢261ms | mahdibland-145
+  type: ss
+  server: 162.251.62.31
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇪🇸 ES | 🟢268ms | mahdibland-146
+  type: ss
+  server: 5.188.181.201
+  port: 9025
+  cipher: aes-256-cfb
+  password: XPtzA9sCug3SPR4c
+  udp: true
+- name: 🇪🇸 ES | 🟢268ms | mahdibland-147
+  type: ss
+  server: 5.188.181.201
+  port: 9001
+  cipher: aes-256-cfb
+  password: UkXRsXvR6buDMG2Y
+  udp: true
+- name: 🇪🇸 ES | 🟢268ms | mahdibland-148
+  type: ss
+  server: 5.188.181.201
+  port: 9041
+  cipher: aes-256-cfb
+  password: U6qnYRhfyDmn8sgn
+  udp: true
+- name: 🇪🇸 ES | 🟢269ms | mahdibland-149
+  type: ss
+  server: 5.188.181.201
+  port: 9014
+  cipher: aes-256-cfb
+  password: KnJGad3FqTvjqbaX
+  udp: true
+- name: 🇨🇦 CA | 🟢270ms | ermaozi-150
+  type: ss
+  server: 51.222.141.125
+  port: 445
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+  udp: true
+- name: 🇪🇸 ES | 🟢270ms | mahdibland-151
+  type: ss
+  server: 5.188.181.201
+  port: 9005
+  cipher: aes-256-cfb
+  password: ZET59LF6DvCC8KVt
+  udp: true
+- name: 🇪🇸 ES | 🟢270ms | mahdibland-152
+  type: ss
+  server: 5.188.181.201
+  port: 9003
+  cipher: aes-256-cfb
+  password: JdmRK9gMEqFgs8nP
+  udp: true
+- name: 🇪🇸 ES | 🟢271ms | mahdibland-153
+  type: ss
+  server: 5.188.181.201
+  port: 9042
+  cipher: aes-256-cfb
+  password: S7KwUu7yBy58S3Ga
+  udp: true
+- name: 🇪🇸 ES | 🟢271ms | mahdibland-154
+  type: ss
+  server: 5.188.181.201
+  port: 9011
+  cipher: aes-256-cfb
+  password: M3t2ZEQcMGRWBjRa
+  udp: true
+- name: 🇪🇸 ES | 🟢272ms | mahdibland-155
+  type: ss
+  server: 5.188.181.201
+  port: 9027
+  cipher: aes-256-cfb
+  password: EXN3S3eQpjE7EJu8
+  udp: true
+- name: 🇬🇧 GB | 🟢273ms | ermaozi-156
+  type: ss
+  server: 198.244.201.129
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇬🇧 GB | 🟢274ms | ermaozi-157
+  type: ss
+  server: 198.244.202.215
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇬🇧 GB | 🟢281ms | ermaozi-158
+  type: ss
+  server: 158.173.24.73
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇬🇧 GB | 🟢287ms | ermaozi-159
+  type: ss
+  server: 185.176.206.9
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇬🇧 GB | 🟢288ms | ermaozi-160
+  type: ss
+  server: 142.202.51.22
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇳🇱 NL | 🟢288ms | ermaozi-161
+  type: ss
+  server: 151.241.19.29
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇳🇱 NL | 🟢289ms | mahdibland-162
+  type: ss
+  server: 109.201.152.181
+  port: 443
+  cipher: aes-128-cfb
+  password: shadowsocks
+  udp: true
+- name: 🇳🇱 NL | 🟢294ms | ermaozi-163
+  type: ss
+  server: 151.241.19.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇬🇧 GB | 🟢298ms | ermaozi-164
+  type: ss
+  server: 38.114.120.221
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇳🇱 NL | 🟢299ms | mahdibland-165
+  type: ss
+  server: 158.173.20.171
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 US | 🟢300ms | ermaozi-166
+  type: ss
+  server: 23.230.52.119
+  port: 42878
+  cipher: chacha20-ietf-poly1305
+  password: ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu
+  udp: true
+- name: 🇬🇧 GB | 🟡301ms | mahdibland-167
+  type: ss
+  server: 82.38.31.62
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇬🇧 GB | 🟡301ms | mahdibland-168
+  type: ss
+  server: 141.98.101.182
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇬🇧 GB | 🟡302ms | ermaozi-169
+  type: ss
+  server: 141.98.101.181
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇬🇧 GB | 🟡304ms | mahdibland-170
+  type: ss
+  server: 141.98.101.179
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇬🇧 GB | 🟡305ms | mahdibland-171
+  type: ss
+  server: 82.38.31.48
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇬🇧 GB | 🟡306ms | mahdibland-172
+  type: ss
+  server: 82.38.31.206
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇬🇧 GB | 🟡306ms | mahdibland-173
+  type: ss
+  server: 82.38.31.205
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇬🇧 GB | 🟡308ms | mahdibland-174
+  type: ss
+  server: 82.38.31.66
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇩🇪 DE | 🟡308ms | mfuu-yaml-175
+  server: 47.254.128.109
+  port: 443
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+- name: 🇳🇱 NL | 🟡310ms | ermaozi-176
+  type: ss
+  server: 156.67.120.205
+  port: 51628
+  cipher: chacha20-ietf-poly1305
+  password: 29ZZXVa34x7sC48w9FKQ54UKHiJJGTVgKFppBRgviLrVCAYVVyKZdD3obbpjCyk31V5b2G2d7xzqmaPBFdcheCVB9UQ4ZghF
+  udp: true
+- name: 🇬🇧 GB | 🟡310ms | mahdibland-177
+  type: ss
+  server: 82.38.31.193
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇬🇧 GB | 🟡310ms | mahdibland-178
+  type: ss
+  server: 82.38.31.199
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇫🇷 FR | 🟡311ms | ermaozi-179
+  type: ss
+  server: 38.109.228.110
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇳🇱 NL | 🟡311ms | ermaozi-180
+  type: ss
+  server: 82.38.31.216
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇫🇷 FR | 🟡312ms | ermaozi-181
+  type: ss
+  server: 167.17.64.175
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇳🇱 NL | 🟡312ms | ermaozi-182
+  type: ss
+  server: 82.38.31.46
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇬🇧 GB | 🟡312ms | mahdibland-183
+  type: ss
+  server: 82.38.31.194
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇬🇧 GB | 🟡312ms | mahdibland-184
+  type: ss
+  server: 82.38.31.191
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇬🇧 GB | 🟡312ms | mahdibland-185
+  type: ss
+  server: 82.38.31.219
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🏳 XX | 🟡313ms | v2rayfree-186
+  type: ss
+  server: 202.50.253.63
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇬🇧 GB | 🟡313ms | mahdibland-187
+  type: ss
+  server: 82.38.31.61
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇬🇧 GB | 🟡313ms | mahdibland-188
+  type: ss
+  server: 82.38.31.35
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇩🇪 DE | 🟡314ms | ermaozi-189
+  type: ss
+  server: 57.129.83.85
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇫🇷 FR | 🟡314ms | ermaozi-190
+  type: ss
+  server: 23.162.152.22
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇫🇷 FR | 🟡314ms | ermaozi-191
+  type: ss
+  server: 167.17.64.22
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🏳 XX | 🟡315ms | ermaozi-192
+  type: ss
+  server: 23.166.88.127
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇬🇧 GB | 🟡315ms | mahdibland-193
+  type: ss
+  server: 82.38.31.186
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 NL | 🟡315ms | mahdibland-194
+  type: ss
+  server: 193.29.139.147
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🏳 XX | 🟡316ms | v2rayfree-195
+  type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇬🇧 GB | 🟡316ms | mahdibland-196
+  type: ss
+  server: 82.38.31.210
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇬🇧 GB | 🟡316ms | mahdibland-197
+  type: ss
+  server: 82.38.31.184
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇬🇧 GB | 🟡316ms | mahdibland-198
+  type: ss
+  server: 82.38.31.47
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇬🇧 GB | 🟡316ms | mahdibland-199
+  type: ss
+  server: 82.38.31.176
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇨🇭 CH | 🟡317ms | ermaozi-200
+  type: ss
+  server: 79.127.184.104
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇬🇧 GB | 🟡317ms | mahdibland-201
+  type: ss
+  server: 82.38.31.214
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇬🇧 GB | 🟡317ms | mahdibland-202
+  type: ss
+  server: 82.38.31.192
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 NL | 🟡317ms | mahdibland-203
+  type: ss
+  server: 193.29.139.168
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  udp: true
+- name: 🇬🇧 GB | 🟡318ms | mahdibland-204
+  type: ss
+  server: 82.38.31.208
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇬🇧 GB | 🟡318ms | mahdibland-205
+  type: ss
+  server: 82.38.31.49
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇬🇧 GB | 🟡318ms | mahdibland-206
+  type: ss
+  server: 82.38.31.218
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🏳 XX | 🟡319ms | v2rayfree-207
+  type: ss
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇳🇱 NL | 🟡319ms | ermaozi-208
+  type: ss
+  server: 82.38.31.207
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇫🇷 FR | 🟡320ms | ermaozi-209
+  type: ss
+  server: 167.17.64.27
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇨🇭 CH | 🟡321ms | ermaozi-210
+  type: ss
+  server: 186.190.215.251
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇮🇹 IT | 🟡321ms | mahdibland-211
+  type: ss
+  server: 57.131.27.21
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
+  udp: true
+- name: 🇬🇧 GB | 🟡321ms | mahdibland-212
+  type: ss
+  server: 82.38.31.217
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🏳 XX | 🟡322ms | v2rayfree-213
+  type: ss
+  server: 202.50.253.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🏳 XX | 🟡322ms | v2rayfree-214
+  type: ss
+  server: 202.50.253.90
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇩🇪 DE | 🟡322ms | v2rayfree-215
+  type: ss
+  server: 202.50.253.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇳🇱 NL | 🟡322ms | ermaozi-216
+  type: ss
+  server: 82.38.31.162
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇬🇧 GB | 🟡322ms | mahdibland-217
+  type: ss
+  server: 82.38.31.181
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇬🇧 GB | 🟡322ms | mahdibland-218
+  type: ss
+  server: 82.38.31.189
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🏳 XX | 🟡323ms | v2rayfree-219
+  type: ss
+  server: 202.50.253.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🏳 XX | 🟡323ms | v2rayfree-220
+  type: ss
+  server: 202.50.253.54
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🏳 XX | 🟡323ms | v2rayfree-221
+  type: ss
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇯🇵 JP | 🟡323ms | v2rayfree-222
+  type: vless
+  server: 50.7.159.242
+  port: 443
+  uuid: 8840fac2-5361-4cb6-b887-cd1b95092394
+  udp: true
   tls: true
-  servername: navi.bankrate.com
+  servername: jp.reddotcorp.org
+  client-fingerprint: firefox
+  network: tcp
+- name: 🇬🇧 GB | 🟡323ms | mahdibland-223
+  type: ss
+  server: 82.38.31.190
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇬🇧 GB | 🟡323ms | mahdibland-224
+  type: ss
+  server: 82.38.31.179
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇯🇵 JP | 🟡323ms | mahdibland-225
+  type: vmess
+  server: 168.110.63.247
+  port: 8081
+  uuid: c3bde296-8e44-4b8c-a325-577d5b3cc7c8
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vless
+- name: 🇮🇹 IT | 🟡324ms | ermaozi-226
+  type: ss
+  server: 185.164.175.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇳🇱 NL | 🟡324ms | ermaozi-227
+  type: ss
+  server: 193.29.139.198
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇬🇧 GB | 🟡324ms | mahdibland-228
+  type: ss
+  server: 82.38.31.187
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇦🇹 AT | 🟡329ms | ermaozi-229
+  type: ss
+  server: 152.53.1.57
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: AdawffFMHymlasRb0VOP3HFf7sTG5sJx
+  udp: true
+- name: 🇪🇸 ES | 🟡329ms | ermaozi-230
+  type: ss
+  server: 79.127.139.242
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇬🇧 GB | 🟡329ms | mahdibland-231
+  type: ss
+  server: 82.38.31.180
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇬🇧 GB | 🟡330ms | mahdibland-232
+  type: ss
+  server: 82.38.31.202
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇬🇧 GB | 🟡330ms | mahdibland-233
+  type: ss
+  server: 178.83.185.156
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇩🇪 DE | 🟡331ms | v2rayfree-234
+  type: ss
+  server: 202.50.253.27
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇭🇰 HK | 🟡331ms | ermaozi-235
+  type: ss
+  server: 209.248.57.105
+  port: 8388
+  cipher: aes-256-gcm
+  password: AMok40FfaM+Ikwre16psBpVk6JHxsQZw
+  udp: true
+- name: 🇬🇧 GB | 🟡331ms | mahdibland-236
+  type: ss
+  server: 82.38.31.212
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇬🇧 GB | 🟡331ms | mahdibland-237
+  type: ss
+  server: 82.38.31.203
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇯🇵 JP | 🟡332ms | ermaozi-238
+  type: vless
+  server: 155.248.175.201
+  port: 23169
+  uuid: 7318caa1-93d1-4a9d-c481-504599902700
+  udp: true
+  tls: true
+  servername: djj.zjlo.top
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  network: tcp
+- name: 🏳 XX | 🟡335ms | ermaozi-239
+  type: vless
+  server: 172.67.139.189
+  port: 443
+  uuid: 364D2D52-E61E-4E52-80EC-2BC6BDF15349
+  udp: true
+  tls: true
+  servername: fr-free.fastestrelay.com
   client-fingerprint: chrome
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: 2da72ce6
-- name: 🇫🇷 FR | 🟡324ms | ermaozi-177
+  network: ws
+  ws-opts:
+    path: /700gvl
+    headers:
+      Host: fr-free.fastestrelay.com
+- name: 🇺🇸 US | 🟡335ms | mahdibland-240
+  type: ss
+  server: 84.20.27.183
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇬🇧 GB | 🟡336ms | ermaozi-241
+  type: ss
+  server: 94.156.250.148
+  port: 7001
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+  udp: true
+- name: 🇸🇬 SG | 🟡339ms | ermaozi-242
+  type: ss
+  server: 15.235.182.183
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇸🇬 SG | 🟡339ms | ermaozi-243
+  type: ss
+  server: 15.235.164.133
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇸🇬 SG | 🟡339ms | mahdibland-244
+  type: ss
+  server: 68.183.227.4
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇦🇹 AT | 🟡340ms | ermaozi-245
+  type: ss
+  server: 82.110.60.9
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇸🇬 SG | 🟡341ms | ermaozi-246
+  type: ss
+  server: 149.88.107.74
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇸🇪 SE | 🟡343ms | ermaozi-247
+  type: ss
+  server: 138.199.55.243
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇸🇬 SG | 🟡344ms | ermaozi-248
+  type: ss
+  server: 149.88.107.47
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇸🇬 SG | 🟡346ms | mahdibland-249
+  type: ss
+  server: 149.88.106.73
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇪🇸 ES | 🟡358ms | ermaozi-250
+  type: ss
+  server: 108.181.121.170
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: qItG8SueYQcP
+  udp: true
+- name: 🇫🇷 FR | 🟡361ms | ermaozi-251
+  type: ss
+  server: 172.99.189.142
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇳🇱 NL | 🟡362ms | mahdibland-252
+  type: ss
+  server: 193.29.139.223
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇰🇷 KR | 🟡366ms | mahdibland-253
+  type: ss
+  server: p141.panda001.net
+  port: 4652
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+  udp: true
+- name: 🇰🇷 KR | 🟡369ms | mahdibland-254
+  type: ss
+  server: 211.178.105.134
+  port: 6123
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+  udp: true
+- name: 🇧🇾 BY | 🟡405ms | ermaozi-255
+  type: vless
+  server: 178.172.227.124
+  port: 10443
+  uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
+  udp: true
+  network: tcp
+- name: 🇸🇬 SG | 🟡405ms | ermaozi-256
+  type: ss
+  server: 149.88.106.74
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇦🇱 AL | 🟡421ms | ermaozi-257
+  type: ss
+  server: 130.49.189.158
+  port: 43558
+  cipher: chacha20-ietf-poly1305
+  password: LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog=
+  udp: true
+- name: 🇯🇵 JP | 🟡421ms | mfuu-258
+  type: ss
+  server: 8.216.8.185
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
+  udp: true
+- name: 🏳 XX | 🟡422ms | ermaozi-259
+  type: hysteria2
+  server: 171.22.183.158
+  port: 42848
+  password: 04920673-035c-410d-94e4-5b1469d3fb6f
+  sni: 171.22.183.158
+- name: 🇳🇱 NL | 🟡423ms | ermaozi-260
+  type: hysteria2
+  server: 50.7.38.243
+  port: 443
+  password: d4ca9415f0eac7897472e1e5b86d2e96
+  sni: promo.betust.net
+  skip-cert-verify: true
+- name: 🇳🇱 NL | 🟡440ms | ermaozi-261
+  type: vless
+  server: 163.172.213.174
+  port: 80
+  uuid: e73df646-1f62-41bf-8c50-653497d603d0
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: SC-TheNetherlands2.09vpn.com
+- name: 🇳🇱 NL | 🟡440ms | ermaozi-262
+  type: trojan
+  server: 66.163.127.225
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: cdn.indyourperfectremotetechjobfromthecomfortofhome.com
+- name: 🏳 XX | 🟡441ms | ermaozi-263
+  type: hysteria2
+  server: 185.200.199.179
+  port: 54706
+  password: Cqx5aT9Zux
+  sni: 185.200.199.179
+- name: 🇫🇷 FR | 🟡444ms | ermaozi-264
+  type: hysteria2
+  server: 13.36.234.11
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-fr-001.fastervpn.world
+  skip-cert-verify: true
+- name: 🇫🇷 FR | 🟡444ms | ermaozi-265
   type: vless
   server: 54.36.102.152
   port: 2083
@@ -1270,8 +1916,115 @@ proxies:
   network: ws
   ws-opts:
     path: /vless-kulo
+- name: 🇭🇰 HK | 🟡446ms | ermaozi-266
+  type: vmess
+  server: 47.244.120.197
+  port: 44867
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /arki
+    headers:
+      Host: 47.244.120.197
+- name: 🇳🇱 NL | 🟡448ms | ermaozi-267
+  type: vless
+  server: 51.194.118.38
+  port: 443
+  uuid: 7ff1e7e1-2b5a-4e53-ae77-1516f9eb7754
+  udp: true
+  tls: true
+  servername: a1259.ve8nzuk.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 50a5f706c8ea4433838a207d435fbf031b008a9a
+- name: 🇭🇰 HK | 🟡448ms | ermaozi-268
+  type: trojan
+  server: 47.242.93.89
+  port: 12012
+  password: '12012'
+  udp: true
+  sni: ali-hk.b-gfw.cfd
+  skip-cert-verify: true
+- name: 🇭🇰 HK | 🟡453ms | ermaozi-269
+  type: vless
+  server: 8.210.92.38
+  port: 443
+  uuid: 4fc9dc3d-0d57-49e7-9bc0-e323165241bf
+  udp: true
+  tls: true
+  servername: www.ebay.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: vhu6gifBQ8-hRzW1gqKFkEXDlQbf6Ex8kKj1FcxhmzA
+    short-id: d78318845237d9a9
+  flow: xtls-rprx-vision
+  network: tcp
+- name: 🇩🇪 DE | 🟡454ms | ermaozi-270
+  type: ss
+  server: 57.129.113.16
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: NcAXc0UZI6yQJE1p8QmOv8
+  udp: true
+- name: 🏳 XX | 🟡456ms | ermaozi-271
+  type: hysteria2
+  server: 94.183.164.119
+  port: 24403
+  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+  sni: docs.blog-forme.ru
+- name: 🏳 XX | 🟡456ms | ermaozi-272
+  type: hysteria2
+  server: 152.32.254.68
+  port: 5010
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  sni: nas.aizhzo.com
+  obfs: salamander
+  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+- name: 🇩🇪 DE | 🟡459ms | v2rayfree-273
+  type: hysteria2
+  server: 128.254.186.190
+  port: 13337
+  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  sni: mother-earth.fyi
+  skip-cert-verify: true
+- name: 🇰🇷 KR | 🟡461ms | ermaozi-274
+  type: vless
+  server: 152.69.226.63
+  port: 25555
+  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇩🇪 DE | 🟡462ms | v2rayfree-275
+  type: hysteria2
+  server: uk-tube-01.stre4m.net
+  port: 13337
+  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  sni: mother-earth.fyi
+  skip-cert-verify: true
+- name: 🇩🇪 DE | 🟡462ms | v2rayfree-276
+  type: hysteria2
+  server: 128.254.186.57
+  port: 13337
+  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  sni: mother-earth.fyi
+  skip-cert-verify: true
+- name: 🏳 XX | 🟡462ms | ermaozi-277
+  type: hysteria2
+  server: 179.61.138.145
+  port: 36264
+  password: vpNJEy
+  sni: de2.jey.cc.cd
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
 - type: vless
-  name: 🏳 XX | 🟡325ms | sunmiao-yaml-178
+  name: 🏳 XX | 🟡469ms | sunmiao-yaml-278
   server: 185.14.29.29
   port: 443
   uuid: 6b1607f1-3a08-4681-8abd-83663a8155e7
@@ -1289,14 +2042,63 @@ proxies:
     path: /js/libs
     host: static.gcore.pro
     mode: auto
-- name: 🏳 XX | 🟡335ms | ermaozi-179
+- name: 🏳 XX | 🟡472ms | ermaozi-279
+  type: ss
+  server: 213.176.92.148
+  port: 40647
+  cipher: aes-256-gcm
+  password: DgMywXKqojHXeuXY8hOJaYGPFcjweCIJeD5cdg/cUUY=
+  udp: true
+- name: 🏳 XX | 🟡474ms | ermaozi-280
   type: hysteria2
-  server: 179.254.191.251
-  port: 4444
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  sni: bl1.nexfile.net
-  skip-cert-verify: true
-- name: 🏳 XX | 🟡357ms | ermaozi-180
+  server: 212.34.137.105
+  port: 443
+  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+  sni: shorts.blog-forme.ru
+- name: 🇩🇪 DE | 🟡485ms | ermaozi-281
+  type: vless
+  server: 109.248.17.252
+  port: 443
+  uuid: 9000a7f3-df2a-49a8-ae56-3e7777bd32f7
+  udp: true
+  tls: true
+  servername: v4.clequinix.globalinetforallalwaysandneverbanyoubelieveme.com
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: v4-clequinix-globalinetforallalwaysandneverbanyoubelieveme-com
+- name: 🇩🇪 DE | 🟡492ms | ermaozi-282
+  type: vmess
+  server: 94.130.237.57
+  port: 27154
+  uuid: d9d02f3e-c877-4a1f-990e-f2418777f745
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /Telegram=@AmyraxVPN
+    headers:
+      Host: 94.130.237.57
+- name: 🇨🇭 CH | 🟡501ms | ermaozi-283
+  type: trojan
+  server: 208.69.78.33
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: courses.yourultimateprofessionalcareerhub.com
+- name: 🇸🇪 SE | 🟡512ms | ermaozi-284
+  type: vless
+  server: 5.178.109.174
+  port: 14430
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 5.178.109.174
+- name: 🇸🇪 SE | 🟡521ms | ermaozi-285
   type: vless
   server: 138.124.86.230
   port: 48115
@@ -1308,139 +2110,147 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: 138-124-86-230-sslip-io
-- name: 🇬🇧 GB | 🟡381ms | ermaozi-181
-  type: ss
-  server: 94.156.250.148
-  port: 7001
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-  udp: true
-- name: 🏳 XX | 🟡382ms | ermaozi-182
-  type: vmess
-  server: 172.64.145.93
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- name: 🏳 XX | 🟡385ms | ermaozi-183
-  type: hysteria2
-  server: bl1.nexfile.net
-  port: 4444
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  sni: bl1.nexfile.net
-- name: 🇺🇸 US | 🟡395ms | v2rayfree-184
+- name: 🇸🇬 SG | 🟡526ms | v2rayfree-286
   type: vless
-  server: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
-  port: 443
-  uuid: 1fd2e2d1-96f5-2056-19fd-b375b1a9d851
+  server: dddz-1-x.473221.xyz
+  port: 43113
+  uuid: 5807f1c4-b50e-4ec0-8d01-274045da0da5
   udp: true
   tls: true
-  servername: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ffad70ffdfc3bcda
-    headers:
-      Host: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
-- name: 🇺🇸 US | 🟡395ms | ermaozi-185
-  type: vmess
-  server: 172.67.190.164
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- name: 🏳 XX | 🟡397ms | ermaozi-186
-  type: hysteria2
-  server: 91.211.27.231
-  port: 42848
-  password: 04920673-035c-410d-94e4-5b1469d3fb6f
-  sni: 171.22.183.158
-- name: 🇺🇸 US | 🟡425ms | ermaozi-187
-  type: vmess
-  server: www.shopify.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- name: 🇿🇦 ZA | 🟡434ms | ermaozi-188
+  servername: v1-dy.ixigua.com
+  client-fingerprint: edge
+  reality-opts:
+    public-key: EK3prcfF8VKm3CoTXWQguRj67LxGbkPIpKmEUKsMKGs
+    short-id: ff2c978a0b
+  flow: xtls-rprx-vision
+  network: tcp
+- name: 🇩🇪 DE | 🟡526ms | ermaozi-287
   type: ss
-  server: 102.133.165.160
-  port: 16233
-  cipher: chacha20-ietf-poly1305
-  password: Xsy8Ox4yOV3xLlpxtjzs3X
+  server: 8.211.56.98
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-- name: 🇿🇦 ZA | 🟡436ms | ermaozi-189
+- name: 🇫🇷 FR | 🟡534ms | ermaozi-288
+  type: vless
+  server: 188.114.99.137
+  port: 80
+  uuid: c762af05-2e92-4133-bc30-8cf45dd40a28
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: suh.cryptofront.uk
+- name: 🇿🇦 ZA | 🟡547ms | ermaozi-289
   type: ss
   server: 102.37.156.224
   port: 443
   cipher: chacha20-ietf-poly1305
   password: aduB9HGxQHjA2SBMRjkHX6
   udp: true
-- name: 🇺🇸 US | 🟡442ms | ermaozi-190
-  type: vmess
-  server: 104.18.42.163
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
+- name: 🇿🇦 ZA | 🟡557ms | ermaozi-290
+  type: ss
+  server: 102.133.165.160
+  port: 16233
+  cipher: chacha20-ietf-poly1305
+  password: Xsy8Ox4yOV3xLlpxtjzs3X
   udp: true
-  tls: true
-  servername: guanwang.awsno.com
-  client-fingerprint: chrome
+- name: 🇧🇾 BY | 🟡583ms | ermaozi-291
+  type: vless
+  server: 178.172.227.228
+  port: 14430
+  uuid: b6e5dc56-836f-48c1-9163-b0b0b43b647d
+  udp: true
   network: ws
   ws-opts:
-    path: /hls/cctv5phd.m3u8
+    path: /vless
     headers:
-      Host: guanwang.awsno.com
-- name: 🇺🇸 US | 🟡447ms | ermaozi-191
-  type: vmess
-  server: 188.114.99.137
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
+      Host: 178.172.227.228
+- name: 🇷🇺 RU | 🟡600ms | ermaozi-292
+  type: vless
+  server: 194.26.229.207
+  port: 2200
+  uuid: 026ecbd6-2838-40f6-b530-d2c303c4f629
   udp: true
-  tls: true
-  servername: guanwang.awsno.com
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /hls/cctv5phd.m3u8
+    path: /v1
     headers:
-      Host: guanwang.awsno.com
-- name: 🏳 XX | 🟡449ms | ermaozi-192
+      Host: rzd.ru
+- name: 🏳 XX | 🟡607ms | ermaozi-293
   type: hysteria2
   server: 136.148.83.69
   port: 443
   password: 87bb2ac4-b7a1-0001-b11d-2107709ea6cb
   sni: szqbx-ru-77dc.my-fade.cloud
-  skip-cert-verify: true
-- name: 🇹🇷 TR | 🟡451ms | ermaozi-193
+- name: 🇪🇪 EE | 🟡607ms | ermaozi-294
+  type: vless
+  server: 165.231.157.126
+  port: 8443
+  uuid: 0173d52e-8e1b-4681-831e-11529677b72f
+  udp: true
+  tls: true
+  servername: api-6b04608f.adhil.uk
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  network: tcp
+- name: 🇪🇪 EE | 🟡607ms | ermaozi-295
+  type: vless
+  server: one.alpheratzz.org
+  port: 8443
+  uuid: 0173d52e-8e1b-4681-831e-11529677b72f
+  udp: true
+  tls: true
+  servername: api-6b04608f.adhil.uk
+  client-fingerprint: safari
+  alpn:
+  - h2
+  flow: xtls-rprx-vision
+  network: tcp
+- type: vless
+  name: 🏳 XX | 🟡607ms | sunmiao-yaml-296
+  server: api.ferrin.uk
+  port: 443
+  uuid: 7d1a74fd-8a38-4a29-863f-5da53a9e557e
+  udp: true
+  tls: true
+  servername: 7d1a74fd.ferrin.uk
+  sni: 7d1a74fd.ferrin.uk
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: xhttp
+  xhttp-opts:
+    path: /es
+    mode: stream-one
+- name: 🏳 XX | 🟡609ms | v2rayfree-297
+  type: vless
+  server: 165.231.157.150
+  port: 8443
+  uuid: 0173d52e-8e1b-4681-831e-11529677b72f
+  udp: true
+  tls: true
+  servername: api-6b04608f.adhil.uk
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  network: tcp
+- name: 🇷🇺 RU | 🟡622ms | ermaozi-298
+  type: vless
+  server: 194.26.229.207
+  port: 2200
+  uuid: f2d2907c-1d74-43eb-8fd2-fc55dfd92427
+  udp: true
+  network: ws
+  ws-opts:
+    path: /v1
+- name: 🇬🇧 GB | 🟡625ms | ermaozi-299
+  type: ss
+  server: 141.98.101.178
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇹🇷 TR | 🟡630ms | ermaozi-300
   type: vless
   server: turkey-ip1.mmdaqaorg.xyz
   port: 50738
@@ -1453,28 +2263,18 @@ proxies:
   - h2
   - http/1.1
   network: tcp
-- name: 🏳 XX | 🟡455ms | ermaozi-194
-  type: ss
-  server: 15.235.164.133
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇷🇺 RU | 🟡631ms | ermaozi-301
+  type: vless
+  server: 194.26.229.207
+  port: 4100
+  uuid: 026ecbd6-2838-40f6-b530-d2c303c4f629
   udp: true
-- name: 🇸🇬 SG | 🟡455ms | ermaozi-195
-  type: ss
-  server: 149.88.107.74
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇸🇬 SG | 🟡455ms | mahdibland-196
-  type: ss
-  server: 149.88.106.73
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 GB | 🟡455ms | zhuhaiuk-197
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: live.ok.ru
+- name: 🇷🇺 RU | 🟡660ms | ermaozi-302
   type: vless
   server: vps3.nemnogogo.com
   port: 443
@@ -1488,107 +2288,41 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: mobile.api.Event
-- name: 🇸🇬 SG | 🟡457ms | ermaozi-198
-  type: ss
-  server: 15.235.182.183
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇸🇬 SG | 🟡459ms | ermaozi-199
-  type: ss
-  server: 149.88.107.47
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇸🇬 SG | 🟡460ms | ermaozi-200
-  type: ss
-  server: 149.88.106.74
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇬🇧 GB | 🟡460ms | ermaozi-201
+- name: 🇬🇧 GB | 🟡664ms | zhuhaiuk-303
   type: vless
-  server: 136.148.83.70
+  server: 201.51.12.98
   port: 443
-  uuid: 00000000-0000-0001-0000-000000000000
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
   udp: true
   tls: true
-  servername: aszbk-ru-78dc.my-fade.cloud
-  client-fingerprint: qq
-  network: tcp
-- name: 🇰🇷 KR | 🟡462ms | mahdibland-202
-  type: ss
-  server: 211.178.105.134
-  port: 6123
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-  udp: true
-- name: 🇰🇷 KR | 🟡465ms | mahdibland-203
-  type: ss
-  server: p141.panda001.net
-  port: 4652
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-  udp: true
-- name: 🇯🇵 JP | 🟡467ms | ermaozi-204
-  type: vless
-  server: 155.248.175.201
-  port: 23169
-  uuid: 7318caa1-93d1-4a9d-c481-504599902700
-  udp: true
-  tls: true
-  servername: djj.zjlo.top
+  servername: vps3.nemnogogo.com
   client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  network: tcp
-- name: 🇯🇵 JP | 🟡477ms | ermaozi-205
+  network: grpc
+  grpc-opts:
+    grpc-service-name: mobile.api.Event
+- name: 🇮🇳 IN | 🟡678ms | ermaozi-304
   type: vless
-  server: 156.231.117.190
-  port: 443
-  uuid: ed94398f-893f-40c6-b14c-bf02b5f6be16
+  server: 13.140.56.100
+  port: 14430
+  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
   udp: true
-  tls: true
-  servername: navi.bankrate.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: 2da72ce6
-  network: tcp
-- name: 🇳🇴 NO | 🟡488ms | ermaozi-206
-  type: ss
-  server: 185.213.23.63
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-- name: 🇬🇧 GB | 🟡507ms | ermaozi-207
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 13.140.56.100
+- name: 🇦🇪 AE | 🟡692ms | ermaozi-305
   type: vless
-  server: 136.148.83.71
-  port: 443
-  uuid: 00000000-0000-0001-0000-000000000000
+  server: 95.174.68.188
+  port: 14430
+  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
   udp: true
-  tls: true
-  servername: wccfu-ru-79dc.my-fade.cloud
-  client-fingerprint: qq
-  network: tcp
-- name: 🇩🇪 DE | 🟡526ms | ermaozi-208
-  type: vless
-  server: 5.42.104.42
-  port: 443
-  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
-  udp: true
-  tls: true
-  servername: rugermicro2.gangplatform.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: nPYLh9nRxKK0OQVQrboJyKN4Y3DViI412cbN9Tbz9AQ
-    short-id: 53668ac88eefee81
-  flow: xtls-rprx-vision
-  network: tcp
-- name: 🇩🇪 DE | 🟡529ms | ermaozi-209
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 95.174.68.188
+- name: 🇩🇪 DE | 🟡696ms | ermaozi-306
   type: vless
   server: 176.98.176.60
   port: 443
@@ -1602,143 +2336,126 @@ proxies:
   - http/1.1
   flow: xtls-rprx-vision
   network: tcp
-- name: 🇸🇪 SE | 🟡534ms | ermaozi-210
+- name: 🇦🇪 AE | 🟡700ms | ermaozi-307
   type: vless
-  server: 5.178.109.174
-  port: 14430
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
   network: ws
   ws-opts:
-    path: /vless
+    path: /
     headers:
-      Host: 5.178.109.174
-- name: 🇷🇺 RU | 🟡551ms | ermaozi-211
-  type: vless
-  server: 193.124.66.208
-  port: 443
-  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
-  udp: true
-  tls: true
-  servername: rufinmicro1.gangplatform.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 7LBetmnWiUHWLTnW_sflaJvDfgSkTIe1BE6zw_dg1xY
-    short-id: 899cbfb833ccbe51
-  flow: xtls-rprx-vision
-  network: tcp
-- name: 🇪🇸 ES | 🟡572ms | ermaozi-212
-  type: vless
-  server: 196.196.149.80
-  port: 443
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  udp: true
-  tls: true
-  servername: 7aa271t.es1.h1clayd.click
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: 42426c882c5fcd41
-  flow: xtls-rprx-vision
-  network: tcp
-- name: 🇦🇪 AE | 🟡601ms | ermaozi-213
-  type: vless
-  server: 95.174.68.188
-  port: 14430
-  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
-  udp: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 95.174.68.188
-- name: 🏳 XX | 🟡615ms | ermaozi-214
+      Host: uae.unixzone.us
+- name: 🇺🇸 US | 🟡719ms | v2rayfree-308
   type: hysteria2
-  server: 152.32.254.68
-  port: 5010
-  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
-  sni: nas.aizhzo.com
-  obfs: salamander
-  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-- name: 🇭🇰 HK | 🟡647ms | ermaozi-215
-  type: trojan
-  server: 47.242.93.89
-  port: 12012
-  password: '12012'
-  udp: true
-  sni: ali-hk.b-gfw.cfd
+  server: 194.87.224.137
+  port: 14443
+  password: lvu_3390f238bef4e3058ac47c87473755cf_07cd5acf7265adf5c1210040ca46facf:np2.1.HJjJucZ0-OZZUq5Njkl48v1gYx7ol9rXjxYXZUxrQdM
+  sni: n37.neproxy.net
   skip-cert-verify: true
-- name: 🇩🇪 DE | 🟡697ms | ermaozi-216
+- name: 🇺🇸 US | 🟡722ms | ermaozi-309
+  type: vless
+  server: e293c7t.us3.h1clayd.click
+  port: 443
+  uuid: e894c08a-fecc-46f5-bf03-c95d0274c79d
+  udp: true
+  tls: true
+  servername: e293c7t.us3.h1clayd.click
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: cEapNjAtrnPz_dCSziCJVvXJf2Mq_FtY5UabpQFmI0w
+    short-id: 449f801b009f33f4
+  flow: xtls-rprx-vision
+  network: tcp
+- name: 🇻🇳 VN | 🟡725ms | ermaozi-310
+  type: vless
+  server: 150.95.109.109
+  port: 2086
+  uuid: b83faafc-cbb7-4655-99d4-2c4c39a49d1b
+  udp: true
+  network: tcp
+- name: 🇬🇧 GB | 🟡739ms | ermaozi-311
   type: ss
-  server: 47.254.128.109
+  server: waic.pro.main.sys-metric-report.com
+  port: 28014
+  cipher: chacha20-ietf-poly1305
+  password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
+  udp: true
+- name: 🇩🇪 DE | 🟡758ms | v2rayfree-312
+  type: hysteria2
+  server: 4f070970.con.metricdraft.tech
+  port: 443
+  password: 030e421e-9317-4cb8-8fbe-a07a565ad3db
+  sni: 4f070970.con.metricdraft.tech
+- name: 🇩🇪 DE | 🟠865ms | mahdibland-313
+  type: ss
+  server: 213.202.208.199
+  port: 7001
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+  udp: true
+- name: 🏳 XX | 🟠910ms | v2rayfree-314
+  type: hysteria2
+  server: 194.87.224.137
+  port: 15443
+  password: lvu_3390f238bef4e3058ac47c87473755cf_07cd5acf7265adf5c1210040ca46facf:np2.1.HJjJucZ0-OZZUq5Njkl48v1gYx7ol9rXjxYXZUxrQdM
+  sni: n9.neproxy.net
+- name: 🇩🇪 DE | 🟠912ms | v2rayfree-315
+  type: vless
+  server: 188.225.33.67
+  port: 443
+  uuid: b432a23a-acff-425c-bf69-70480cd6ed09
+  udp: true
+  tls: true
+  servername: e2.cdnwh.icu
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /stream/segment/3078a41dd7eb/
+    headers:
+      Host: e2.cdnwh.icu
+- name: 🇩🇪 DE | 🟠983ms | ermaozi-316
+  type: ss
+  server: 47.254.167.157
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-- name: 🇫🇷 FR | 🟡709ms | v2rayfree-217
+- name: 🇬🇧 GB | 🟠1092ms | ermaozi-317
   type: vless
-  server: 213.183.45.23
-  port: 8454
-  uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
+  server: 136.148.83.71
+  port: 443
+  uuid: 00000000-0000-0001-0000-000000000000
   udp: true
   tls: true
-  servername: store.plumstatic.com
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /ws
-- name: 🇭🇰 HK | 🟡714ms | ermaozi-218
-  type: vmess
-  server: 47.244.120.197
-  port: 23026
-  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /arki
-    headers:
-      Host: 47.244.120.197
-- name: 🇭🇰 HK | 🟡726ms | ermaozi-219
-  type: vmess
-  server: 47.244.120.197
-  port: 44867
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /arki
-    headers:
-      Host: 47.244.120.197
-- name: 🇸🇬 SG | 🟡729ms | ermaozi-220
+  servername: wccfu-ru-79dc.my-fade.cloud
+  client-fingerprint: qq
+  network: tcp
+- name: 🏳 XX | 🟠1191ms | v2rayfree-318
   type: vless
-  server: vl-x2.qz10086.top
-  port: 37998
-  uuid: d235ad20-8f30-441e-871e-ee2695e4c430
+  server: 13.141.36.43
+  port: 443
+  uuid: e894c08a-fecc-46f5-bf03-c95d0274c79d
   udp: true
   tls: true
-  servername: www.apple.com
-  client-fingerprint: firefox
+  servername: 6bf329t.nl18.h1clayd.click
+  client-fingerprint: chrome
   reality-opts:
-    public-key: j7lihAdLvNKWg67WMGQsRSM8WFbaUK5dAi7D2R7iXHM
-    short-id: d5a01375
+    public-key: p35RUaaaItuoyNiCrLpGeStBUpEJMSiZ2AajdfhhmiM
+    short-id: 92aee92130b46fe2
   flow: xtls-rprx-vision
   network: tcp
-- name: 🇯🇵 JP | 🟡734ms | mahdibland-221
-  type: vmess
-  server: 168.110.63.247
-  port: 8081
-  uuid: c3bde296-8e44-4b8c-a325-577d5b3cc7c8
-  alterId: 0
-  cipher: auto
+- name: 🇯🇵 JP | 🟠1279ms | mfuu-319
+  type: ss
+  server: 8.211.129.80
+  port: 5555
+  cipher: aes-256-gcm
+  password: '123456'
   udp: true
-  network: ws
-  ws-opts:
-    path: /vless
-- name: 🏳 XX | 🟡765ms | ermaozi-222
+- name: 🇷🇺 RU | 🟠1323ms | ermaozi-320
   type: vless
   server: xssite.webredirect.org
   port: 443
@@ -1750,127 +2467,8 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-ru
-- name: 🇰🇷 KR | 🟡792ms | nomorewalls-223
-  type: vless
-  server: 152.69.226.63
-  port: 25555
-  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇭🇰 HK | 🟠820ms | ermaozi-224
-  type: vless
-  server: vl-x2.qz10086.top
-  port: 38101
-  uuid: d235ad20-8f30-441e-871e-ee2695e4c430
-  udp: true
-  tls: true
-  servername: www.apple.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: j7lihAdLvNKWg67WMGQsRSM8WFbaUK5dAi7D2R7iXHM
-    short-id: d5a01375
-  flow: xtls-rprx-vision
-  network: tcp
-- name: 🇻🇳 VN | 🟠865ms | ermaozi-225
-  type: vless
-  server: 150.95.109.109
-  port: 2086
-  uuid: b83faafc-cbb7-4655-99d4-2c4c39a49d1b
-  udp: true
-  network: tcp
-- name: 🇱🇻 LV | 🟠915ms | ermaozi-226
-  type: vless
-  server: 213.183.45.23
-  port: 8450
-  uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
-  udp: true
-  tls: true
-  servername: fonts.plumstatic.com
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /ws
-- name: 🇯🇵 JP | 🟠924ms | ermaozi-227
-  type: vless
-  server: vl-x2.qz10086.top
-  port: 38105
-  uuid: d235ad20-8f30-441e-871e-ee2695e4c430
-  udp: true
-  tls: true
-  servername: www.apple.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: y0p1yI8OoWqcOE4XEv7ueudaSOOc5UIb5yFyA3SstD8
-    short-id: 7e7e8c23
-  flow: xtls-rprx-vision
-  network: tcp
-- name: 🇰🇷 KR | 🟠1007ms | ermaozi-228
-  type: vless
-  server: ifdmbpb.kdns.fr
-  port: 443
-  uuid: 9a600801-e889-4705-9adb-bf9aeb366fc7
-  udp: true
-  tls: true
-  servername: ifdmbpb.kdns.fr
-  client-fingerprint: chrome
-  network: tcp
-- name: 🇭🇰 HK | 🟠1121ms | ermaozi-229
-  type: hysteria2
-  server: 23.141.172.229
-  port: 50541
-  password: ePPsH1bMFD
-  sni: is1-ssl.mzstatic.com
-  skip-cert-verify: true
-- name: 🇳🇱 NL | 🟠1142ms | ermaozi-230
-  type: vless
-  server: 8a2e72t.nl20.h1clayd.shop
-  port: 443
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  udp: true
-  tls: true
-  servername: 8a2e72t.nl20.h1clayd.shop
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
-    short-id: 8d0d0679f42ffd98
-  flow: xtls-rprx-vision
-  network: tcp
-- name: 🇮🇳 IN | 🟠1271ms | ermaozi-231
-  type: vless
-  server: 13.140.56.100
-  port: 14430
-  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
-  udp: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 13.140.56.100
-- name: 🏳 XX | 🟠1343ms | ermaozi-232
-  type: trojan
-  server: 208.69.78.33
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: courses.yourultimateprofessionalcareerhub.com
-- name: 🇺🇸 US | 🟠1361ms | mahdibland-yaml-233
-  server: 38.11.69.48
-  port: 30004
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /path/1698843555400
-    headers:
-      Host: www.83761815.xyz
 - type: vless
-  name: 🇮🇱 IL | 🟠1439ms | sunmiao-yaml-234
+  name: 🇮🇱 IL | 🔴1575ms | sunmiao-yaml-321
   server: 136.148.208.221
   port: 443
   uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
@@ -1884,16 +2482,9 @@ proxies:
   reality-opts:
     public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
     short-id: 8d0d0679f42ffd98
-- name: 🇨🇦 CA | 🟠1465ms | ermaozi-235
-  type: ss
-  server: 51.222.136.236
-  port: 8882
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: 🏳 XX | 🔴1854ms | mahdibland-236
+- name: 🏳 XX | 🔴1750ms | ermaozi-322
   type: vmess
-  server: 104.18.0.1
+  server: 104.17.77.77
   port: 8443
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   alterId: 0
@@ -1906,59 +2497,7 @@ proxies:
     path: /lMnsZUN4/
     headers:
       Host: v2ray1.dozapp.xyz
-- name: 🏳 XX | 🔴1937ms | ermaozi-237
-  type: vless
-  server: 178.172.227.124
-  port: 10443
-  uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
-  udp: true
-  network: tcp
-- name: 🏳 XX | 🔴1990ms | ermaozi-238
-  type: vless
-  server: 178.172.227.228
-  port: 14430
-  uuid: b6e5dc56-836f-48c1-9163-b0b0b43b647d
-  udp: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 178.172.227.228
-- name: 🏳 XX | 🔴2133ms | v2rayfree-239
-  type: vless
-  server: 71b840t.de7.h1clayd.click
-  port: 443
-  uuid: 26843758-24de-4f76-b5d0-624038e353c4
-  udp: true
-  tls: true
-  servername: 71b840t.de7.h1clayd.click
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 3wFF83gtIA0sXj-6GGCAa--oQbSr0MVUj0FBc-0QmiE
-    short-id: e572b6579ea525d4
-  network: tcp
-- name: 🇰🇷 KR | 🔴2204ms | ermaozi-240
-  type: vless
-  server: krd.80782636.xyz
-  port: 443
-  uuid: db906786-8c49-4b17-9182-cea680ef954d
-  udp: true
-  tls: true
-  servername: krd.80782636.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /kw7x2mq9
-    headers:
-      Host: krd.80782636.xyz
-- name: 🇸🇬 SG | 🔴2490ms | ermaozi-241
-  type: trojan
-  server: 15.235.184.127
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: exploredigitaljobplatformandfindonlinework.com
-- name: 🏳 XX | 🔴2604ms | v2rayfree-242
+- name: 🇳🇱 NL | 🔴1865ms | ermaozi-323
   type: vless
   server: 196.196.148.76
   port: 443
@@ -1972,980 +2511,1201 @@ proxies:
     short-id: 8d0d0679f42ffd98
   flow: xtls-rprx-vision
   network: tcp
-- name: 🇦🇪 AE | 🔴2709ms | ermaozi-243
-  type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+- name: 🇨🇦 CA | 🔴1878ms | ermaozi-324
+  type: ss
+  server: 51.222.155.113
+  port: 5601
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
   udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- type: vless
-  name: 🇳🇱 NL | 🔴2922ms | sunmiao-yaml-244
-  server: 196.245.52.183
-  port: 443
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+- name: 🇨🇦 CA | 🔴2414ms | ermaozi-325
+  type: ss
+  server: 51.79.85.185
+  port: 8118
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
   udp: true
-  tls: true
-  servername: e60833x.nl7.h1clayd.click
-  sni: e60833x.nl7.h1clayd.click
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: jIRVNEf9SpuWP2nJrAbHGGIUnfzOmwZZlrNGw-Y-O2Q
-    short-id: 2d2598d60447a967
-  network: xhttp
-  xhttp-opts:
-    path: /d20896a4ce30
-    mode: auto
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇬🇧 GB
+  - 🇯🇵 JP
   - 🇺🇸 US
+  - 🇬🇧 GB
   - 🏳 XX
+  - 🇳🇱 NL
   - 🇩🇪 DE
   - 🇪🇸 ES
-  - 🇳🇱 NL
-  - 🇫🇷 FR
-  - 🇯🇵 JP
-  - 🇨🇦 CA
   - 🇸🇬 SG
+  - 🇨🇦 CA
+  - 🇫🇷 FR
+  - 🇷🇺 RU
   - 🇭🇰 HK
+  - 🇨🇭 CH
   - 🇰🇷 KR
-  - 🇵🇱 PL
+  - 🇸🇪 SE
   - 🇦🇪 AE
   - 🇦🇹 AT
   - 🇦🇺 AU
+  - 🇧🇾 BY
+  - 🇪🇪 EE
   - 🇮🇹 IT
-  - 🇷🇺 RU
-  - 🇸🇪 SE
   - 🇿🇦 ZA
-  - 🇨🇭 CH
-  - 🇫🇮 FI
+  - 🇦🇱 AL
   - 🇮🇱 IL
   - 🇮🇳 IN
-  - 🇱🇻 LV
-  - 🇳🇴 NO
   - 🇹🇷 TR
   - 🇻🇳 VN
-  - 🇺🇸 US | 🟢16ms | mahdibland-001
-  - 🏳 XX | 🟢18ms | ermaozi-002
-  - 🏳 XX | 🟢19ms | ermaozi-003
-  - 🏳 XX | 🟢20ms | ermaozi-004
-  - 🇺🇸 US | 🟢25ms | mahdibland-005
-  - 🇺🇸 US | 🟢26ms | mahdibland-006
-  - 🇺🇸 US | 🟢26ms | mahdibland-007
-  - 🇺🇸 US | 🟢27ms | mahdibland-008
-  - 🇺🇸 US | 🟢27ms | mahdibland-009
-  - 🇺🇸 US | 🟢31ms | mahdibland-010
-  - 🇺🇸 US | 🟢32ms | mahdibland-011
-  - 🇺🇸 US | 🟢32ms | mahdibland-012
-  - 🇺🇸 US | 🟢37ms | mahdibland-013
-  - 🇺🇸 US | 🟢37ms | mahdibland-014
-  - 🇺🇸 US | 🟢38ms | mahdibland-015
-  - 🇺🇸 US | 🟢38ms | mahdibland-016
-  - 🇨🇦 CA | 🟢40ms | ermaozi-017
-  - 🇺🇸 US | 🟢42ms | mahdibland-018
-  - 🇨🇦 CA | 🟢43ms | ermaozi-019
-  - 🇺🇸 US | 🟢59ms | mahdibland-020
-  - 🏳 XX | 🟢62ms | nomorewalls-021
-  - 🇸🇬 SG | 🟢63ms | ermaozi-022
-  - 🇨🇦 CA | 🟢63ms | mahdibland-023
-  - 🇺🇸 US | 🟢65ms | mahdibland-024
-  - 🇺🇸 US | 🟢70ms | ermaozi-025
-  - 🇺🇸 US | 🟢76ms | mahdibland-026
-  - 🇺🇸 US | 🟢79ms | mahdibland-027
-  - 🇺🇸 US | 🟢80ms | mahdibland-028
-  - 🇨🇦 CA | 🟢85ms | ermaozi-029
-  - 🇨🇦 CA | 🟢87ms | ermaozi-030
-  - 🇺🇸 US | 🟢107ms | mahdibland-031
-  - 🇺🇸 US | 🟢123ms | mahdibland-032
-  - 🇺🇸 US | 🟢124ms | mahdibland-033
-  - 🇺🇸 US | 🟢125ms | mahdibland-034
-  - 🇺🇸 US | 🟢130ms | mahdibland-035
-  - 🇺🇸 US | 🟢131ms | mahdibland-036
-  - 🇺🇸 US | 🟢133ms | mahdibland-037
-  - 🇺🇸 US | 🟢135ms | mahdibland-038
-  - 🇺🇸 US | 🟢153ms | mahdibland-039
-  - 🇨🇦 CA | 🟢154ms | mahdibland-040
-  - 🇺🇸 US | 🟢156ms | mahdibland-041
-  - 🇺🇸 US | 🟢161ms | mahdibland-042
-  - 🇬🇧 GB | 🟢164ms | ermaozi-043
-  - 🇬🇧 GB | 🟢164ms | ermaozi-044
-  - 🇪🇸 ES | 🟢164ms | mahdibland-045
-  - 🇪🇸 ES | 🟢164ms | mahdibland-046
-  - 🇪🇸 ES | 🟢165ms | mahdibland-047
-  - 🇪🇸 ES | 🟢166ms | mahdibland-048
-  - 🇪🇸 ES | 🟢167ms | mahdibland-049
-  - 🇺🇸 US | 🟢168ms | mahdibland-050
-  - 🇺🇸 US | 🟢168ms | mahdibland-051
-  - 🇪🇸 ES | 🟢168ms | mahdibland-052
-  - 🇳🇱 NL | 🟢171ms | ermaozi-053
-  - 🇺🇸 US | 🟢171ms | mahdibland-054
-  - 🇺🇸 US | 🟢173ms | mahdibland-055
-  - 🇳🇱 NL | 🟢176ms | ermaozi-056
-  - 🇨🇦 CA | 🟢177ms | ermaozi-057
-  - 🇺🇸 US | 🟢177ms | mahdibland-058
-  - 🇬🇧 GB | 🟢181ms | ermaozi-059
-  - 🇳🇱 NL | 🟢181ms | mahdibland-060
-  - 🇬🇧 GB | 🟢182ms | ermaozi-061
-  - 🇪🇸 ES | 🟢184ms | mahdibland-062
-  - 🇬🇧 GB | 🟢185ms | ermaozi-063
-  - 🇺🇸 US | 🟢185ms | mahdibland-064
-  - 🇬🇧 GB | 🟢187ms | ermaozi-065
-  - 🇳🇱 NL | 🟢187ms | mahdibland-066
-  - 🇬🇧 GB | 🟢187ms | mahdibland-067
-  - 🇺🇸 US | 🟢188ms | ermaozi-068
-  - 🇳🇱 NL | 🟢191ms | ermaozi-069
-  - 🇬🇧 GB | 🟢192ms | ermaozi-070
-  - 🇬🇧 GB | 🟢193ms | ermaozi-071
-  - 🇬🇧 GB | 🟢193ms | mahdibland-072
-  - 🇬🇧 GB | 🟢193ms | mahdibland-073
-  - 🇪🇸 ES | 🟢193ms | mahdibland-074
-  - 🇦🇺 AU | 🟢193ms | mahdibland-075
-  - 🇩🇪 DE | 🟢195ms | ermaozi-076
-  - 🇫🇷 FR | 🟢196ms | ermaozi-077
-  - 🇦🇺 AU | 🟢196ms | mahdibland-078
-  - 🇺🇸 US | 🟢200ms | ermaozi-079
-  - 🇫🇷 FR | 🟢201ms | ermaozi-080
-  - 🇫🇷 FR | 🟢202ms | ermaozi-081
-  - 🇬🇧 GB | 🟢202ms | mahdibland-082
-  - 🇳🇱 NL | 🟢203ms | mahdibland-083
-  - 🇳🇱 NL | 🟢203ms | mahdibland-084
-  - 🇬🇧 GB | 🟢203ms | mahdibland-085
-  - 🇬🇧 GB | 🟢204ms | mahdibland-086
-  - 🇬🇧 GB | 🟢204ms | mahdibland-087
-  - 🇬🇧 GB | 🟢204ms | mahdibland-088
-  - 🇬🇧 GB | 🟢204ms | mahdibland-089
-  - 🇬🇧 GB | 🟢204ms | mahdibland-090
-  - 🇫🇷 FR | 🟢205ms | ermaozi-091
-  - 🇬🇧 GB | 🟢205ms | mahdibland-092
-  - 🇬🇧 GB | 🟢205ms | mahdibland-093
-  - 🇬🇧 GB | 🟢205ms | mahdibland-094
-  - 🇬🇧 GB | 🟢205ms | mahdibland-095
-  - 🇬🇧 GB | 🟢206ms | mahdibland-096
-  - 🇬🇧 GB | 🟢206ms | mahdibland-097
-  - 🇬🇧 GB | 🟢207ms | mahdibland-098
-  - 🇫🇷 FR | 🟢208ms | ermaozi-099
-  - 🇮🇹 IT | 🟢208ms | ermaozi-100
-  - 🇬🇧 GB | 🟢208ms | mahdibland-101
-  - 🏳 XX | 🟢209ms | v2rayfree-102
-  - 🇩🇪 DE | 🟢209ms | v2rayfree-103
-  - 🇺🇸 US | 🟢209ms | ermaozi-104
-  - 🇬🇧 GB | 🟢209ms | mahdibland-105
-  - 🇳🇱 NL | 🟢209ms | mahdibland-106
-  - 🇬🇧 GB | 🟢209ms | mahdibland-107
-  - 🇪🇸 ES | 🟢209ms | mahdibland-108
-  - 🇬🇧 GB | 🟢209ms | mahdibland-109
-  - 🏳 XX | 🟢210ms | v2rayfree-110
-  - 🏳 XX | 🟢210ms | v2rayfree-111
-  - 🇩🇪 DE | 🟢210ms | v2rayfree-112
-  - 🇨🇭 CH | 🟢210ms | ermaozi-113
-  - 🇩🇪 DE | 🟢210ms | ermaozi-114
-  - 🇬🇧 GB | 🟢210ms | mahdibland-115
-  - 🇬🇧 GB | 🟢210ms | mahdibland-116
-  - 🇬🇧 GB | 🟢210ms | mahdibland-117
-  - 🇬🇧 GB | 🟢210ms | mahdibland-118
-  - 🇬🇧 GB | 🟢211ms | mahdibland-119
-  - 🇬🇧 GB | 🟢211ms | mahdibland-120
-  - 🇬🇧 GB | 🟢211ms | mahdibland-121
-  - 🇬🇧 GB | 🟢211ms | mahdibland-122
-  - 🇬🇧 GB | 🟢211ms | mahdibland-123
-  - 🇬🇧 GB | 🟢211ms | mahdibland-124
-  - 🇬🇧 GB | 🟢211ms | mahdibland-125
-  - 🇪🇸 ES | 🟢211ms | mahdibland-126
-  - 🇬🇧 GB | 🟢212ms | mahdibland-127
-  - 🇬🇧 GB | 🟢212ms | mahdibland-128
-  - 🇬🇧 GB | 🟢212ms | mahdibland-129
-  - 🇬🇧 GB | 🟢213ms | mahdibland-130
-  - 🇩🇪 DE | 🟢214ms | ermaozi-131
-  - 🇫🇷 FR | 🟢214ms | ermaozi-132
-  - 🏳 XX | 🟢215ms | ermaozi-133
-  - 🇮🇹 IT | 🟢216ms | ermaozi-134
-  - 🏳 XX | 🟢217ms | v2rayfree-135
-  - 🏳 XX | 🟢217ms | v2rayfree-136
-  - 🇩🇪 DE | 🟢218ms | v2rayfree-137
-  - 🇩🇪 DE | 🟢218ms | v2rayfree-138
-  - 🇬🇧 GB | 🟢218ms | mahdibland-139
-  - 🏳 XX | 🟢219ms | ermaozi-140
-  - 🇪🇸 ES | 🟢220ms | mahdibland-141
-  - 🇪🇸 ES | 🟢221ms | mahdibland-142
-  - 🇵🇱 PL | 🟢223ms | mahdibland-143
-  - 🇵🇱 PL | 🟢224ms | mahdibland-144
-  - 🏳 XX | 🟢229ms | v2rayfree-145
-  - 🇪🇸 ES | 🟢229ms | ermaozi-146
-  - 🇵🇱 PL | 🟢229ms | mahdibland-147
-  - 🇦🇹 AT | 🟢230ms | ermaozi-148
-  - 🇩🇪 DE | 🟢231ms | ermaozi-149
-  - 🇸🇪 SE | 🟢233ms | ermaozi-150
-  - 🇺🇸 US | 🟢236ms | mahdibland-151
-  - 🇦🇹 AT | 🟢237ms | ermaozi-152
-  - 🇺🇸 US | 🟢241ms | v2rayfree-153
-  - 🇵🇱 PL | 🟢241ms | mahdibland-154
-  - 🏳 XX | 🟢244ms | v2rayfree-155
-  - 🇺🇸 US | 🟢245ms | mahdibland-156
-  - 🇩🇪 DE | 🟢248ms | ermaozi-157
-  - 🇳🇱 NL | 🟢259ms | ermaozi-158
-  - 🇳🇱 NL | 🟢261ms | ermaozi-159
-  - 🇵🇱 PL | 🟢261ms | mahdibland-160
-  - 🇫🇷 FR | 🟢276ms | ermaozi-161
-  - 🏳 XX | 🟢279ms | ermaozi-162
-  - 🏳 XX | 🟢280ms | ermaozi-163
-  - 🇩🇪 DE | 🟢283ms | v2rayfree-164
-  - 🇷🇺 RU | 🟢283ms | ermaozi-165
-  - 🏳 XX | 🟢285ms | ermaozi-166
-  - 🇬🇧 GB | 🟢285ms | ermaozi-167
-  - 🇩🇪 DE | 🟢294ms | ermaozi-168
-  - 🇫🇮 FI | 🟢299ms | ermaozi-169
-  - 🇯🇵 JP | 🟡309ms | ermaozi-170
-  - 🇯🇵 JP | 🟡309ms | mahdibland-171
-  - 🇯🇵 JP | 🟡310ms | ermaozi-172
-  - 🇯🇵 JP | 🟡310ms | ermaozi-173
-  - 🇩🇪 DE | 🟡313ms | v2rayfree-174
-  - 🇯🇵 JP | 🟡314ms | mahdibland-175
-  - 🇬🇧 GB | 🟡315ms | zhuhaiuk-yaml-176
-  - 🇫🇷 FR | 🟡324ms | ermaozi-177
-  - 🏳 XX | 🟡325ms | sunmiao-yaml-178
-  - 🏳 XX | 🟡335ms | ermaozi-179
-  - 🏳 XX | 🟡357ms | ermaozi-180
-  - 🇬🇧 GB | 🟡381ms | ermaozi-181
-  - 🏳 XX | 🟡382ms | ermaozi-182
-  - 🏳 XX | 🟡385ms | ermaozi-183
-  - 🇺🇸 US | 🟡395ms | v2rayfree-184
-  - 🇺🇸 US | 🟡395ms | ermaozi-185
-  - 🏳 XX | 🟡397ms | ermaozi-186
-  - 🇺🇸 US | 🟡425ms | ermaozi-187
-  - 🇿🇦 ZA | 🟡434ms | ermaozi-188
-  - 🇿🇦 ZA | 🟡436ms | ermaozi-189
-  - 🇺🇸 US | 🟡442ms | ermaozi-190
-  - 🇺🇸 US | 🟡447ms | ermaozi-191
-  - 🏳 XX | 🟡449ms | ermaozi-192
-  - 🇹🇷 TR | 🟡451ms | ermaozi-193
-  - 🏳 XX | 🟡455ms | ermaozi-194
-  - 🇸🇬 SG | 🟡455ms | ermaozi-195
-  - 🇸🇬 SG | 🟡455ms | mahdibland-196
-  - 🇬🇧 GB | 🟡455ms | zhuhaiuk-197
-  - 🇸🇬 SG | 🟡457ms | ermaozi-198
-  - 🇸🇬 SG | 🟡459ms | ermaozi-199
-  - 🇸🇬 SG | 🟡460ms | ermaozi-200
-  - 🇬🇧 GB | 🟡460ms | ermaozi-201
-  - 🇰🇷 KR | 🟡462ms | mahdibland-202
-  - 🇰🇷 KR | 🟡465ms | mahdibland-203
-  - 🇯🇵 JP | 🟡467ms | ermaozi-204
-  - 🇯🇵 JP | 🟡477ms | ermaozi-205
-  - 🇳🇴 NO | 🟡488ms | ermaozi-206
-  - 🇬🇧 GB | 🟡507ms | ermaozi-207
-  - 🇩🇪 DE | 🟡526ms | ermaozi-208
-  - 🇩🇪 DE | 🟡529ms | ermaozi-209
-  - 🇸🇪 SE | 🟡534ms | ermaozi-210
-  - 🇷🇺 RU | 🟡551ms | ermaozi-211
-  - 🇪🇸 ES | 🟡572ms | ermaozi-212
-  - 🇦🇪 AE | 🟡601ms | ermaozi-213
-  - 🏳 XX | 🟡615ms | ermaozi-214
-  - 🇭🇰 HK | 🟡647ms | ermaozi-215
-  - 🇩🇪 DE | 🟡697ms | ermaozi-216
-  - 🇫🇷 FR | 🟡709ms | v2rayfree-217
-  - 🇭🇰 HK | 🟡714ms | ermaozi-218
-  - 🇭🇰 HK | 🟡726ms | ermaozi-219
-  - 🇸🇬 SG | 🟡729ms | ermaozi-220
-  - 🇯🇵 JP | 🟡734ms | mahdibland-221
-  - 🏳 XX | 🟡765ms | ermaozi-222
-  - 🇰🇷 KR | 🟡792ms | nomorewalls-223
-  - 🇭🇰 HK | 🟠820ms | ermaozi-224
-  - 🇻🇳 VN | 🟠865ms | ermaozi-225
-  - 🇱🇻 LV | 🟠915ms | ermaozi-226
-  - 🇯🇵 JP | 🟠924ms | ermaozi-227
-  - 🇰🇷 KR | 🟠1007ms | ermaozi-228
-  - 🇭🇰 HK | 🟠1121ms | ermaozi-229
-  - 🇳🇱 NL | 🟠1142ms | ermaozi-230
-  - 🇮🇳 IN | 🟠1271ms | ermaozi-231
-  - 🏳 XX | 🟠1343ms | ermaozi-232
-  - 🇺🇸 US | 🟠1361ms | mahdibland-yaml-233
-  - 🇮🇱 IL | 🟠1439ms | sunmiao-yaml-234
-  - 🇨🇦 CA | 🟠1465ms | ermaozi-235
-  - 🏳 XX | 🔴1854ms | mahdibland-236
-  - 🏳 XX | 🔴1937ms | ermaozi-237
-  - 🏳 XX | 🔴1990ms | ermaozi-238
-  - 🏳 XX | 🔴2133ms | v2rayfree-239
-  - 🇰🇷 KR | 🔴2204ms | ermaozi-240
-  - 🇸🇬 SG | 🔴2490ms | ermaozi-241
-  - 🏳 XX | 🔴2604ms | v2rayfree-242
-  - 🇦🇪 AE | 🔴2709ms | ermaozi-243
-  - 🇳🇱 NL | 🔴2922ms | sunmiao-yaml-244
+  - 🇺🇸 US | 🟢5ms | mahdibland-001
+  - 🇺🇸 US | 🟢7ms | mahdibland-002
+  - 🇺🇸 US | 🟢13ms | ermaozi-003
+  - 🇺🇸 US | 🟢23ms | mahdibland-004
+  - 🇸🇬 SG | 🟢34ms | ermaozi-005
+  - 🇨🇦 CA | 🟢34ms | ermaozi-006
+  - 🇦🇺 AU | 🟢40ms | mahdibland-007
+  - 🇦🇺 AU | 🟢47ms | mahdibland-008
+  - 🇺🇸 US | 🟢50ms | mahdibland-009
+  - 🇺🇸 US | 🟢51ms | mahdibland-010
+  - 🇺🇸 US | 🟢58ms | mahdibland-011
+  - 🇨🇦 CA | 🟢61ms | mahdibland-012
+  - 🇺🇸 US | 🟢64ms | v2rayfree-013
+  - 🇸🇬 SG | 🟢78ms | ermaozi-014
+  - 🇺🇸 US | 🟢81ms | ermaozi-015
+  - 🇺🇸 US | 🟢82ms | mahdibland-016
+  - 🇺🇸 US | 🟢83ms | mahdibland-017
+  - 🏳 XX | 🟢86ms | v2rayfree-018
+  - 🇺🇸 US | 🟢86ms | mahdibland-019
+  - 🇺🇸 US | 🟢99ms | ermaozi-020
+  - 🇺🇸 US | 🟢104ms | mahdibland-021
+  - 🇺🇸 US | 🟢105ms | v2rayfree-022
+  - 🇺🇸 US | 🟢107ms | v2rayfree-023
+  - 🇺🇸 US | 🟢107ms | mahdibland-024
+  - 🇺🇸 US | 🟢113ms | mahdibland-025
+  - 🇺🇸 US | 🟢114ms | mahdibland-026
+  - 🇺🇸 US | 🟢114ms | mahdibland-027
+  - 🇺🇸 US | 🟢131ms | mahdibland-028
+  - 🇺🇸 US | 🟢131ms | mahdibland-029
+  - 🇺🇸 US | 🟢132ms | mahdibland-030
+  - 🇺🇸 US | 🟢133ms | mahdibland-031
+  - 🇺🇸 US | 🟢133ms | mahdibland-032
+  - 🇺🇸 US | 🟢134ms | mahdibland-033
+  - 🇨🇦 CA | 🟢136ms | ermaozi-034
+  - 🇺🇸 US | 🟢137ms | mahdibland-035
+  - 🇺🇸 US | 🟢138ms | mahdibland-036
+  - 🇨🇦 CA | 🟢139ms | ermaozi-037
+  - 🇺🇸 US | 🟢139ms | mahdibland-038
+  - 🇺🇸 US | 🟢141ms | ermaozi-039
+  - 🇺🇸 US | 🟢150ms | mahdibland-040
+  - 🇺🇸 US | 🟢152ms | mahdibland-041
+  - 🇺🇸 US | 🟢152ms | mahdibland-042
+  - 🇨🇦 CA | 🟢160ms | mahdibland-043
+  - 🏳 XX | 🟢179ms | ermaozi-044
+  - 🇨🇦 CA | 🟢184ms | mahdibland-045
+  - 🇺🇸 US | 🟢188ms | mahdibland-046
+  - 🇺🇸 US | 🟢201ms | mahdibland-047
+  - 🇺🇸 US | 🟢201ms | mahdibland-048
+  - 🇺🇸 US | 🟢201ms | mahdibland-049
+  - 🇺🇸 US | 🟢203ms | mahdibland-050
+  - 🇺🇸 US | 🟢209ms | mahdibland-051
+  - 🇺🇸 US | 🟢209ms | mahdibland-052
+  - 🇺🇸 US | 🟢210ms | mahdibland-053
+  - 🇯🇵 JP | 🟢212ms | ermaozi-054
+  - 🇯🇵 JP | 🟢213ms | ermaozi-055
+  - 🇯🇵 JP | 🟢213ms | ermaozi-056
+  - 🇺🇸 US | 🟢214ms | mahdibland-057
+  - 🇺🇸 US | 🟢215ms | mahdibland-058
+  - 🇯🇵 JP | 🟢215ms | mahdibland-059
+  - 🇯🇵 JP | 🟢216ms | mahdibland-060
+  - 🇺🇸 US | 🟢217ms | ermaozi-061
+  - 🇯🇵 JP | 🟢217ms | mfuu-062
+  - 🇯🇵 JP | 🟢217ms | mfuu-063
+  - 🇯🇵 JP | 🟢217ms | mfuu-064
+  - 🇯🇵 JP | 🟢217ms | mfuu-065
+  - 🇯🇵 JP | 🟢217ms | mfuu-066
+  - 🇯🇵 JP | 🟢217ms | mfuu-067
+  - 🇯🇵 JP | 🟢217ms | mfuu-068
+  - 🇯🇵 JP | 🟢218ms | mfuu-069
+  - 🇯🇵 JP | 🟢218ms | mfuu-070
+  - 🇯🇵 JP | 🟢218ms | mfuu-071
+  - 🇯🇵 JP | 🟢218ms | mfuu-072
+  - 🇯🇵 JP | 🟢218ms | mfuu-073
+  - 🇯🇵 JP | 🟢218ms | mfuu-074
+  - 🇯🇵 JP | 🟢218ms | mfuu-075
+  - 🇯🇵 JP | 🟢218ms | mfuu-076
+  - 🇯🇵 JP | 🟢218ms | mfuu-077
+  - 🇯🇵 JP | 🟢218ms | mfuu-078
+  - 🇯🇵 JP | 🟢218ms | mfuu-079
+  - 🇯🇵 JP | 🟢218ms | mfuu-080
+  - 🇯🇵 JP | 🟢218ms | mfuu-081
+  - 🇯🇵 JP | 🟢218ms | mfuu-082
+  - 🇯🇵 JP | 🟢218ms | mfuu-083
+  - 🇯🇵 JP | 🟢218ms | mfuu-084
+  - 🇯🇵 JP | 🟢218ms | mfuu-085
+  - 🇯🇵 JP | 🟢218ms | mfuu-086
+  - 🇯🇵 JP | 🟢218ms | mfuu-087
+  - 🇯🇵 JP | 🟢218ms | mfuu-088
+  - 🇯🇵 JP | 🟢218ms | mfuu-089
+  - 🇯🇵 JP | 🟢218ms | mfuu-090
+  - 🇯🇵 JP | 🟢218ms | mfuu-091
+  - 🇯🇵 JP | 🟢218ms | mfuu-092
+  - 🇯🇵 JP | 🟢218ms | mfuu-093
+  - 🇯🇵 JP | 🟢218ms | mfuu-094
+  - 🇯🇵 JP | 🟢218ms | mfuu-095
+  - 🇯🇵 JP | 🟢219ms | mfuu-096
+  - 🇯🇵 JP | 🟢219ms | mfuu-097
+  - 🇯🇵 JP | 🟢219ms | mfuu-098
+  - 🇯🇵 JP | 🟢219ms | mfuu-099
+  - 🇯🇵 JP | 🟢219ms | mfuu-100
+  - 🇯🇵 JP | 🟢219ms | mfuu-101
+  - 🇯🇵 JP | 🟢219ms | mfuu-102
+  - 🇯🇵 JP | 🟢219ms | mfuu-103
+  - 🇯🇵 JP | 🟢219ms | mfuu-104
+  - 🇯🇵 JP | 🟢219ms | mfuu-105
+  - 🇯🇵 JP | 🟢219ms | mfuu-106
+  - 🇯🇵 JP | 🟢219ms | mfuu-107
+  - 🇯🇵 JP | 🟢219ms | mfuu-108
+  - 🇯🇵 JP | 🟢219ms | mfuu-109
+  - 🇯🇵 JP | 🟢219ms | mfuu-110
+  - 🇯🇵 JP | 🟢219ms | mfuu-111
+  - 🇯🇵 JP | 🟢219ms | mfuu-112
+  - 🇯🇵 JP | 🟢219ms | mfuu-113
+  - 🇯🇵 JP | 🟢219ms | mfuu-114
+  - 🇺🇸 US | 🟢220ms | mahdibland-115
+  - 🇯🇵 JP | 🟢220ms | mfuu-116
+  - 🇯🇵 JP | 🟢220ms | mfuu-117
+  - 🇯🇵 JP | 🟢220ms | mfuu-118
+  - 🇯🇵 JP | 🟢220ms | mfuu-119
+  - 🇯🇵 JP | 🟢220ms | mfuu-120
+  - 🇯🇵 JP | 🟢220ms | mfuu-121
+  - 🇯🇵 JP | 🟢220ms | mfuu-122
+  - 🇯🇵 JP | 🟢220ms | mfuu-123
+  - 🇯🇵 JP | 🟢220ms | mfuu-124
+  - 🇯🇵 JP | 🟢220ms | mfuu-125
+  - 🇯🇵 JP | 🟢220ms | mfuu-126
+  - 🇯🇵 JP | 🟢221ms | mfuu-127
+  - 🇯🇵 JP | 🟢221ms | mfuu-128
+  - 🇯🇵 JP | 🟢221ms | mfuu-129
+  - 🇯🇵 JP | 🟢221ms | mfuu-130
+  - 🇯🇵 JP | 🟢221ms | mfuu-131
+  - 🇯🇵 JP | 🟢222ms | mfuu-132
+  - 🇯🇵 JP | 🟢222ms | mfuu-133
+  - 🇯🇵 JP | 🟢223ms | mfuu-134
+  - 🇯🇵 JP | 🟢226ms | mfuu-135
+  - 🇯🇵 JP | 🟢226ms | mfuu-136
+  - 🇯🇵 JP | 🟢226ms | mfuu-137
+  - 🇯🇵 JP | 🟢227ms | mfuu-138
+  - 🇯🇵 JP | 🟢228ms | mfuu-139
+  - 🇯🇵 JP | 🟢229ms | mfuu-140
+  - 🇯🇵 JP | 🟢230ms | mfuu-141
+  - 🇯🇵 JP | 🟢231ms | mfuu-142
+  - 🇯🇵 JP | 🟢235ms | mfuu-143
+  - 🇺🇸 US | 🟢250ms | mahdibland-144
+  - 🇺🇸 US | 🟢261ms | mahdibland-145
+  - 🇪🇸 ES | 🟢268ms | mahdibland-146
+  - 🇪🇸 ES | 🟢268ms | mahdibland-147
+  - 🇪🇸 ES | 🟢268ms | mahdibland-148
+  - 🇪🇸 ES | 🟢269ms | mahdibland-149
+  - 🇨🇦 CA | 🟢270ms | ermaozi-150
+  - 🇪🇸 ES | 🟢270ms | mahdibland-151
+  - 🇪🇸 ES | 🟢270ms | mahdibland-152
+  - 🇪🇸 ES | 🟢271ms | mahdibland-153
+  - 🇪🇸 ES | 🟢271ms | mahdibland-154
+  - 🇪🇸 ES | 🟢272ms | mahdibland-155
+  - 🇬🇧 GB | 🟢273ms | ermaozi-156
+  - 🇬🇧 GB | 🟢274ms | ermaozi-157
+  - 🇬🇧 GB | 🟢281ms | ermaozi-158
+  - 🇬🇧 GB | 🟢287ms | ermaozi-159
+  - 🇬🇧 GB | 🟢288ms | ermaozi-160
+  - 🇳🇱 NL | 🟢288ms | ermaozi-161
+  - 🇳🇱 NL | 🟢289ms | mahdibland-162
+  - 🇳🇱 NL | 🟢294ms | ermaozi-163
+  - 🇬🇧 GB | 🟢298ms | ermaozi-164
+  - 🇳🇱 NL | 🟢299ms | mahdibland-165
+  - 🇺🇸 US | 🟢300ms | ermaozi-166
+  - 🇬🇧 GB | 🟡301ms | mahdibland-167
+  - 🇬🇧 GB | 🟡301ms | mahdibland-168
+  - 🇬🇧 GB | 🟡302ms | ermaozi-169
+  - 🇬🇧 GB | 🟡304ms | mahdibland-170
+  - 🇬🇧 GB | 🟡305ms | mahdibland-171
+  - 🇬🇧 GB | 🟡306ms | mahdibland-172
+  - 🇬🇧 GB | 🟡306ms | mahdibland-173
+  - 🇬🇧 GB | 🟡308ms | mahdibland-174
+  - 🇩🇪 DE | 🟡308ms | mfuu-yaml-175
+  - 🇳🇱 NL | 🟡310ms | ermaozi-176
+  - 🇬🇧 GB | 🟡310ms | mahdibland-177
+  - 🇬🇧 GB | 🟡310ms | mahdibland-178
+  - 🇫🇷 FR | 🟡311ms | ermaozi-179
+  - 🇳🇱 NL | 🟡311ms | ermaozi-180
+  - 🇫🇷 FR | 🟡312ms | ermaozi-181
+  - 🇳🇱 NL | 🟡312ms | ermaozi-182
+  - 🇬🇧 GB | 🟡312ms | mahdibland-183
+  - 🇬🇧 GB | 🟡312ms | mahdibland-184
+  - 🇬🇧 GB | 🟡312ms | mahdibland-185
+  - 🏳 XX | 🟡313ms | v2rayfree-186
+  - 🇬🇧 GB | 🟡313ms | mahdibland-187
+  - 🇬🇧 GB | 🟡313ms | mahdibland-188
+  - 🇩🇪 DE | 🟡314ms | ermaozi-189
+  - 🇫🇷 FR | 🟡314ms | ermaozi-190
+  - 🇫🇷 FR | 🟡314ms | ermaozi-191
+  - 🏳 XX | 🟡315ms | ermaozi-192
+  - 🇬🇧 GB | 🟡315ms | mahdibland-193
+  - 🇳🇱 NL | 🟡315ms | mahdibland-194
+  - 🏳 XX | 🟡316ms | v2rayfree-195
+  - 🇬🇧 GB | 🟡316ms | mahdibland-196
+  - 🇬🇧 GB | 🟡316ms | mahdibland-197
+  - 🇬🇧 GB | 🟡316ms | mahdibland-198
+  - 🇬🇧 GB | 🟡316ms | mahdibland-199
+  - 🇨🇭 CH | 🟡317ms | ermaozi-200
+  - 🇬🇧 GB | 🟡317ms | mahdibland-201
+  - 🇬🇧 GB | 🟡317ms | mahdibland-202
+  - 🇳🇱 NL | 🟡317ms | mahdibland-203
+  - 🇬🇧 GB | 🟡318ms | mahdibland-204
+  - 🇬🇧 GB | 🟡318ms | mahdibland-205
+  - 🇬🇧 GB | 🟡318ms | mahdibland-206
+  - 🏳 XX | 🟡319ms | v2rayfree-207
+  - 🇳🇱 NL | 🟡319ms | ermaozi-208
+  - 🇫🇷 FR | 🟡320ms | ermaozi-209
+  - 🇨🇭 CH | 🟡321ms | ermaozi-210
+  - 🇮🇹 IT | 🟡321ms | mahdibland-211
+  - 🇬🇧 GB | 🟡321ms | mahdibland-212
+  - 🏳 XX | 🟡322ms | v2rayfree-213
+  - 🏳 XX | 🟡322ms | v2rayfree-214
+  - 🇩🇪 DE | 🟡322ms | v2rayfree-215
+  - 🇳🇱 NL | 🟡322ms | ermaozi-216
+  - 🇬🇧 GB | 🟡322ms | mahdibland-217
+  - 🇬🇧 GB | 🟡322ms | mahdibland-218
+  - 🏳 XX | 🟡323ms | v2rayfree-219
+  - 🏳 XX | 🟡323ms | v2rayfree-220
+  - 🏳 XX | 🟡323ms | v2rayfree-221
+  - 🇯🇵 JP | 🟡323ms | v2rayfree-222
+  - 🇬🇧 GB | 🟡323ms | mahdibland-223
+  - 🇬🇧 GB | 🟡323ms | mahdibland-224
+  - 🇯🇵 JP | 🟡323ms | mahdibland-225
+  - 🇮🇹 IT | 🟡324ms | ermaozi-226
+  - 🇳🇱 NL | 🟡324ms | ermaozi-227
+  - 🇬🇧 GB | 🟡324ms | mahdibland-228
+  - 🇦🇹 AT | 🟡329ms | ermaozi-229
+  - 🇪🇸 ES | 🟡329ms | ermaozi-230
+  - 🇬🇧 GB | 🟡329ms | mahdibland-231
+  - 🇬🇧 GB | 🟡330ms | mahdibland-232
+  - 🇬🇧 GB | 🟡330ms | mahdibland-233
+  - 🇩🇪 DE | 🟡331ms | v2rayfree-234
+  - 🇭🇰 HK | 🟡331ms | ermaozi-235
+  - 🇬🇧 GB | 🟡331ms | mahdibland-236
+  - 🇬🇧 GB | 🟡331ms | mahdibland-237
+  - 🇯🇵 JP | 🟡332ms | ermaozi-238
+  - 🏳 XX | 🟡335ms | ermaozi-239
+  - 🇺🇸 US | 🟡335ms | mahdibland-240
+  - 🇬🇧 GB | 🟡336ms | ermaozi-241
+  - 🇸🇬 SG | 🟡339ms | ermaozi-242
+  - 🇸🇬 SG | 🟡339ms | ermaozi-243
+  - 🇸🇬 SG | 🟡339ms | mahdibland-244
+  - 🇦🇹 AT | 🟡340ms | ermaozi-245
+  - 🇸🇬 SG | 🟡341ms | ermaozi-246
+  - 🇸🇪 SE | 🟡343ms | ermaozi-247
+  - 🇸🇬 SG | 🟡344ms | ermaozi-248
+  - 🇸🇬 SG | 🟡346ms | mahdibland-249
+  - 🇪🇸 ES | 🟡358ms | ermaozi-250
+  - 🇫🇷 FR | 🟡361ms | ermaozi-251
+  - 🇳🇱 NL | 🟡362ms | mahdibland-252
+  - 🇰🇷 KR | 🟡366ms | mahdibland-253
+  - 🇰🇷 KR | 🟡369ms | mahdibland-254
+  - 🇧🇾 BY | 🟡405ms | ermaozi-255
+  - 🇸🇬 SG | 🟡405ms | ermaozi-256
+  - 🇦🇱 AL | 🟡421ms | ermaozi-257
+  - 🇯🇵 JP | 🟡421ms | mfuu-258
+  - 🏳 XX | 🟡422ms | ermaozi-259
+  - 🇳🇱 NL | 🟡423ms | ermaozi-260
+  - 🇳🇱 NL | 🟡440ms | ermaozi-261
+  - 🇳🇱 NL | 🟡440ms | ermaozi-262
+  - 🏳 XX | 🟡441ms | ermaozi-263
+  - 🇫🇷 FR | 🟡444ms | ermaozi-264
+  - 🇫🇷 FR | 🟡444ms | ermaozi-265
+  - 🇭🇰 HK | 🟡446ms | ermaozi-266
+  - 🇳🇱 NL | 🟡448ms | ermaozi-267
+  - 🇭🇰 HK | 🟡448ms | ermaozi-268
+  - 🇭🇰 HK | 🟡453ms | ermaozi-269
+  - 🇩🇪 DE | 🟡454ms | ermaozi-270
+  - 🏳 XX | 🟡456ms | ermaozi-271
+  - 🏳 XX | 🟡456ms | ermaozi-272
+  - 🇩🇪 DE | 🟡459ms | v2rayfree-273
+  - 🇰🇷 KR | 🟡461ms | ermaozi-274
+  - 🇩🇪 DE | 🟡462ms | v2rayfree-275
+  - 🇩🇪 DE | 🟡462ms | v2rayfree-276
+  - 🏳 XX | 🟡462ms | ermaozi-277
+  - 🏳 XX | 🟡469ms | sunmiao-yaml-278
+  - 🏳 XX | 🟡472ms | ermaozi-279
+  - 🏳 XX | 🟡474ms | ermaozi-280
+  - 🇩🇪 DE | 🟡485ms | ermaozi-281
+  - 🇩🇪 DE | 🟡492ms | ermaozi-282
+  - 🇨🇭 CH | 🟡501ms | ermaozi-283
+  - 🇸🇪 SE | 🟡512ms | ermaozi-284
+  - 🇸🇪 SE | 🟡521ms | ermaozi-285
+  - 🇸🇬 SG | 🟡526ms | v2rayfree-286
+  - 🇩🇪 DE | 🟡526ms | ermaozi-287
+  - 🇫🇷 FR | 🟡534ms | ermaozi-288
+  - 🇿🇦 ZA | 🟡547ms | ermaozi-289
+  - 🇿🇦 ZA | 🟡557ms | ermaozi-290
+  - 🇧🇾 BY | 🟡583ms | ermaozi-291
+  - 🇷🇺 RU | 🟡600ms | ermaozi-292
+  - 🏳 XX | 🟡607ms | ermaozi-293
+  - 🇪🇪 EE | 🟡607ms | ermaozi-294
+  - 🇪🇪 EE | 🟡607ms | ermaozi-295
+  - 🏳 XX | 🟡607ms | sunmiao-yaml-296
+  - 🏳 XX | 🟡609ms | v2rayfree-297
+  - 🇷🇺 RU | 🟡622ms | ermaozi-298
+  - 🇬🇧 GB | 🟡625ms | ermaozi-299
+  - 🇹🇷 TR | 🟡630ms | ermaozi-300
+  - 🇷🇺 RU | 🟡631ms | ermaozi-301
+  - 🇷🇺 RU | 🟡660ms | ermaozi-302
+  - 🇬🇧 GB | 🟡664ms | zhuhaiuk-303
+  - 🇮🇳 IN | 🟡678ms | ermaozi-304
+  - 🇦🇪 AE | 🟡692ms | ermaozi-305
+  - 🇩🇪 DE | 🟡696ms | ermaozi-306
+  - 🇦🇪 AE | 🟡700ms | ermaozi-307
+  - 🇺🇸 US | 🟡719ms | v2rayfree-308
+  - 🇺🇸 US | 🟡722ms | ermaozi-309
+  - 🇻🇳 VN | 🟡725ms | ermaozi-310
+  - 🇬🇧 GB | 🟡739ms | ermaozi-311
+  - 🇩🇪 DE | 🟡758ms | v2rayfree-312
+  - 🇩🇪 DE | 🟠865ms | mahdibland-313
+  - 🏳 XX | 🟠910ms | v2rayfree-314
+  - 🇩🇪 DE | 🟠912ms | v2rayfree-315
+  - 🇩🇪 DE | 🟠983ms | ermaozi-316
+  - 🇬🇧 GB | 🟠1092ms | ermaozi-317
+  - 🏳 XX | 🟠1191ms | v2rayfree-318
+  - 🇯🇵 JP | 🟠1279ms | mfuu-319
+  - 🇷🇺 RU | 🟠1323ms | ermaozi-320
+  - 🇮🇱 IL | 🔴1575ms | sunmiao-yaml-321
+  - 🏳 XX | 🔴1750ms | ermaozi-322
+  - 🇳🇱 NL | 🔴1865ms | ermaozi-323
+  - 🇨🇦 CA | 🔴1878ms | ermaozi-324
+  - 🇨🇦 CA | 🔴2414ms | ermaozi-325
 - name: ♻️ 自动选择
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - 🇺🇸 US | 🟢16ms | mahdibland-001
-  - 🏳 XX | 🟢18ms | ermaozi-002
-  - 🏳 XX | 🟢19ms | ermaozi-003
-  - 🏳 XX | 🟢20ms | ermaozi-004
-  - 🇺🇸 US | 🟢25ms | mahdibland-005
-  - 🇺🇸 US | 🟢26ms | mahdibland-006
-  - 🇺🇸 US | 🟢26ms | mahdibland-007
-  - 🇺🇸 US | 🟢27ms | mahdibland-008
-  - 🇺🇸 US | 🟢27ms | mahdibland-009
-  - 🇺🇸 US | 🟢31ms | mahdibland-010
-  - 🇺🇸 US | 🟢32ms | mahdibland-011
-  - 🇺🇸 US | 🟢32ms | mahdibland-012
-  - 🇺🇸 US | 🟢37ms | mahdibland-013
-  - 🇺🇸 US | 🟢37ms | mahdibland-014
-  - 🇺🇸 US | 🟢38ms | mahdibland-015
-  - 🇺🇸 US | 🟢38ms | mahdibland-016
-  - 🇨🇦 CA | 🟢40ms | ermaozi-017
-  - 🇺🇸 US | 🟢42ms | mahdibland-018
-  - 🇨🇦 CA | 🟢43ms | ermaozi-019
-  - 🇺🇸 US | 🟢59ms | mahdibland-020
-  - 🏳 XX | 🟢62ms | nomorewalls-021
-  - 🇸🇬 SG | 🟢63ms | ermaozi-022
-  - 🇨🇦 CA | 🟢63ms | mahdibland-023
-  - 🇺🇸 US | 🟢65ms | mahdibland-024
-  - 🇺🇸 US | 🟢70ms | ermaozi-025
-  - 🇺🇸 US | 🟢76ms | mahdibland-026
-  - 🇺🇸 US | 🟢79ms | mahdibland-027
-  - 🇺🇸 US | 🟢80ms | mahdibland-028
-  - 🇨🇦 CA | 🟢85ms | ermaozi-029
-  - 🇨🇦 CA | 🟢87ms | ermaozi-030
-  - 🇺🇸 US | 🟢107ms | mahdibland-031
-  - 🇺🇸 US | 🟢123ms | mahdibland-032
-  - 🇺🇸 US | 🟢124ms | mahdibland-033
-  - 🇺🇸 US | 🟢125ms | mahdibland-034
-  - 🇺🇸 US | 🟢130ms | mahdibland-035
-  - 🇺🇸 US | 🟢131ms | mahdibland-036
-  - 🇺🇸 US | 🟢133ms | mahdibland-037
-  - 🇺🇸 US | 🟢135ms | mahdibland-038
-  - 🇺🇸 US | 🟢153ms | mahdibland-039
-  - 🇨🇦 CA | 🟢154ms | mahdibland-040
-  - 🇺🇸 US | 🟢156ms | mahdibland-041
-  - 🇺🇸 US | 🟢161ms | mahdibland-042
-  - 🇬🇧 GB | 🟢164ms | ermaozi-043
-  - 🇬🇧 GB | 🟢164ms | ermaozi-044
-  - 🇪🇸 ES | 🟢164ms | mahdibland-045
-  - 🇪🇸 ES | 🟢164ms | mahdibland-046
-  - 🇪🇸 ES | 🟢165ms | mahdibland-047
-  - 🇪🇸 ES | 🟢166ms | mahdibland-048
-  - 🇪🇸 ES | 🟢167ms | mahdibland-049
-  - 🇺🇸 US | 🟢168ms | mahdibland-050
-  - 🇺🇸 US | 🟢168ms | mahdibland-051
-  - 🇪🇸 ES | 🟢168ms | mahdibland-052
-  - 🇳🇱 NL | 🟢171ms | ermaozi-053
-  - 🇺🇸 US | 🟢171ms | mahdibland-054
-  - 🇺🇸 US | 🟢173ms | mahdibland-055
-  - 🇳🇱 NL | 🟢176ms | ermaozi-056
-  - 🇨🇦 CA | 🟢177ms | ermaozi-057
-  - 🇺🇸 US | 🟢177ms | mahdibland-058
-  - 🇬🇧 GB | 🟢181ms | ermaozi-059
-  - 🇳🇱 NL | 🟢181ms | mahdibland-060
-  - 🇬🇧 GB | 🟢182ms | ermaozi-061
-  - 🇪🇸 ES | 🟢184ms | mahdibland-062
-  - 🇬🇧 GB | 🟢185ms | ermaozi-063
-  - 🇺🇸 US | 🟢185ms | mahdibland-064
-  - 🇬🇧 GB | 🟢187ms | ermaozi-065
-  - 🇳🇱 NL | 🟢187ms | mahdibland-066
-  - 🇬🇧 GB | 🟢187ms | mahdibland-067
-  - 🇺🇸 US | 🟢188ms | ermaozi-068
-  - 🇳🇱 NL | 🟢191ms | ermaozi-069
-  - 🇬🇧 GB | 🟢192ms | ermaozi-070
-  - 🇬🇧 GB | 🟢193ms | ermaozi-071
-  - 🇬🇧 GB | 🟢193ms | mahdibland-072
-  - 🇬🇧 GB | 🟢193ms | mahdibland-073
-  - 🇪🇸 ES | 🟢193ms | mahdibland-074
-  - 🇦🇺 AU | 🟢193ms | mahdibland-075
-  - 🇩🇪 DE | 🟢195ms | ermaozi-076
-  - 🇫🇷 FR | 🟢196ms | ermaozi-077
-  - 🇦🇺 AU | 🟢196ms | mahdibland-078
-  - 🇺🇸 US | 🟢200ms | ermaozi-079
-  - 🇫🇷 FR | 🟢201ms | ermaozi-080
-  - 🇫🇷 FR | 🟢202ms | ermaozi-081
-  - 🇬🇧 GB | 🟢202ms | mahdibland-082
-  - 🇳🇱 NL | 🟢203ms | mahdibland-083
-  - 🇳🇱 NL | 🟢203ms | mahdibland-084
-  - 🇬🇧 GB | 🟢203ms | mahdibland-085
-  - 🇬🇧 GB | 🟢204ms | mahdibland-086
-  - 🇬🇧 GB | 🟢204ms | mahdibland-087
-  - 🇬🇧 GB | 🟢204ms | mahdibland-088
-  - 🇬🇧 GB | 🟢204ms | mahdibland-089
-  - 🇬🇧 GB | 🟢204ms | mahdibland-090
-  - 🇫🇷 FR | 🟢205ms | ermaozi-091
-  - 🇬🇧 GB | 🟢205ms | mahdibland-092
-  - 🇬🇧 GB | 🟢205ms | mahdibland-093
-  - 🇬🇧 GB | 🟢205ms | mahdibland-094
-  - 🇬🇧 GB | 🟢205ms | mahdibland-095
-  - 🇬🇧 GB | 🟢206ms | mahdibland-096
-  - 🇬🇧 GB | 🟢206ms | mahdibland-097
-  - 🇬🇧 GB | 🟢207ms | mahdibland-098
-  - 🇫🇷 FR | 🟢208ms | ermaozi-099
-  - 🇮🇹 IT | 🟢208ms | ermaozi-100
-  - 🇬🇧 GB | 🟢208ms | mahdibland-101
-  - 🏳 XX | 🟢209ms | v2rayfree-102
-  - 🇩🇪 DE | 🟢209ms | v2rayfree-103
-  - 🇺🇸 US | 🟢209ms | ermaozi-104
-  - 🇬🇧 GB | 🟢209ms | mahdibland-105
-  - 🇳🇱 NL | 🟢209ms | mahdibland-106
-  - 🇬🇧 GB | 🟢209ms | mahdibland-107
-  - 🇪🇸 ES | 🟢209ms | mahdibland-108
-  - 🇬🇧 GB | 🟢209ms | mahdibland-109
-  - 🏳 XX | 🟢210ms | v2rayfree-110
-  - 🏳 XX | 🟢210ms | v2rayfree-111
-  - 🇩🇪 DE | 🟢210ms | v2rayfree-112
-  - 🇨🇭 CH | 🟢210ms | ermaozi-113
-  - 🇩🇪 DE | 🟢210ms | ermaozi-114
-  - 🇬🇧 GB | 🟢210ms | mahdibland-115
-  - 🇬🇧 GB | 🟢210ms | mahdibland-116
-  - 🇬🇧 GB | 🟢210ms | mahdibland-117
-  - 🇬🇧 GB | 🟢210ms | mahdibland-118
-  - 🇬🇧 GB | 🟢211ms | mahdibland-119
-  - 🇬🇧 GB | 🟢211ms | mahdibland-120
-  - 🇬🇧 GB | 🟢211ms | mahdibland-121
-  - 🇬🇧 GB | 🟢211ms | mahdibland-122
-  - 🇬🇧 GB | 🟢211ms | mahdibland-123
-  - 🇬🇧 GB | 🟢211ms | mahdibland-124
-  - 🇬🇧 GB | 🟢211ms | mahdibland-125
-  - 🇪🇸 ES | 🟢211ms | mahdibland-126
-  - 🇬🇧 GB | 🟢212ms | mahdibland-127
-  - 🇬🇧 GB | 🟢212ms | mahdibland-128
-  - 🇬🇧 GB | 🟢212ms | mahdibland-129
-  - 🇬🇧 GB | 🟢213ms | mahdibland-130
-  - 🇩🇪 DE | 🟢214ms | ermaozi-131
-  - 🇫🇷 FR | 🟢214ms | ermaozi-132
-  - 🏳 XX | 🟢215ms | ermaozi-133
-  - 🇮🇹 IT | 🟢216ms | ermaozi-134
-  - 🏳 XX | 🟢217ms | v2rayfree-135
-  - 🏳 XX | 🟢217ms | v2rayfree-136
-  - 🇩🇪 DE | 🟢218ms | v2rayfree-137
-  - 🇩🇪 DE | 🟢218ms | v2rayfree-138
-  - 🇬🇧 GB | 🟢218ms | mahdibland-139
-  - 🏳 XX | 🟢219ms | ermaozi-140
-  - 🇪🇸 ES | 🟢220ms | mahdibland-141
-  - 🇪🇸 ES | 🟢221ms | mahdibland-142
-  - 🇵🇱 PL | 🟢223ms | mahdibland-143
-  - 🇵🇱 PL | 🟢224ms | mahdibland-144
-  - 🏳 XX | 🟢229ms | v2rayfree-145
-  - 🇪🇸 ES | 🟢229ms | ermaozi-146
-  - 🇵🇱 PL | 🟢229ms | mahdibland-147
-  - 🇦🇹 AT | 🟢230ms | ermaozi-148
-  - 🇩🇪 DE | 🟢231ms | ermaozi-149
-  - 🇸🇪 SE | 🟢233ms | ermaozi-150
-  - 🇺🇸 US | 🟢236ms | mahdibland-151
-  - 🇦🇹 AT | 🟢237ms | ermaozi-152
-  - 🇺🇸 US | 🟢241ms | v2rayfree-153
-  - 🇵🇱 PL | 🟢241ms | mahdibland-154
-  - 🏳 XX | 🟢244ms | v2rayfree-155
-  - 🇺🇸 US | 🟢245ms | mahdibland-156
-  - 🇩🇪 DE | 🟢248ms | ermaozi-157
-  - 🇳🇱 NL | 🟢259ms | ermaozi-158
-  - 🇳🇱 NL | 🟢261ms | ermaozi-159
-  - 🇵🇱 PL | 🟢261ms | mahdibland-160
-  - 🇫🇷 FR | 🟢276ms | ermaozi-161
-  - 🏳 XX | 🟢279ms | ermaozi-162
-  - 🏳 XX | 🟢280ms | ermaozi-163
-  - 🇩🇪 DE | 🟢283ms | v2rayfree-164
-  - 🇷🇺 RU | 🟢283ms | ermaozi-165
-  - 🏳 XX | 🟢285ms | ermaozi-166
-  - 🇬🇧 GB | 🟢285ms | ermaozi-167
-  - 🇩🇪 DE | 🟢294ms | ermaozi-168
-  - 🇫🇮 FI | 🟢299ms | ermaozi-169
-  - 🇯🇵 JP | 🟡309ms | ermaozi-170
-  - 🇯🇵 JP | 🟡309ms | mahdibland-171
-  - 🇯🇵 JP | 🟡310ms | ermaozi-172
-  - 🇯🇵 JP | 🟡310ms | ermaozi-173
-  - 🇩🇪 DE | 🟡313ms | v2rayfree-174
-  - 🇯🇵 JP | 🟡314ms | mahdibland-175
-  - 🇬🇧 GB | 🟡315ms | zhuhaiuk-yaml-176
-  - 🇫🇷 FR | 🟡324ms | ermaozi-177
-  - 🏳 XX | 🟡325ms | sunmiao-yaml-178
-  - 🏳 XX | 🟡335ms | ermaozi-179
-  - 🏳 XX | 🟡357ms | ermaozi-180
-  - 🇬🇧 GB | 🟡381ms | ermaozi-181
-  - 🏳 XX | 🟡382ms | ermaozi-182
-  - 🏳 XX | 🟡385ms | ermaozi-183
-  - 🇺🇸 US | 🟡395ms | v2rayfree-184
-  - 🇺🇸 US | 🟡395ms | ermaozi-185
-  - 🏳 XX | 🟡397ms | ermaozi-186
-  - 🇺🇸 US | 🟡425ms | ermaozi-187
-  - 🇿🇦 ZA | 🟡434ms | ermaozi-188
-  - 🇿🇦 ZA | 🟡436ms | ermaozi-189
-  - 🇺🇸 US | 🟡442ms | ermaozi-190
-  - 🇺🇸 US | 🟡447ms | ermaozi-191
-  - 🏳 XX | 🟡449ms | ermaozi-192
-  - 🇹🇷 TR | 🟡451ms | ermaozi-193
-  - 🏳 XX | 🟡455ms | ermaozi-194
-  - 🇸🇬 SG | 🟡455ms | ermaozi-195
-  - 🇸🇬 SG | 🟡455ms | mahdibland-196
-  - 🇬🇧 GB | 🟡455ms | zhuhaiuk-197
-  - 🇸🇬 SG | 🟡457ms | ermaozi-198
-  - 🇸🇬 SG | 🟡459ms | ermaozi-199
-  - 🇸🇬 SG | 🟡460ms | ermaozi-200
-  - 🇬🇧 GB | 🟡460ms | ermaozi-201
-  - 🇰🇷 KR | 🟡462ms | mahdibland-202
-  - 🇰🇷 KR | 🟡465ms | mahdibland-203
-  - 🇯🇵 JP | 🟡467ms | ermaozi-204
-  - 🇯🇵 JP | 🟡477ms | ermaozi-205
-  - 🇳🇴 NO | 🟡488ms | ermaozi-206
-  - 🇬🇧 GB | 🟡507ms | ermaozi-207
-  - 🇩🇪 DE | 🟡526ms | ermaozi-208
-  - 🇩🇪 DE | 🟡529ms | ermaozi-209
-  - 🇸🇪 SE | 🟡534ms | ermaozi-210
-  - 🇷🇺 RU | 🟡551ms | ermaozi-211
-  - 🇪🇸 ES | 🟡572ms | ermaozi-212
-  - 🇦🇪 AE | 🟡601ms | ermaozi-213
-  - 🏳 XX | 🟡615ms | ermaozi-214
-  - 🇭🇰 HK | 🟡647ms | ermaozi-215
-  - 🇩🇪 DE | 🟡697ms | ermaozi-216
-  - 🇫🇷 FR | 🟡709ms | v2rayfree-217
-  - 🇭🇰 HK | 🟡714ms | ermaozi-218
-  - 🇭🇰 HK | 🟡726ms | ermaozi-219
-  - 🇸🇬 SG | 🟡729ms | ermaozi-220
-  - 🇯🇵 JP | 🟡734ms | mahdibland-221
-  - 🏳 XX | 🟡765ms | ermaozi-222
-  - 🇰🇷 KR | 🟡792ms | nomorewalls-223
-  - 🇭🇰 HK | 🟠820ms | ermaozi-224
-  - 🇻🇳 VN | 🟠865ms | ermaozi-225
-  - 🇱🇻 LV | 🟠915ms | ermaozi-226
-  - 🇯🇵 JP | 🟠924ms | ermaozi-227
-  - 🇰🇷 KR | 🟠1007ms | ermaozi-228
-  - 🇭🇰 HK | 🟠1121ms | ermaozi-229
-  - 🇳🇱 NL | 🟠1142ms | ermaozi-230
-  - 🇮🇳 IN | 🟠1271ms | ermaozi-231
-  - 🏳 XX | 🟠1343ms | ermaozi-232
-  - 🇺🇸 US | 🟠1361ms | mahdibland-yaml-233
-  - 🇮🇱 IL | 🟠1439ms | sunmiao-yaml-234
-  - 🇨🇦 CA | 🟠1465ms | ermaozi-235
-  - 🏳 XX | 🔴1854ms | mahdibland-236
-  - 🏳 XX | 🔴1937ms | ermaozi-237
-  - 🏳 XX | 🔴1990ms | ermaozi-238
-  - 🏳 XX | 🔴2133ms | v2rayfree-239
-  - 🇰🇷 KR | 🔴2204ms | ermaozi-240
-  - 🇸🇬 SG | 🔴2490ms | ermaozi-241
-  - 🏳 XX | 🔴2604ms | v2rayfree-242
-  - 🇦🇪 AE | 🔴2709ms | ermaozi-243
-  - 🇳🇱 NL | 🔴2922ms | sunmiao-yaml-244
+  - 🇺🇸 US | 🟢5ms | mahdibland-001
+  - 🇺🇸 US | 🟢7ms | mahdibland-002
+  - 🇺🇸 US | 🟢13ms | ermaozi-003
+  - 🇺🇸 US | 🟢23ms | mahdibland-004
+  - 🇸🇬 SG | 🟢34ms | ermaozi-005
+  - 🇨🇦 CA | 🟢34ms | ermaozi-006
+  - 🇦🇺 AU | 🟢40ms | mahdibland-007
+  - 🇦🇺 AU | 🟢47ms | mahdibland-008
+  - 🇺🇸 US | 🟢50ms | mahdibland-009
+  - 🇺🇸 US | 🟢51ms | mahdibland-010
+  - 🇺🇸 US | 🟢58ms | mahdibland-011
+  - 🇨🇦 CA | 🟢61ms | mahdibland-012
+  - 🇺🇸 US | 🟢64ms | v2rayfree-013
+  - 🇸🇬 SG | 🟢78ms | ermaozi-014
+  - 🇺🇸 US | 🟢81ms | ermaozi-015
+  - 🇺🇸 US | 🟢82ms | mahdibland-016
+  - 🇺🇸 US | 🟢83ms | mahdibland-017
+  - 🏳 XX | 🟢86ms | v2rayfree-018
+  - 🇺🇸 US | 🟢86ms | mahdibland-019
+  - 🇺🇸 US | 🟢99ms | ermaozi-020
+  - 🇺🇸 US | 🟢104ms | mahdibland-021
+  - 🇺🇸 US | 🟢105ms | v2rayfree-022
+  - 🇺🇸 US | 🟢107ms | v2rayfree-023
+  - 🇺🇸 US | 🟢107ms | mahdibland-024
+  - 🇺🇸 US | 🟢113ms | mahdibland-025
+  - 🇺🇸 US | 🟢114ms | mahdibland-026
+  - 🇺🇸 US | 🟢114ms | mahdibland-027
+  - 🇺🇸 US | 🟢131ms | mahdibland-028
+  - 🇺🇸 US | 🟢131ms | mahdibland-029
+  - 🇺🇸 US | 🟢132ms | mahdibland-030
+  - 🇺🇸 US | 🟢133ms | mahdibland-031
+  - 🇺🇸 US | 🟢133ms | mahdibland-032
+  - 🇺🇸 US | 🟢134ms | mahdibland-033
+  - 🇨🇦 CA | 🟢136ms | ermaozi-034
+  - 🇺🇸 US | 🟢137ms | mahdibland-035
+  - 🇺🇸 US | 🟢138ms | mahdibland-036
+  - 🇨🇦 CA | 🟢139ms | ermaozi-037
+  - 🇺🇸 US | 🟢139ms | mahdibland-038
+  - 🇺🇸 US | 🟢141ms | ermaozi-039
+  - 🇺🇸 US | 🟢150ms | mahdibland-040
+  - 🇺🇸 US | 🟢152ms | mahdibland-041
+  - 🇺🇸 US | 🟢152ms | mahdibland-042
+  - 🇨🇦 CA | 🟢160ms | mahdibland-043
+  - 🏳 XX | 🟢179ms | ermaozi-044
+  - 🇨🇦 CA | 🟢184ms | mahdibland-045
+  - 🇺🇸 US | 🟢188ms | mahdibland-046
+  - 🇺🇸 US | 🟢201ms | mahdibland-047
+  - 🇺🇸 US | 🟢201ms | mahdibland-048
+  - 🇺🇸 US | 🟢201ms | mahdibland-049
+  - 🇺🇸 US | 🟢203ms | mahdibland-050
+  - 🇺🇸 US | 🟢209ms | mahdibland-051
+  - 🇺🇸 US | 🟢209ms | mahdibland-052
+  - 🇺🇸 US | 🟢210ms | mahdibland-053
+  - 🇯🇵 JP | 🟢212ms | ermaozi-054
+  - 🇯🇵 JP | 🟢213ms | ermaozi-055
+  - 🇯🇵 JP | 🟢213ms | ermaozi-056
+  - 🇺🇸 US | 🟢214ms | mahdibland-057
+  - 🇺🇸 US | 🟢215ms | mahdibland-058
+  - 🇯🇵 JP | 🟢215ms | mahdibland-059
+  - 🇯🇵 JP | 🟢216ms | mahdibland-060
+  - 🇺🇸 US | 🟢217ms | ermaozi-061
+  - 🇯🇵 JP | 🟢217ms | mfuu-062
+  - 🇯🇵 JP | 🟢217ms | mfuu-063
+  - 🇯🇵 JP | 🟢217ms | mfuu-064
+  - 🇯🇵 JP | 🟢217ms | mfuu-065
+  - 🇯🇵 JP | 🟢217ms | mfuu-066
+  - 🇯🇵 JP | 🟢217ms | mfuu-067
+  - 🇯🇵 JP | 🟢217ms | mfuu-068
+  - 🇯🇵 JP | 🟢218ms | mfuu-069
+  - 🇯🇵 JP | 🟢218ms | mfuu-070
+  - 🇯🇵 JP | 🟢218ms | mfuu-071
+  - 🇯🇵 JP | 🟢218ms | mfuu-072
+  - 🇯🇵 JP | 🟢218ms | mfuu-073
+  - 🇯🇵 JP | 🟢218ms | mfuu-074
+  - 🇯🇵 JP | 🟢218ms | mfuu-075
+  - 🇯🇵 JP | 🟢218ms | mfuu-076
+  - 🇯🇵 JP | 🟢218ms | mfuu-077
+  - 🇯🇵 JP | 🟢218ms | mfuu-078
+  - 🇯🇵 JP | 🟢218ms | mfuu-079
+  - 🇯🇵 JP | 🟢218ms | mfuu-080
+  - 🇯🇵 JP | 🟢218ms | mfuu-081
+  - 🇯🇵 JP | 🟢218ms | mfuu-082
+  - 🇯🇵 JP | 🟢218ms | mfuu-083
+  - 🇯🇵 JP | 🟢218ms | mfuu-084
+  - 🇯🇵 JP | 🟢218ms | mfuu-085
+  - 🇯🇵 JP | 🟢218ms | mfuu-086
+  - 🇯🇵 JP | 🟢218ms | mfuu-087
+  - 🇯🇵 JP | 🟢218ms | mfuu-088
+  - 🇯🇵 JP | 🟢218ms | mfuu-089
+  - 🇯🇵 JP | 🟢218ms | mfuu-090
+  - 🇯🇵 JP | 🟢218ms | mfuu-091
+  - 🇯🇵 JP | 🟢218ms | mfuu-092
+  - 🇯🇵 JP | 🟢218ms | mfuu-093
+  - 🇯🇵 JP | 🟢218ms | mfuu-094
+  - 🇯🇵 JP | 🟢218ms | mfuu-095
+  - 🇯🇵 JP | 🟢219ms | mfuu-096
+  - 🇯🇵 JP | 🟢219ms | mfuu-097
+  - 🇯🇵 JP | 🟢219ms | mfuu-098
+  - 🇯🇵 JP | 🟢219ms | mfuu-099
+  - 🇯🇵 JP | 🟢219ms | mfuu-100
+  - 🇯🇵 JP | 🟢219ms | mfuu-101
+  - 🇯🇵 JP | 🟢219ms | mfuu-102
+  - 🇯🇵 JP | 🟢219ms | mfuu-103
+  - 🇯🇵 JP | 🟢219ms | mfuu-104
+  - 🇯🇵 JP | 🟢219ms | mfuu-105
+  - 🇯🇵 JP | 🟢219ms | mfuu-106
+  - 🇯🇵 JP | 🟢219ms | mfuu-107
+  - 🇯🇵 JP | 🟢219ms | mfuu-108
+  - 🇯🇵 JP | 🟢219ms | mfuu-109
+  - 🇯🇵 JP | 🟢219ms | mfuu-110
+  - 🇯🇵 JP | 🟢219ms | mfuu-111
+  - 🇯🇵 JP | 🟢219ms | mfuu-112
+  - 🇯🇵 JP | 🟢219ms | mfuu-113
+  - 🇯🇵 JP | 🟢219ms | mfuu-114
+  - 🇺🇸 US | 🟢220ms | mahdibland-115
+  - 🇯🇵 JP | 🟢220ms | mfuu-116
+  - 🇯🇵 JP | 🟢220ms | mfuu-117
+  - 🇯🇵 JP | 🟢220ms | mfuu-118
+  - 🇯🇵 JP | 🟢220ms | mfuu-119
+  - 🇯🇵 JP | 🟢220ms | mfuu-120
+  - 🇯🇵 JP | 🟢220ms | mfuu-121
+  - 🇯🇵 JP | 🟢220ms | mfuu-122
+  - 🇯🇵 JP | 🟢220ms | mfuu-123
+  - 🇯🇵 JP | 🟢220ms | mfuu-124
+  - 🇯🇵 JP | 🟢220ms | mfuu-125
+  - 🇯🇵 JP | 🟢220ms | mfuu-126
+  - 🇯🇵 JP | 🟢221ms | mfuu-127
+  - 🇯🇵 JP | 🟢221ms | mfuu-128
+  - 🇯🇵 JP | 🟢221ms | mfuu-129
+  - 🇯🇵 JP | 🟢221ms | mfuu-130
+  - 🇯🇵 JP | 🟢221ms | mfuu-131
+  - 🇯🇵 JP | 🟢222ms | mfuu-132
+  - 🇯🇵 JP | 🟢222ms | mfuu-133
+  - 🇯🇵 JP | 🟢223ms | mfuu-134
+  - 🇯🇵 JP | 🟢226ms | mfuu-135
+  - 🇯🇵 JP | 🟢226ms | mfuu-136
+  - 🇯🇵 JP | 🟢226ms | mfuu-137
+  - 🇯🇵 JP | 🟢227ms | mfuu-138
+  - 🇯🇵 JP | 🟢228ms | mfuu-139
+  - 🇯🇵 JP | 🟢229ms | mfuu-140
+  - 🇯🇵 JP | 🟢230ms | mfuu-141
+  - 🇯🇵 JP | 🟢231ms | mfuu-142
+  - 🇯🇵 JP | 🟢235ms | mfuu-143
+  - 🇺🇸 US | 🟢250ms | mahdibland-144
+  - 🇺🇸 US | 🟢261ms | mahdibland-145
+  - 🇪🇸 ES | 🟢268ms | mahdibland-146
+  - 🇪🇸 ES | 🟢268ms | mahdibland-147
+  - 🇪🇸 ES | 🟢268ms | mahdibland-148
+  - 🇪🇸 ES | 🟢269ms | mahdibland-149
+  - 🇨🇦 CA | 🟢270ms | ermaozi-150
+  - 🇪🇸 ES | 🟢270ms | mahdibland-151
+  - 🇪🇸 ES | 🟢270ms | mahdibland-152
+  - 🇪🇸 ES | 🟢271ms | mahdibland-153
+  - 🇪🇸 ES | 🟢271ms | mahdibland-154
+  - 🇪🇸 ES | 🟢272ms | mahdibland-155
+  - 🇬🇧 GB | 🟢273ms | ermaozi-156
+  - 🇬🇧 GB | 🟢274ms | ermaozi-157
+  - 🇬🇧 GB | 🟢281ms | ermaozi-158
+  - 🇬🇧 GB | 🟢287ms | ermaozi-159
+  - 🇬🇧 GB | 🟢288ms | ermaozi-160
+  - 🇳🇱 NL | 🟢288ms | ermaozi-161
+  - 🇳🇱 NL | 🟢289ms | mahdibland-162
+  - 🇳🇱 NL | 🟢294ms | ermaozi-163
+  - 🇬🇧 GB | 🟢298ms | ermaozi-164
+  - 🇳🇱 NL | 🟢299ms | mahdibland-165
+  - 🇺🇸 US | 🟢300ms | ermaozi-166
+  - 🇬🇧 GB | 🟡301ms | mahdibland-167
+  - 🇬🇧 GB | 🟡301ms | mahdibland-168
+  - 🇬🇧 GB | 🟡302ms | ermaozi-169
+  - 🇬🇧 GB | 🟡304ms | mahdibland-170
+  - 🇬🇧 GB | 🟡305ms | mahdibland-171
+  - 🇬🇧 GB | 🟡306ms | mahdibland-172
+  - 🇬🇧 GB | 🟡306ms | mahdibland-173
+  - 🇬🇧 GB | 🟡308ms | mahdibland-174
+  - 🇩🇪 DE | 🟡308ms | mfuu-yaml-175
+  - 🇳🇱 NL | 🟡310ms | ermaozi-176
+  - 🇬🇧 GB | 🟡310ms | mahdibland-177
+  - 🇬🇧 GB | 🟡310ms | mahdibland-178
+  - 🇫🇷 FR | 🟡311ms | ermaozi-179
+  - 🇳🇱 NL | 🟡311ms | ermaozi-180
+  - 🇫🇷 FR | 🟡312ms | ermaozi-181
+  - 🇳🇱 NL | 🟡312ms | ermaozi-182
+  - 🇬🇧 GB | 🟡312ms | mahdibland-183
+  - 🇬🇧 GB | 🟡312ms | mahdibland-184
+  - 🇬🇧 GB | 🟡312ms | mahdibland-185
+  - 🏳 XX | 🟡313ms | v2rayfree-186
+  - 🇬🇧 GB | 🟡313ms | mahdibland-187
+  - 🇬🇧 GB | 🟡313ms | mahdibland-188
+  - 🇩🇪 DE | 🟡314ms | ermaozi-189
+  - 🇫🇷 FR | 🟡314ms | ermaozi-190
+  - 🇫🇷 FR | 🟡314ms | ermaozi-191
+  - 🏳 XX | 🟡315ms | ermaozi-192
+  - 🇬🇧 GB | 🟡315ms | mahdibland-193
+  - 🇳🇱 NL | 🟡315ms | mahdibland-194
+  - 🏳 XX | 🟡316ms | v2rayfree-195
+  - 🇬🇧 GB | 🟡316ms | mahdibland-196
+  - 🇬🇧 GB | 🟡316ms | mahdibland-197
+  - 🇬🇧 GB | 🟡316ms | mahdibland-198
+  - 🇬🇧 GB | 🟡316ms | mahdibland-199
+  - 🇨🇭 CH | 🟡317ms | ermaozi-200
+  - 🇬🇧 GB | 🟡317ms | mahdibland-201
+  - 🇬🇧 GB | 🟡317ms | mahdibland-202
+  - 🇳🇱 NL | 🟡317ms | mahdibland-203
+  - 🇬🇧 GB | 🟡318ms | mahdibland-204
+  - 🇬🇧 GB | 🟡318ms | mahdibland-205
+  - 🇬🇧 GB | 🟡318ms | mahdibland-206
+  - 🏳 XX | 🟡319ms | v2rayfree-207
+  - 🇳🇱 NL | 🟡319ms | ermaozi-208
+  - 🇫🇷 FR | 🟡320ms | ermaozi-209
+  - 🇨🇭 CH | 🟡321ms | ermaozi-210
+  - 🇮🇹 IT | 🟡321ms | mahdibland-211
+  - 🇬🇧 GB | 🟡321ms | mahdibland-212
+  - 🏳 XX | 🟡322ms | v2rayfree-213
+  - 🏳 XX | 🟡322ms | v2rayfree-214
+  - 🇩🇪 DE | 🟡322ms | v2rayfree-215
+  - 🇳🇱 NL | 🟡322ms | ermaozi-216
+  - 🇬🇧 GB | 🟡322ms | mahdibland-217
+  - 🇬🇧 GB | 🟡322ms | mahdibland-218
+  - 🏳 XX | 🟡323ms | v2rayfree-219
+  - 🏳 XX | 🟡323ms | v2rayfree-220
+  - 🏳 XX | 🟡323ms | v2rayfree-221
+  - 🇯🇵 JP | 🟡323ms | v2rayfree-222
+  - 🇬🇧 GB | 🟡323ms | mahdibland-223
+  - 🇬🇧 GB | 🟡323ms | mahdibland-224
+  - 🇯🇵 JP | 🟡323ms | mahdibland-225
+  - 🇮🇹 IT | 🟡324ms | ermaozi-226
+  - 🇳🇱 NL | 🟡324ms | ermaozi-227
+  - 🇬🇧 GB | 🟡324ms | mahdibland-228
+  - 🇦🇹 AT | 🟡329ms | ermaozi-229
+  - 🇪🇸 ES | 🟡329ms | ermaozi-230
+  - 🇬🇧 GB | 🟡329ms | mahdibland-231
+  - 🇬🇧 GB | 🟡330ms | mahdibland-232
+  - 🇬🇧 GB | 🟡330ms | mahdibland-233
+  - 🇩🇪 DE | 🟡331ms | v2rayfree-234
+  - 🇭🇰 HK | 🟡331ms | ermaozi-235
+  - 🇬🇧 GB | 🟡331ms | mahdibland-236
+  - 🇬🇧 GB | 🟡331ms | mahdibland-237
+  - 🇯🇵 JP | 🟡332ms | ermaozi-238
+  - 🏳 XX | 🟡335ms | ermaozi-239
+  - 🇺🇸 US | 🟡335ms | mahdibland-240
+  - 🇬🇧 GB | 🟡336ms | ermaozi-241
+  - 🇸🇬 SG | 🟡339ms | ermaozi-242
+  - 🇸🇬 SG | 🟡339ms | ermaozi-243
+  - 🇸🇬 SG | 🟡339ms | mahdibland-244
+  - 🇦🇹 AT | 🟡340ms | ermaozi-245
+  - 🇸🇬 SG | 🟡341ms | ermaozi-246
+  - 🇸🇪 SE | 🟡343ms | ermaozi-247
+  - 🇸🇬 SG | 🟡344ms | ermaozi-248
+  - 🇸🇬 SG | 🟡346ms | mahdibland-249
+  - 🇪🇸 ES | 🟡358ms | ermaozi-250
+  - 🇫🇷 FR | 🟡361ms | ermaozi-251
+  - 🇳🇱 NL | 🟡362ms | mahdibland-252
+  - 🇰🇷 KR | 🟡366ms | mahdibland-253
+  - 🇰🇷 KR | 🟡369ms | mahdibland-254
+  - 🇧🇾 BY | 🟡405ms | ermaozi-255
+  - 🇸🇬 SG | 🟡405ms | ermaozi-256
+  - 🇦🇱 AL | 🟡421ms | ermaozi-257
+  - 🇯🇵 JP | 🟡421ms | mfuu-258
+  - 🏳 XX | 🟡422ms | ermaozi-259
+  - 🇳🇱 NL | 🟡423ms | ermaozi-260
+  - 🇳🇱 NL | 🟡440ms | ermaozi-261
+  - 🇳🇱 NL | 🟡440ms | ermaozi-262
+  - 🏳 XX | 🟡441ms | ermaozi-263
+  - 🇫🇷 FR | 🟡444ms | ermaozi-264
+  - 🇫🇷 FR | 🟡444ms | ermaozi-265
+  - 🇭🇰 HK | 🟡446ms | ermaozi-266
+  - 🇳🇱 NL | 🟡448ms | ermaozi-267
+  - 🇭🇰 HK | 🟡448ms | ermaozi-268
+  - 🇭🇰 HK | 🟡453ms | ermaozi-269
+  - 🇩🇪 DE | 🟡454ms | ermaozi-270
+  - 🏳 XX | 🟡456ms | ermaozi-271
+  - 🏳 XX | 🟡456ms | ermaozi-272
+  - 🇩🇪 DE | 🟡459ms | v2rayfree-273
+  - 🇰🇷 KR | 🟡461ms | ermaozi-274
+  - 🇩🇪 DE | 🟡462ms | v2rayfree-275
+  - 🇩🇪 DE | 🟡462ms | v2rayfree-276
+  - 🏳 XX | 🟡462ms | ermaozi-277
+  - 🏳 XX | 🟡469ms | sunmiao-yaml-278
+  - 🏳 XX | 🟡472ms | ermaozi-279
+  - 🏳 XX | 🟡474ms | ermaozi-280
+  - 🇩🇪 DE | 🟡485ms | ermaozi-281
+  - 🇩🇪 DE | 🟡492ms | ermaozi-282
+  - 🇨🇭 CH | 🟡501ms | ermaozi-283
+  - 🇸🇪 SE | 🟡512ms | ermaozi-284
+  - 🇸🇪 SE | 🟡521ms | ermaozi-285
+  - 🇸🇬 SG | 🟡526ms | v2rayfree-286
+  - 🇩🇪 DE | 🟡526ms | ermaozi-287
+  - 🇫🇷 FR | 🟡534ms | ermaozi-288
+  - 🇿🇦 ZA | 🟡547ms | ermaozi-289
+  - 🇿🇦 ZA | 🟡557ms | ermaozi-290
+  - 🇧🇾 BY | 🟡583ms | ermaozi-291
+  - 🇷🇺 RU | 🟡600ms | ermaozi-292
+  - 🏳 XX | 🟡607ms | ermaozi-293
+  - 🇪🇪 EE | 🟡607ms | ermaozi-294
+  - 🇪🇪 EE | 🟡607ms | ermaozi-295
+  - 🏳 XX | 🟡607ms | sunmiao-yaml-296
+  - 🏳 XX | 🟡609ms | v2rayfree-297
+  - 🇷🇺 RU | 🟡622ms | ermaozi-298
+  - 🇬🇧 GB | 🟡625ms | ermaozi-299
+  - 🇹🇷 TR | 🟡630ms | ermaozi-300
+  - 🇷🇺 RU | 🟡631ms | ermaozi-301
+  - 🇷🇺 RU | 🟡660ms | ermaozi-302
+  - 🇬🇧 GB | 🟡664ms | zhuhaiuk-303
+  - 🇮🇳 IN | 🟡678ms | ermaozi-304
+  - 🇦🇪 AE | 🟡692ms | ermaozi-305
+  - 🇩🇪 DE | 🟡696ms | ermaozi-306
+  - 🇦🇪 AE | 🟡700ms | ermaozi-307
+  - 🇺🇸 US | 🟡719ms | v2rayfree-308
+  - 🇺🇸 US | 🟡722ms | ermaozi-309
+  - 🇻🇳 VN | 🟡725ms | ermaozi-310
+  - 🇬🇧 GB | 🟡739ms | ermaozi-311
+  - 🇩🇪 DE | 🟡758ms | v2rayfree-312
+  - 🇩🇪 DE | 🟠865ms | mahdibland-313
+  - 🏳 XX | 🟠910ms | v2rayfree-314
+  - 🇩🇪 DE | 🟠912ms | v2rayfree-315
+  - 🇩🇪 DE | 🟠983ms | ermaozi-316
+  - 🇬🇧 GB | 🟠1092ms | ermaozi-317
+  - 🏳 XX | 🟠1191ms | v2rayfree-318
+  - 🇯🇵 JP | 🟠1279ms | mfuu-319
+  - 🇷🇺 RU | 🟠1323ms | ermaozi-320
+  - 🇮🇱 IL | 🔴1575ms | sunmiao-yaml-321
+  - 🏳 XX | 🔴1750ms | ermaozi-322
+  - 🇳🇱 NL | 🔴1865ms | ermaozi-323
+  - 🇨🇦 CA | 🔴1878ms | ermaozi-324
+  - 🇨🇦 CA | 🔴2414ms | ermaozi-325
 - name: 🌍 全球直连
   type: select
   proxies:
   - DIRECT
   - 🚀 节点选择
-- name: 🇬🇧 GB
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  proxies:
-  - 🇬🇧 GB | 🟢164ms | ermaozi-043
-  - 🇬🇧 GB | 🟢164ms | ermaozi-044
-  - 🇬🇧 GB | 🟢181ms | ermaozi-059
-  - 🇬🇧 GB | 🟢182ms | ermaozi-061
-  - 🇬🇧 GB | 🟢185ms | ermaozi-063
-  - 🇬🇧 GB | 🟢187ms | ermaozi-065
-  - 🇬🇧 GB | 🟢187ms | mahdibland-067
-  - 🇬🇧 GB | 🟢192ms | ermaozi-070
-  - 🇬🇧 GB | 🟢193ms | ermaozi-071
-  - 🇬🇧 GB | 🟢193ms | mahdibland-072
-  - 🇬🇧 GB | 🟢193ms | mahdibland-073
-  - 🇬🇧 GB | 🟢202ms | mahdibland-082
-  - 🇬🇧 GB | 🟢203ms | mahdibland-085
-  - 🇬🇧 GB | 🟢204ms | mahdibland-086
-  - 🇬🇧 GB | 🟢204ms | mahdibland-087
-  - 🇬🇧 GB | 🟢204ms | mahdibland-088
-  - 🇬🇧 GB | 🟢204ms | mahdibland-089
-  - 🇬🇧 GB | 🟢204ms | mahdibland-090
-  - 🇬🇧 GB | 🟢205ms | mahdibland-092
-  - 🇬🇧 GB | 🟢205ms | mahdibland-093
-  - 🇬🇧 GB | 🟢205ms | mahdibland-094
-  - 🇬🇧 GB | 🟢205ms | mahdibland-095
-  - 🇬🇧 GB | 🟢206ms | mahdibland-096
-  - 🇬🇧 GB | 🟢206ms | mahdibland-097
-  - 🇬🇧 GB | 🟢207ms | mahdibland-098
-  - 🇬🇧 GB | 🟢208ms | mahdibland-101
-  - 🇬🇧 GB | 🟢209ms | mahdibland-105
-  - 🇬🇧 GB | 🟢209ms | mahdibland-107
-  - 🇬🇧 GB | 🟢209ms | mahdibland-109
-  - 🇬🇧 GB | 🟢210ms | mahdibland-115
-  - 🇬🇧 GB | 🟢210ms | mahdibland-116
-  - 🇬🇧 GB | 🟢210ms | mahdibland-117
-  - 🇬🇧 GB | 🟢210ms | mahdibland-118
-  - 🇬🇧 GB | 🟢211ms | mahdibland-119
-  - 🇬🇧 GB | 🟢211ms | mahdibland-120
-  - 🇬🇧 GB | 🟢211ms | mahdibland-121
-  - 🇬🇧 GB | 🟢211ms | mahdibland-122
-  - 🇬🇧 GB | 🟢211ms | mahdibland-123
-  - 🇬🇧 GB | 🟢211ms | mahdibland-124
-  - 🇬🇧 GB | 🟢211ms | mahdibland-125
-  - 🇬🇧 GB | 🟢212ms | mahdibland-127
-  - 🇬🇧 GB | 🟢212ms | mahdibland-128
-  - 🇬🇧 GB | 🟢212ms | mahdibland-129
-  - 🇬🇧 GB | 🟢213ms | mahdibland-130
-  - 🇬🇧 GB | 🟢218ms | mahdibland-139
-  - 🇬🇧 GB | 🟢285ms | ermaozi-167
-  - 🇬🇧 GB | 🟡315ms | zhuhaiuk-yaml-176
-  - 🇬🇧 GB | 🟡381ms | ermaozi-181
-  - 🇬🇧 GB | 🟡455ms | zhuhaiuk-197
-  - 🇬🇧 GB | 🟡460ms | ermaozi-201
-  - 🇬🇧 GB | 🟡507ms | ermaozi-207
-- name: 🇺🇸 US
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  proxies:
-  - 🇺🇸 US | 🟢16ms | mahdibland-001
-  - 🇺🇸 US | 🟢25ms | mahdibland-005
-  - 🇺🇸 US | 🟢26ms | mahdibland-006
-  - 🇺🇸 US | 🟢26ms | mahdibland-007
-  - 🇺🇸 US | 🟢27ms | mahdibland-008
-  - 🇺🇸 US | 🟢27ms | mahdibland-009
-  - 🇺🇸 US | 🟢31ms | mahdibland-010
-  - 🇺🇸 US | 🟢32ms | mahdibland-011
-  - 🇺🇸 US | 🟢32ms | mahdibland-012
-  - 🇺🇸 US | 🟢37ms | mahdibland-013
-  - 🇺🇸 US | 🟢37ms | mahdibland-014
-  - 🇺🇸 US | 🟢38ms | mahdibland-015
-  - 🇺🇸 US | 🟢38ms | mahdibland-016
-  - 🇺🇸 US | 🟢42ms | mahdibland-018
-  - 🇺🇸 US | 🟢59ms | mahdibland-020
-  - 🇺🇸 US | 🟢65ms | mahdibland-024
-  - 🇺🇸 US | 🟢70ms | ermaozi-025
-  - 🇺🇸 US | 🟢76ms | mahdibland-026
-  - 🇺🇸 US | 🟢79ms | mahdibland-027
-  - 🇺🇸 US | 🟢80ms | mahdibland-028
-  - 🇺🇸 US | 🟢107ms | mahdibland-031
-  - 🇺🇸 US | 🟢123ms | mahdibland-032
-  - 🇺🇸 US | 🟢124ms | mahdibland-033
-  - 🇺🇸 US | 🟢125ms | mahdibland-034
-  - 🇺🇸 US | 🟢130ms | mahdibland-035
-  - 🇺🇸 US | 🟢131ms | mahdibland-036
-  - 🇺🇸 US | 🟢133ms | mahdibland-037
-  - 🇺🇸 US | 🟢135ms | mahdibland-038
-  - 🇺🇸 US | 🟢153ms | mahdibland-039
-  - 🇺🇸 US | 🟢156ms | mahdibland-041
-  - 🇺🇸 US | 🟢161ms | mahdibland-042
-  - 🇺🇸 US | 🟢168ms | mahdibland-050
-  - 🇺🇸 US | 🟢168ms | mahdibland-051
-  - 🇺🇸 US | 🟢171ms | mahdibland-054
-  - 🇺🇸 US | 🟢173ms | mahdibland-055
-  - 🇺🇸 US | 🟢177ms | mahdibland-058
-  - 🇺🇸 US | 🟢185ms | mahdibland-064
-  - 🇺🇸 US | 🟢188ms | ermaozi-068
-  - 🇺🇸 US | 🟢200ms | ermaozi-079
-  - 🇺🇸 US | 🟢209ms | ermaozi-104
-  - 🇺🇸 US | 🟢236ms | mahdibland-151
-  - 🇺🇸 US | 🟢241ms | v2rayfree-153
-  - 🇺🇸 US | 🟢245ms | mahdibland-156
-  - 🇺🇸 US | 🟡395ms | v2rayfree-184
-  - 🇺🇸 US | 🟡395ms | ermaozi-185
-  - 🇺🇸 US | 🟡425ms | ermaozi-187
-  - 🇺🇸 US | 🟡442ms | ermaozi-190
-  - 🇺🇸 US | 🟡447ms | ermaozi-191
-  - 🇺🇸 US | 🟠1361ms | mahdibland-yaml-233
-- name: 🏳 XX
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  proxies:
-  - 🏳 XX | 🟢18ms | ermaozi-002
-  - 🏳 XX | 🟢19ms | ermaozi-003
-  - 🏳 XX | 🟢20ms | ermaozi-004
-  - 🏳 XX | 🟢62ms | nomorewalls-021
-  - 🏳 XX | 🟢209ms | v2rayfree-102
-  - 🏳 XX | 🟢210ms | v2rayfree-110
-  - 🏳 XX | 🟢210ms | v2rayfree-111
-  - 🏳 XX | 🟢215ms | ermaozi-133
-  - 🏳 XX | 🟢217ms | v2rayfree-135
-  - 🏳 XX | 🟢217ms | v2rayfree-136
-  - 🏳 XX | 🟢219ms | ermaozi-140
-  - 🏳 XX | 🟢229ms | v2rayfree-145
-  - 🏳 XX | 🟢244ms | v2rayfree-155
-  - 🏳 XX | 🟢279ms | ermaozi-162
-  - 🏳 XX | 🟢280ms | ermaozi-163
-  - 🏳 XX | 🟢285ms | ermaozi-166
-  - 🏳 XX | 🟡325ms | sunmiao-yaml-178
-  - 🏳 XX | 🟡335ms | ermaozi-179
-  - 🏳 XX | 🟡357ms | ermaozi-180
-  - 🏳 XX | 🟡382ms | ermaozi-182
-  - 🏳 XX | 🟡385ms | ermaozi-183
-  - 🏳 XX | 🟡397ms | ermaozi-186
-  - 🏳 XX | 🟡449ms | ermaozi-192
-  - 🏳 XX | 🟡455ms | ermaozi-194
-  - 🏳 XX | 🟡615ms | ermaozi-214
-  - 🏳 XX | 🟡765ms | ermaozi-222
-  - 🏳 XX | 🟠1343ms | ermaozi-232
-  - 🏳 XX | 🔴1854ms | mahdibland-236
-  - 🏳 XX | 🔴1937ms | ermaozi-237
-  - 🏳 XX | 🔴1990ms | ermaozi-238
-  - 🏳 XX | 🔴2133ms | v2rayfree-239
-  - 🏳 XX | 🔴2604ms | v2rayfree-242
-- name: 🇩🇪 DE
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  proxies:
-  - 🇩🇪 DE | 🟢195ms | ermaozi-076
-  - 🇩🇪 DE | 🟢209ms | v2rayfree-103
-  - 🇩🇪 DE | 🟢210ms | v2rayfree-112
-  - 🇩🇪 DE | 🟢210ms | ermaozi-114
-  - 🇩🇪 DE | 🟢214ms | ermaozi-131
-  - 🇩🇪 DE | 🟢218ms | v2rayfree-137
-  - 🇩🇪 DE | 🟢218ms | v2rayfree-138
-  - 🇩🇪 DE | 🟢231ms | ermaozi-149
-  - 🇩🇪 DE | 🟢248ms | ermaozi-157
-  - 🇩🇪 DE | 🟢283ms | v2rayfree-164
-  - 🇩🇪 DE | 🟢294ms | ermaozi-168
-  - 🇩🇪 DE | 🟡313ms | v2rayfree-174
-  - 🇩🇪 DE | 🟡526ms | ermaozi-208
-  - 🇩🇪 DE | 🟡529ms | ermaozi-209
-  - 🇩🇪 DE | 🟡697ms | ermaozi-216
-- name: 🇪🇸 ES
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  proxies:
-  - 🇪🇸 ES | 🟢164ms | mahdibland-045
-  - 🇪🇸 ES | 🟢164ms | mahdibland-046
-  - 🇪🇸 ES | 🟢165ms | mahdibland-047
-  - 🇪🇸 ES | 🟢166ms | mahdibland-048
-  - 🇪🇸 ES | 🟢167ms | mahdibland-049
-  - 🇪🇸 ES | 🟢168ms | mahdibland-052
-  - 🇪🇸 ES | 🟢184ms | mahdibland-062
-  - 🇪🇸 ES | 🟢193ms | mahdibland-074
-  - 🇪🇸 ES | 🟢209ms | mahdibland-108
-  - 🇪🇸 ES | 🟢211ms | mahdibland-126
-  - 🇪🇸 ES | 🟢220ms | mahdibland-141
-  - 🇪🇸 ES | 🟢221ms | mahdibland-142
-  - 🇪🇸 ES | 🟢229ms | ermaozi-146
-  - 🇪🇸 ES | 🟡572ms | ermaozi-212
-- name: 🇳🇱 NL
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  proxies:
-  - 🇳🇱 NL | 🟢171ms | ermaozi-053
-  - 🇳🇱 NL | 🟢176ms | ermaozi-056
-  - 🇳🇱 NL | 🟢181ms | mahdibland-060
-  - 🇳🇱 NL | 🟢187ms | mahdibland-066
-  - 🇳🇱 NL | 🟢191ms | ermaozi-069
-  - 🇳🇱 NL | 🟢203ms | mahdibland-083
-  - 🇳🇱 NL | 🟢203ms | mahdibland-084
-  - 🇳🇱 NL | 🟢209ms | mahdibland-106
-  - 🇳🇱 NL | 🟢259ms | ermaozi-158
-  - 🇳🇱 NL | 🟢261ms | ermaozi-159
-  - 🇳🇱 NL | 🟠1142ms | ermaozi-230
-  - 🇳🇱 NL | 🔴2922ms | sunmiao-yaml-244
-- name: 🇫🇷 FR
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  proxies:
-  - 🇫🇷 FR | 🟢196ms | ermaozi-077
-  - 🇫🇷 FR | 🟢201ms | ermaozi-080
-  - 🇫🇷 FR | 🟢202ms | ermaozi-081
-  - 🇫🇷 FR | 🟢205ms | ermaozi-091
-  - 🇫🇷 FR | 🟢208ms | ermaozi-099
-  - 🇫🇷 FR | 🟢214ms | ermaozi-132
-  - 🇫🇷 FR | 🟢276ms | ermaozi-161
-  - 🇫🇷 FR | 🟡324ms | ermaozi-177
-  - 🇫🇷 FR | 🟡709ms | v2rayfree-217
 - name: 🇯🇵 JP
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - 🇯🇵 JP | 🟡309ms | ermaozi-170
-  - 🇯🇵 JP | 🟡309ms | mahdibland-171
-  - 🇯🇵 JP | 🟡310ms | ermaozi-172
-  - 🇯🇵 JP | 🟡310ms | ermaozi-173
-  - 🇯🇵 JP | 🟡314ms | mahdibland-175
-  - 🇯🇵 JP | 🟡467ms | ermaozi-204
-  - 🇯🇵 JP | 🟡477ms | ermaozi-205
-  - 🇯🇵 JP | 🟡734ms | mahdibland-221
-  - 🇯🇵 JP | 🟠924ms | ermaozi-227
-- name: 🇨🇦 CA
+  - 🇯🇵 JP | 🟢212ms | ermaozi-054
+  - 🇯🇵 JP | 🟢213ms | ermaozi-055
+  - 🇯🇵 JP | 🟢213ms | ermaozi-056
+  - 🇯🇵 JP | 🟢215ms | mahdibland-059
+  - 🇯🇵 JP | 🟢216ms | mahdibland-060
+  - 🇯🇵 JP | 🟢217ms | mfuu-062
+  - 🇯🇵 JP | 🟢217ms | mfuu-063
+  - 🇯🇵 JP | 🟢217ms | mfuu-064
+  - 🇯🇵 JP | 🟢217ms | mfuu-065
+  - 🇯🇵 JP | 🟢217ms | mfuu-066
+  - 🇯🇵 JP | 🟢217ms | mfuu-067
+  - 🇯🇵 JP | 🟢217ms | mfuu-068
+  - 🇯🇵 JP | 🟢218ms | mfuu-069
+  - 🇯🇵 JP | 🟢218ms | mfuu-070
+  - 🇯🇵 JP | 🟢218ms | mfuu-071
+  - 🇯🇵 JP | 🟢218ms | mfuu-072
+  - 🇯🇵 JP | 🟢218ms | mfuu-073
+  - 🇯🇵 JP | 🟢218ms | mfuu-074
+  - 🇯🇵 JP | 🟢218ms | mfuu-075
+  - 🇯🇵 JP | 🟢218ms | mfuu-076
+  - 🇯🇵 JP | 🟢218ms | mfuu-077
+  - 🇯🇵 JP | 🟢218ms | mfuu-078
+  - 🇯🇵 JP | 🟢218ms | mfuu-079
+  - 🇯🇵 JP | 🟢218ms | mfuu-080
+  - 🇯🇵 JP | 🟢218ms | mfuu-081
+  - 🇯🇵 JP | 🟢218ms | mfuu-082
+  - 🇯🇵 JP | 🟢218ms | mfuu-083
+  - 🇯🇵 JP | 🟢218ms | mfuu-084
+  - 🇯🇵 JP | 🟢218ms | mfuu-085
+  - 🇯🇵 JP | 🟢218ms | mfuu-086
+  - 🇯🇵 JP | 🟢218ms | mfuu-087
+  - 🇯🇵 JP | 🟢218ms | mfuu-088
+  - 🇯🇵 JP | 🟢218ms | mfuu-089
+  - 🇯🇵 JP | 🟢218ms | mfuu-090
+  - 🇯🇵 JP | 🟢218ms | mfuu-091
+  - 🇯🇵 JP | 🟢218ms | mfuu-092
+  - 🇯🇵 JP | 🟢218ms | mfuu-093
+  - 🇯🇵 JP | 🟢218ms | mfuu-094
+  - 🇯🇵 JP | 🟢218ms | mfuu-095
+  - 🇯🇵 JP | 🟢219ms | mfuu-096
+  - 🇯🇵 JP | 🟢219ms | mfuu-097
+  - 🇯🇵 JP | 🟢219ms | mfuu-098
+  - 🇯🇵 JP | 🟢219ms | mfuu-099
+  - 🇯🇵 JP | 🟢219ms | mfuu-100
+  - 🇯🇵 JP | 🟢219ms | mfuu-101
+  - 🇯🇵 JP | 🟢219ms | mfuu-102
+  - 🇯🇵 JP | 🟢219ms | mfuu-103
+  - 🇯🇵 JP | 🟢219ms | mfuu-104
+  - 🇯🇵 JP | 🟢219ms | mfuu-105
+  - 🇯🇵 JP | 🟢219ms | mfuu-106
+  - 🇯🇵 JP | 🟢219ms | mfuu-107
+  - 🇯🇵 JP | 🟢219ms | mfuu-108
+  - 🇯🇵 JP | 🟢219ms | mfuu-109
+  - 🇯🇵 JP | 🟢219ms | mfuu-110
+  - 🇯🇵 JP | 🟢219ms | mfuu-111
+  - 🇯🇵 JP | 🟢219ms | mfuu-112
+  - 🇯🇵 JP | 🟢219ms | mfuu-113
+  - 🇯🇵 JP | 🟢219ms | mfuu-114
+  - 🇯🇵 JP | 🟢220ms | mfuu-116
+  - 🇯🇵 JP | 🟢220ms | mfuu-117
+  - 🇯🇵 JP | 🟢220ms | mfuu-118
+  - 🇯🇵 JP | 🟢220ms | mfuu-119
+  - 🇯🇵 JP | 🟢220ms | mfuu-120
+  - 🇯🇵 JP | 🟢220ms | mfuu-121
+  - 🇯🇵 JP | 🟢220ms | mfuu-122
+  - 🇯🇵 JP | 🟢220ms | mfuu-123
+  - 🇯🇵 JP | 🟢220ms | mfuu-124
+  - 🇯🇵 JP | 🟢220ms | mfuu-125
+  - 🇯🇵 JP | 🟢220ms | mfuu-126
+  - 🇯🇵 JP | 🟢221ms | mfuu-127
+  - 🇯🇵 JP | 🟢221ms | mfuu-128
+  - 🇯🇵 JP | 🟢221ms | mfuu-129
+  - 🇯🇵 JP | 🟢221ms | mfuu-130
+  - 🇯🇵 JP | 🟢221ms | mfuu-131
+  - 🇯🇵 JP | 🟢222ms | mfuu-132
+  - 🇯🇵 JP | 🟢222ms | mfuu-133
+  - 🇯🇵 JP | 🟢223ms | mfuu-134
+  - 🇯🇵 JP | 🟢226ms | mfuu-135
+  - 🇯🇵 JP | 🟢226ms | mfuu-136
+  - 🇯🇵 JP | 🟢226ms | mfuu-137
+  - 🇯🇵 JP | 🟢227ms | mfuu-138
+  - 🇯🇵 JP | 🟢228ms | mfuu-139
+  - 🇯🇵 JP | 🟢229ms | mfuu-140
+  - 🇯🇵 JP | 🟢230ms | mfuu-141
+  - 🇯🇵 JP | 🟢231ms | mfuu-142
+  - 🇯🇵 JP | 🟢235ms | mfuu-143
+  - 🇯🇵 JP | 🟡323ms | v2rayfree-222
+  - 🇯🇵 JP | 🟡323ms | mahdibland-225
+  - 🇯🇵 JP | 🟡332ms | ermaozi-238
+  - 🇯🇵 JP | 🟡421ms | mfuu-258
+  - 🇯🇵 JP | 🟠1279ms | mfuu-319
+- name: 🇺🇸 US
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - 🇨🇦 CA | 🟢40ms | ermaozi-017
-  - 🇨🇦 CA | 🟢43ms | ermaozi-019
-  - 🇨🇦 CA | 🟢63ms | mahdibland-023
-  - 🇨🇦 CA | 🟢85ms | ermaozi-029
-  - 🇨🇦 CA | 🟢87ms | ermaozi-030
-  - 🇨🇦 CA | 🟢154ms | mahdibland-040
-  - 🇨🇦 CA | 🟢177ms | ermaozi-057
-  - 🇨🇦 CA | 🟠1465ms | ermaozi-235
+  - 🇺🇸 US | 🟢5ms | mahdibland-001
+  - 🇺🇸 US | 🟢7ms | mahdibland-002
+  - 🇺🇸 US | 🟢13ms | ermaozi-003
+  - 🇺🇸 US | 🟢23ms | mahdibland-004
+  - 🇺🇸 US | 🟢50ms | mahdibland-009
+  - 🇺🇸 US | 🟢51ms | mahdibland-010
+  - 🇺🇸 US | 🟢58ms | mahdibland-011
+  - 🇺🇸 US | 🟢64ms | v2rayfree-013
+  - 🇺🇸 US | 🟢81ms | ermaozi-015
+  - 🇺🇸 US | 🟢82ms | mahdibland-016
+  - 🇺🇸 US | 🟢83ms | mahdibland-017
+  - 🇺🇸 US | 🟢86ms | mahdibland-019
+  - 🇺🇸 US | 🟢99ms | ermaozi-020
+  - 🇺🇸 US | 🟢104ms | mahdibland-021
+  - 🇺🇸 US | 🟢105ms | v2rayfree-022
+  - 🇺🇸 US | 🟢107ms | v2rayfree-023
+  - 🇺🇸 US | 🟢107ms | mahdibland-024
+  - 🇺🇸 US | 🟢113ms | mahdibland-025
+  - 🇺🇸 US | 🟢114ms | mahdibland-026
+  - 🇺🇸 US | 🟢114ms | mahdibland-027
+  - 🇺🇸 US | 🟢131ms | mahdibland-028
+  - 🇺🇸 US | 🟢131ms | mahdibland-029
+  - 🇺🇸 US | 🟢132ms | mahdibland-030
+  - 🇺🇸 US | 🟢133ms | mahdibland-031
+  - 🇺🇸 US | 🟢133ms | mahdibland-032
+  - 🇺🇸 US | 🟢134ms | mahdibland-033
+  - 🇺🇸 US | 🟢137ms | mahdibland-035
+  - 🇺🇸 US | 🟢138ms | mahdibland-036
+  - 🇺🇸 US | 🟢139ms | mahdibland-038
+  - 🇺🇸 US | 🟢141ms | ermaozi-039
+  - 🇺🇸 US | 🟢150ms | mahdibland-040
+  - 🇺🇸 US | 🟢152ms | mahdibland-041
+  - 🇺🇸 US | 🟢152ms | mahdibland-042
+  - 🇺🇸 US | 🟢188ms | mahdibland-046
+  - 🇺🇸 US | 🟢201ms | mahdibland-047
+  - 🇺🇸 US | 🟢201ms | mahdibland-048
+  - 🇺🇸 US | 🟢201ms | mahdibland-049
+  - 🇺🇸 US | 🟢203ms | mahdibland-050
+  - 🇺🇸 US | 🟢209ms | mahdibland-051
+  - 🇺🇸 US | 🟢209ms | mahdibland-052
+  - 🇺🇸 US | 🟢210ms | mahdibland-053
+  - 🇺🇸 US | 🟢214ms | mahdibland-057
+  - 🇺🇸 US | 🟢215ms | mahdibland-058
+  - 🇺🇸 US | 🟢217ms | ermaozi-061
+  - 🇺🇸 US | 🟢220ms | mahdibland-115
+  - 🇺🇸 US | 🟢250ms | mahdibland-144
+  - 🇺🇸 US | 🟢261ms | mahdibland-145
+  - 🇺🇸 US | 🟢300ms | ermaozi-166
+  - 🇺🇸 US | 🟡335ms | mahdibland-240
+  - 🇺🇸 US | 🟡719ms | v2rayfree-308
+  - 🇺🇸 US | 🟡722ms | ermaozi-309
+- name: 🇬🇧 GB
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - 🇬🇧 GB | 🟢273ms | ermaozi-156
+  - 🇬🇧 GB | 🟢274ms | ermaozi-157
+  - 🇬🇧 GB | 🟢281ms | ermaozi-158
+  - 🇬🇧 GB | 🟢287ms | ermaozi-159
+  - 🇬🇧 GB | 🟢288ms | ermaozi-160
+  - 🇬🇧 GB | 🟢298ms | ermaozi-164
+  - 🇬🇧 GB | 🟡301ms | mahdibland-167
+  - 🇬🇧 GB | 🟡301ms | mahdibland-168
+  - 🇬🇧 GB | 🟡302ms | ermaozi-169
+  - 🇬🇧 GB | 🟡304ms | mahdibland-170
+  - 🇬🇧 GB | 🟡305ms | mahdibland-171
+  - 🇬🇧 GB | 🟡306ms | mahdibland-172
+  - 🇬🇧 GB | 🟡306ms | mahdibland-173
+  - 🇬🇧 GB | 🟡308ms | mahdibland-174
+  - 🇬🇧 GB | 🟡310ms | mahdibland-177
+  - 🇬🇧 GB | 🟡310ms | mahdibland-178
+  - 🇬🇧 GB | 🟡312ms | mahdibland-183
+  - 🇬🇧 GB | 🟡312ms | mahdibland-184
+  - 🇬🇧 GB | 🟡312ms | mahdibland-185
+  - 🇬🇧 GB | 🟡313ms | mahdibland-187
+  - 🇬🇧 GB | 🟡313ms | mahdibland-188
+  - 🇬🇧 GB | 🟡315ms | mahdibland-193
+  - 🇬🇧 GB | 🟡316ms | mahdibland-196
+  - 🇬🇧 GB | 🟡316ms | mahdibland-197
+  - 🇬🇧 GB | 🟡316ms | mahdibland-198
+  - 🇬🇧 GB | 🟡316ms | mahdibland-199
+  - 🇬🇧 GB | 🟡317ms | mahdibland-201
+  - 🇬🇧 GB | 🟡317ms | mahdibland-202
+  - 🇬🇧 GB | 🟡318ms | mahdibland-204
+  - 🇬🇧 GB | 🟡318ms | mahdibland-205
+  - 🇬🇧 GB | 🟡318ms | mahdibland-206
+  - 🇬🇧 GB | 🟡321ms | mahdibland-212
+  - 🇬🇧 GB | 🟡322ms | mahdibland-217
+  - 🇬🇧 GB | 🟡322ms | mahdibland-218
+  - 🇬🇧 GB | 🟡323ms | mahdibland-223
+  - 🇬🇧 GB | 🟡323ms | mahdibland-224
+  - 🇬🇧 GB | 🟡324ms | mahdibland-228
+  - 🇬🇧 GB | 🟡329ms | mahdibland-231
+  - 🇬🇧 GB | 🟡330ms | mahdibland-232
+  - 🇬🇧 GB | 🟡330ms | mahdibland-233
+  - 🇬🇧 GB | 🟡331ms | mahdibland-236
+  - 🇬🇧 GB | 🟡331ms | mahdibland-237
+  - 🇬🇧 GB | 🟡336ms | ermaozi-241
+  - 🇬🇧 GB | 🟡625ms | ermaozi-299
+  - 🇬🇧 GB | 🟡664ms | zhuhaiuk-303
+  - 🇬🇧 GB | 🟡739ms | ermaozi-311
+  - 🇬🇧 GB | 🟠1092ms | ermaozi-317
+- name: 🏳 XX
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - 🏳 XX | 🟢86ms | v2rayfree-018
+  - 🏳 XX | 🟢179ms | ermaozi-044
+  - 🏳 XX | 🟡313ms | v2rayfree-186
+  - 🏳 XX | 🟡315ms | ermaozi-192
+  - 🏳 XX | 🟡316ms | v2rayfree-195
+  - 🏳 XX | 🟡319ms | v2rayfree-207
+  - 🏳 XX | 🟡322ms | v2rayfree-213
+  - 🏳 XX | 🟡322ms | v2rayfree-214
+  - 🏳 XX | 🟡323ms | v2rayfree-219
+  - 🏳 XX | 🟡323ms | v2rayfree-220
+  - 🏳 XX | 🟡323ms | v2rayfree-221
+  - 🏳 XX | 🟡335ms | ermaozi-239
+  - 🏳 XX | 🟡422ms | ermaozi-259
+  - 🏳 XX | 🟡441ms | ermaozi-263
+  - 🏳 XX | 🟡456ms | ermaozi-271
+  - 🏳 XX | 🟡456ms | ermaozi-272
+  - 🏳 XX | 🟡462ms | ermaozi-277
+  - 🏳 XX | 🟡469ms | sunmiao-yaml-278
+  - 🏳 XX | 🟡472ms | ermaozi-279
+  - 🏳 XX | 🟡474ms | ermaozi-280
+  - 🏳 XX | 🟡607ms | ermaozi-293
+  - 🏳 XX | 🟡607ms | sunmiao-yaml-296
+  - 🏳 XX | 🟡609ms | v2rayfree-297
+  - 🏳 XX | 🟠910ms | v2rayfree-314
+  - 🏳 XX | 🟠1191ms | v2rayfree-318
+  - 🏳 XX | 🔴1750ms | ermaozi-322
+- name: 🇳🇱 NL
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - 🇳🇱 NL | 🟢288ms | ermaozi-161
+  - 🇳🇱 NL | 🟢289ms | mahdibland-162
+  - 🇳🇱 NL | 🟢294ms | ermaozi-163
+  - 🇳🇱 NL | 🟢299ms | mahdibland-165
+  - 🇳🇱 NL | 🟡310ms | ermaozi-176
+  - 🇳🇱 NL | 🟡311ms | ermaozi-180
+  - 🇳🇱 NL | 🟡312ms | ermaozi-182
+  - 🇳🇱 NL | 🟡315ms | mahdibland-194
+  - 🇳🇱 NL | 🟡317ms | mahdibland-203
+  - 🇳🇱 NL | 🟡319ms | ermaozi-208
+  - 🇳🇱 NL | 🟡322ms | ermaozi-216
+  - 🇳🇱 NL | 🟡324ms | ermaozi-227
+  - 🇳🇱 NL | 🟡362ms | mahdibland-252
+  - 🇳🇱 NL | 🟡423ms | ermaozi-260
+  - 🇳🇱 NL | 🟡440ms | ermaozi-261
+  - 🇳🇱 NL | 🟡440ms | ermaozi-262
+  - 🇳🇱 NL | 🟡448ms | ermaozi-267
+  - 🇳🇱 NL | 🔴1865ms | ermaozi-323
+- name: 🇩🇪 DE
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - 🇩🇪 DE | 🟡308ms | mfuu-yaml-175
+  - 🇩🇪 DE | 🟡314ms | ermaozi-189
+  - 🇩🇪 DE | 🟡322ms | v2rayfree-215
+  - 🇩🇪 DE | 🟡331ms | v2rayfree-234
+  - 🇩🇪 DE | 🟡454ms | ermaozi-270
+  - 🇩🇪 DE | 🟡459ms | v2rayfree-273
+  - 🇩🇪 DE | 🟡462ms | v2rayfree-275
+  - 🇩🇪 DE | 🟡462ms | v2rayfree-276
+  - 🇩🇪 DE | 🟡485ms | ermaozi-281
+  - 🇩🇪 DE | 🟡492ms | ermaozi-282
+  - 🇩🇪 DE | 🟡526ms | ermaozi-287
+  - 🇩🇪 DE | 🟡696ms | ermaozi-306
+  - 🇩🇪 DE | 🟡758ms | v2rayfree-312
+  - 🇩🇪 DE | 🟠865ms | mahdibland-313
+  - 🇩🇪 DE | 🟠912ms | v2rayfree-315
+  - 🇩🇪 DE | 🟠983ms | ermaozi-316
+- name: 🇪🇸 ES
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - 🇪🇸 ES | 🟢268ms | mahdibland-146
+  - 🇪🇸 ES | 🟢268ms | mahdibland-147
+  - 🇪🇸 ES | 🟢268ms | mahdibland-148
+  - 🇪🇸 ES | 🟢269ms | mahdibland-149
+  - 🇪🇸 ES | 🟢270ms | mahdibland-151
+  - 🇪🇸 ES | 🟢270ms | mahdibland-152
+  - 🇪🇸 ES | 🟢271ms | mahdibland-153
+  - 🇪🇸 ES | 🟢271ms | mahdibland-154
+  - 🇪🇸 ES | 🟢272ms | mahdibland-155
+  - 🇪🇸 ES | 🟡329ms | ermaozi-230
+  - 🇪🇸 ES | 🟡358ms | ermaozi-250
 - name: 🇸🇬 SG
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - 🇸🇬 SG | 🟢63ms | ermaozi-022
-  - 🇸🇬 SG | 🟡455ms | ermaozi-195
-  - 🇸🇬 SG | 🟡455ms | mahdibland-196
-  - 🇸🇬 SG | 🟡457ms | ermaozi-198
-  - 🇸🇬 SG | 🟡459ms | ermaozi-199
-  - 🇸🇬 SG | 🟡460ms | ermaozi-200
-  - 🇸🇬 SG | 🟡729ms | ermaozi-220
-  - 🇸🇬 SG | 🔴2490ms | ermaozi-241
-- name: 🇭🇰 HK
+  - 🇸🇬 SG | 🟢34ms | ermaozi-005
+  - 🇸🇬 SG | 🟢78ms | ermaozi-014
+  - 🇸🇬 SG | 🟡339ms | ermaozi-242
+  - 🇸🇬 SG | 🟡339ms | ermaozi-243
+  - 🇸🇬 SG | 🟡339ms | mahdibland-244
+  - 🇸🇬 SG | 🟡341ms | ermaozi-246
+  - 🇸🇬 SG | 🟡344ms | ermaozi-248
+  - 🇸🇬 SG | 🟡346ms | mahdibland-249
+  - 🇸🇬 SG | 🟡405ms | ermaozi-256
+  - 🇸🇬 SG | 🟡526ms | v2rayfree-286
+- name: 🇨🇦 CA
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - 🇭🇰 HK | 🟡647ms | ermaozi-215
-  - 🇭🇰 HK | 🟡714ms | ermaozi-218
-  - 🇭🇰 HK | 🟡726ms | ermaozi-219
-  - 🇭🇰 HK | 🟠820ms | ermaozi-224
-  - 🇭🇰 HK | 🟠1121ms | ermaozi-229
-- name: 🇰🇷 KR
+  - 🇨🇦 CA | 🟢34ms | ermaozi-006
+  - 🇨🇦 CA | 🟢61ms | mahdibland-012
+  - 🇨🇦 CA | 🟢136ms | ermaozi-034
+  - 🇨🇦 CA | 🟢139ms | ermaozi-037
+  - 🇨🇦 CA | 🟢160ms | mahdibland-043
+  - 🇨🇦 CA | 🟢184ms | mahdibland-045
+  - 🇨🇦 CA | 🟢270ms | ermaozi-150
+  - 🇨🇦 CA | 🔴1878ms | ermaozi-324
+  - 🇨🇦 CA | 🔴2414ms | ermaozi-325
+- name: 🇫🇷 FR
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - 🇰🇷 KR | 🟡462ms | mahdibland-202
-  - 🇰🇷 KR | 🟡465ms | mahdibland-203
-  - 🇰🇷 KR | 🟡792ms | nomorewalls-223
-  - 🇰🇷 KR | 🟠1007ms | ermaozi-228
-  - 🇰🇷 KR | 🔴2204ms | ermaozi-240
-- name: 🇵🇱 PL
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  proxies:
-  - 🇵🇱 PL | 🟢223ms | mahdibland-143
-  - 🇵🇱 PL | 🟢224ms | mahdibland-144
-  - 🇵🇱 PL | 🟢229ms | mahdibland-147
-  - 🇵🇱 PL | 🟢241ms | mahdibland-154
-  - 🇵🇱 PL | 🟢261ms | mahdibland-160
-- name: 🇦🇪 AE
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  proxies:
-  - 🇦🇪 AE | 🟡601ms | ermaozi-213
-  - 🇦🇪 AE | 🔴2709ms | ermaozi-243
-- name: 🇦🇹 AT
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  proxies:
-  - 🇦🇹 AT | 🟢230ms | ermaozi-148
-  - 🇦🇹 AT | 🟢237ms | ermaozi-152
-- name: 🇦🇺 AU
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  proxies:
-  - 🇦🇺 AU | 🟢193ms | mahdibland-075
-  - 🇦🇺 AU | 🟢196ms | mahdibland-078
-- name: 🇮🇹 IT
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  proxies:
-  - 🇮🇹 IT | 🟢208ms | ermaozi-100
-  - 🇮🇹 IT | 🟢216ms | ermaozi-134
+  - 🇫🇷 FR | 🟡311ms | ermaozi-179
+  - 🇫🇷 FR | 🟡312ms | ermaozi-181
+  - 🇫🇷 FR | 🟡314ms | ermaozi-190
+  - 🇫🇷 FR | 🟡314ms | ermaozi-191
+  - 🇫🇷 FR | 🟡320ms | ermaozi-209
+  - 🇫🇷 FR | 🟡361ms | ermaozi-251
+  - 🇫🇷 FR | 🟡444ms | ermaozi-264
+  - 🇫🇷 FR | 🟡444ms | ermaozi-265
+  - 🇫🇷 FR | 🟡534ms | ermaozi-288
 - name: 🇷🇺 RU
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - 🇷🇺 RU | 🟢283ms | ermaozi-165
-  - 🇷🇺 RU | 🟡551ms | ermaozi-211
-- name: 🇸🇪 SE
+  - 🇷🇺 RU | 🟡600ms | ermaozi-292
+  - 🇷🇺 RU | 🟡622ms | ermaozi-298
+  - 🇷🇺 RU | 🟡631ms | ermaozi-301
+  - 🇷🇺 RU | 🟡660ms | ermaozi-302
+  - 🇷🇺 RU | 🟠1323ms | ermaozi-320
+- name: 🇭🇰 HK
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - 🇸🇪 SE | 🟢233ms | ermaozi-150
-  - 🇸🇪 SE | 🟡534ms | ermaozi-210
-- name: 🇿🇦 ZA
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  proxies:
-  - 🇿🇦 ZA | 🟡434ms | ermaozi-188
-  - 🇿🇦 ZA | 🟡436ms | ermaozi-189
+  - 🇭🇰 HK | 🟡331ms | ermaozi-235
+  - 🇭🇰 HK | 🟡446ms | ermaozi-266
+  - 🇭🇰 HK | 🟡448ms | ermaozi-268
+  - 🇭🇰 HK | 🟡453ms | ermaozi-269
 - name: 🇨🇭 CH
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - 🇨🇭 CH | 🟢210ms | ermaozi-113
-- name: 🇫🇮 FI
+  - 🇨🇭 CH | 🟡317ms | ermaozi-200
+  - 🇨🇭 CH | 🟡321ms | ermaozi-210
+  - 🇨🇭 CH | 🟡501ms | ermaozi-283
+- name: 🇰🇷 KR
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - 🇫🇮 FI | 🟢299ms | ermaozi-169
+  - 🇰🇷 KR | 🟡366ms | mahdibland-253
+  - 🇰🇷 KR | 🟡369ms | mahdibland-254
+  - 🇰🇷 KR | 🟡461ms | ermaozi-274
+- name: 🇸🇪 SE
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - 🇸🇪 SE | 🟡343ms | ermaozi-247
+  - 🇸🇪 SE | 🟡512ms | ermaozi-284
+  - 🇸🇪 SE | 🟡521ms | ermaozi-285
+- name: 🇦🇪 AE
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - 🇦🇪 AE | 🟡692ms | ermaozi-305
+  - 🇦🇪 AE | 🟡700ms | ermaozi-307
+- name: 🇦🇹 AT
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - 🇦🇹 AT | 🟡329ms | ermaozi-229
+  - 🇦🇹 AT | 🟡340ms | ermaozi-245
+- name: 🇦🇺 AU
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - 🇦🇺 AU | 🟢40ms | mahdibland-007
+  - 🇦🇺 AU | 🟢47ms | mahdibland-008
+- name: 🇧🇾 BY
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - 🇧🇾 BY | 🟡405ms | ermaozi-255
+  - 🇧🇾 BY | 🟡583ms | ermaozi-291
+- name: 🇪🇪 EE
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - 🇪🇪 EE | 🟡607ms | ermaozi-294
+  - 🇪🇪 EE | 🟡607ms | ermaozi-295
+- name: 🇮🇹 IT
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - 🇮🇹 IT | 🟡321ms | mahdibland-211
+  - 🇮🇹 IT | 🟡324ms | ermaozi-226
+- name: 🇿🇦 ZA
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - 🇿🇦 ZA | 🟡547ms | ermaozi-289
+  - 🇿🇦 ZA | 🟡557ms | ermaozi-290
+- name: 🇦🇱 AL
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - 🇦🇱 AL | 🟡421ms | ermaozi-257
 - name: 🇮🇱 IL
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - 🇮🇱 IL | 🟠1439ms | sunmiao-yaml-234
+  - 🇮🇱 IL | 🔴1575ms | sunmiao-yaml-321
 - name: 🇮🇳 IN
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - 🇮🇳 IN | 🟠1271ms | ermaozi-231
-- name: 🇱🇻 LV
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  proxies:
-  - 🇱🇻 LV | 🟠915ms | ermaozi-226
-- name: 🇳🇴 NO
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  proxies:
-  - 🇳🇴 NO | 🟡488ms | ermaozi-206
+  - 🇮🇳 IN | 🟡678ms | ermaozi-304
 - name: 🇹🇷 TR
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - 🇹🇷 TR | 🟡451ms | ermaozi-193
+  - 🇹🇷 TR | 🟡630ms | ermaozi-300
 - name: 🇻🇳 VN
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - 🇻🇳 VN | 🟠865ms | ermaozi-225
+  - 🇻🇳 VN | 🟡725ms | ermaozi-310
 rules:
 - GEOIP,LAN,🌍 全球直连,no-resolve
 - GEOIP,CN,🌍 全球直连
